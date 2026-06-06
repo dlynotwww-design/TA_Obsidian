@@ -25,10 +25,28 @@
             "id": "190c91aa6f242401",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "游戏造梦师游戏场景开发与设计"
+            }
+          },
+          {
+            "id": "fac7d989bb16f13e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "游戏造梦师游戏场景开发与设计"
             }
           }
         ],
@@ -89,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5096130371094
+    "width": 366.5096130371094
   },
   "right": {
     "id": "251f1ae9715bb4ec",
@@ -167,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1.md",
+                "file": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1 的大纲"
+              "title": "游戏造梦师游戏场景开发与设计 的大纲"
             }
           },
           {
@@ -218,6 +236,8 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
+    "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
+    "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
     "Obsidian教程/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
     "Obsidian教程/github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
     "Obsidian教程/Obsidian CLI 详细教程：官方命令行工具，激进拥抱智能体，高效 + 自动化 + 降低Token消耗。_哔哩哔哩_bilibili.md",
@@ -247,7 +267,6 @@
     "Clippings/在UE中利用Python开发自动化工具——让美术师在UE中直接调用Houdini功能.md",
     "Obsidian/教程.md",
     "Obsidian教程",
-    "Project/测试题/空间切换大纲.md",
     "UE/Pasted image 20260605200322.png",
     "UE/00_UE技术路线_Canvas.canvas",
     "计算机图形/BookMD",
