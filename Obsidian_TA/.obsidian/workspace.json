@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "9449cb307a0d69d5",
+        "id": "c0a3852373797347",
         "type": "tabs",
         "children": [
           {
-            "id": "ce843f8c5a63dac9",
+            "id": "688b3cc14f0e2e66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Github/未命名.md",
+                "file": "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1"
+            }
+          },
+          {
+            "id": "cc3921d05190f2c7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -53,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#岗位",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -156,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Github/未命名.md",
+                "file": "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1 的大纲"
             }
           },
           {
@@ -186,11 +196,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 460.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,35 +215,48 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "688b3cc14f0e2e66",
   "lastOpenFiles": [
-    "Project/TA工作内容.md",
+    "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
+    "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1.md",
+    "Houdini/04_框架整理.md",
+    "Houdini/03_城市生成.md",
+    "Houdini/02_官方课程.md",
+    "Houdini/01_招聘技术栈梳理.md",
+    "Unity/Unity知识库导航.md",
+    "Unity/Kerry技术美术入门：渲染管线概述.md",
+    "Unity/00_Unity相关.canvas",
+    "知识库导航.md",
+    "Houdini/11_操作及名词解释.md",
+    "Project/测试题/空间切换.md",
+    "Clippings/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
+    "Clippings/在 Obsidian 中使用 Gemini CLI.md",
+    "Clippings/Obsidian 终极进化：用 Gemini CLI 打造 AI 驱动的“第二大脑”.md",
+    "Obsidian/Obsidian CLI 详细教程：官方命令行工具，激进拥抱智能体，高效 + 自动化 + 降低Token消耗。_哔哩哔哩_bilibili.md",
+    "Obsidian/Obsidian邪修用法，免费云同步，AI，手机端，还有进阶技巧.md",
+    "Obsidian/用AI + Obsidian精通任何一个知识领域：AI深度研究未知领域，一键搭建Obsidian知识库架构和学习路径.md",
+    "Clippings/《WorkWithUE5》CitySampleZoneGraph剖析 (二) 生成自己的城市.md",
+    "Clippings/如果进不了腾讯和网易，哪些游戏公司适合应届生前往？ - 游鲨游戏圈 的回答.md",
+    "Clippings/在UE中利用Python开发自动化工具——让美术师在UE中直接调用Houdini功能.md",
+    "Obsidian/教程.md",
+    "Obsidian",
+    "Project/测试题/空间切换大纲.md",
+    "Unity/网易计算机课程.md",
+    "CS/00_计算机知识学习.md",
+    "Project/Github/未命名.md",
+    "UE/00_学习渠道——类比其他内容学习.md",
+    "UE/Pasted image 20260605200322.png",
+    "UE/00_UE技术路线_Canvas.canvas",
     "计算机图形/BookMD",
     "计算机图形/BookPDF/未命名",
-    "Project/Github/未命名.md",
-    "计算机图形/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili.md",
     "计算机图形/BookPDF/GPU编程与CG语言之阳春白雪下里巴人.pdf",
     "计算机图形/BookPDF/游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
     "计算机图形/BookPDF/半透明材料的建模与渲染.pdf",
-    "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
     "计算机图形/BookPDF/UnityShader入门精要.pdf",
     "计算机图形/BookPDF/《Real-Time Rendering 3rd》 提炼总结 (it-ebooks) (Z-Library).pdf",
     "计算机图形/BookPDF/GPU精粹1中文版.pdf",
     "计算机图形/BookPDF/GPU精粹3中文版.pdf",
-    "计算机图形/BookPDF/GPU精粹2中文版.pdf",
-    "UE/性能优化/UE4性能分析与优化.md",
-    "Unity/00_Unity相关.canvas",
-    "UE/00_学习渠道——类比其他内容学习.md",
-    "Houdini/10_苏式自宅.md",
     "Houdini/resources/36f989b919e5904091518d475e205cae8ea581727ac07d9fb4733f7bb5a8cf52.png",
-    "Houdini/02_官方课程.md",
-    "Unity/Book/游戏造梦师_游戏场景开发与设计_结构化.md",
-    "Unity/Book/converted_structured.md",
-    "Unity/Book/converted.md",
-    "Unity/Book/游戏造梦师_游戏场景开发与设计.md",
-    "CS/00_计算机知识学习.md",
-    "Unity/《Unity Shader 入门精要》完结_哔哩哔哩_bilibili.md",
-    "UE/00_UE技术路线_Canvas.canvas",
     "CS/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "CS/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "CS/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
@@ -242,18 +265,6 @@
     "CS/resources/8e367754194284477ca6fbccf5d8fb70e56e9cd4e7ce99a0042fca13b8ab6180.png",
     "CS/resources/79b70cca00695981b52205276b5460289081699c467bb6fc6c3ef8ebb3ceb55d.png",
     "CS/resources/2f2c5d7af99b4a42febd54f3a309acf63340abc8c28cdf565dc8818a3bcf0cd4.png",
-    "CS/resources/2bcee04beb13940f94cfbe6931dff8799a19fdd9cefe6df88a75c7fee64bf1d3.png",
-    "Houdini/05_houdinikitchen.md",
-    "目标——简历——面试复盘/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
-    "Houdini/07_橘柚.md",
-    "Houdini/08_程序化建模案例.md",
-    "Houdini/11_操作及名词解释.md",
-    "Houdini/06_VEX.md",
-    "Houdini/01_招聘技术栈梳理.md",
-    "Houdini/09_学习资源.md",
-    "Houdini/04_框架整理.md",
-    "Houdini/03_城市生成.md",
-    "Project/PCG/PCG管线_知识库.md",
     "目标——简历——面试复盘/岗位要求.canvas",
     "白板.canvas"
   ]

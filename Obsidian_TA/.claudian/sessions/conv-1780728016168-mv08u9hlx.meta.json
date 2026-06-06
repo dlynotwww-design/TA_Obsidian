@@ -1,12 +1,23 @@
 {
   "id": "conv-1780728016168-mv08u9hlx",
   "providerId": "claude",
-  "title": "nfghf",
+  "title": "概括",
   "titleGenerationStatus": "failed",
   "createdAt": 1780728016211,
-  "updatedAt": 1780728016224,
-  "lastResponseAt": 1780728016224,
-  "sessionId": null,
-  "providerState": {},
-  "currentNote": "Project/Github/未命名.md"
+  "updatedAt": 1780759918033,
+  "lastResponseAt": 1780759918033,
+  "sessionId": "5dd3360e-4139-4479-9897-ec875c38fcb8",
+  "providerState": {
+    "providerSessionId": "5dd3360e-4139-4479-9897-ec875c38fcb8"
+  },
+  "currentNote": "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
 }
