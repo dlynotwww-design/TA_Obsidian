@@ -11,13 +11,14 @@
             "id": "ce843f8c5a63dac9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名 2.base",
-                "viewName": "表格"
+                "file": "Project/TA工作内容.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名 2"
+              "icon": "lucide-file",
+              "title": "TA工作内容"
             }
           },
           {
@@ -208,13 +209,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b49cca9666292914",
+  "active": "fc7aaeae44bd1c33",
   "lastOpenFiles": [
-    "未命名 2.base",
-    "未命名 1.base",
     "未命名.base",
-    "Project/TA工作内容.md",
+    "未命名 1.base",
+    "未命名 2.base",
     "Project/Github/未命名.md",
+    "Project/TA工作内容.md",
     "UE/性能优化/UE4性能分析与优化.md",
     "未命名",
     "Unity/00_Unity相关.canvas",
@@ -232,7 +233,6 @@
     "计算机图形/Book/游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
     "Unity/Book/converted_structured.md",
     "Unity/Book/converted.md",
-    "Unity/Book/(NEW)游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
     "Unity/Book/游戏造梦师_游戏场景开发与设计.md",
     "CS/00_计算机知识学习.md",
     "Unity/《Unity Shader 入门精要》完结_哔哩哔哩_bilibili.md",
