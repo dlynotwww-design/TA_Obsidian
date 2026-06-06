@@ -174,13 +174,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "7a2dcc8fc6e9e18f",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 421.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +201,8 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "realclaudian:Open Claudian": false
     }
   },
   "active": "aaef20970e4b3948",
