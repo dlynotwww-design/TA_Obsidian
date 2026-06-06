@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "d4af9452af9f6c23",
+    "type": "split",
+    "children": [
+      {
+        "id": "9449cb307a0d69d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce843f8c5a63dac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE/性能优化/UE4性能分析与优化.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UE4性能分析与优化"
+            }
+          },
+          {
+            "id": "b49cca9666292914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形/Book/游戏造梦师游戏场景开发与设计.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "游戏造梦师游戏场景开发与设计"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "479c5980bc4aa822",
+    "type": "split",
+    "children": [
+      {
+        "id": "049aa61d54a0569e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc7aaeae44bd1c33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8652a7749130581f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#岗位",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "744513337947829b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.5096130371094
+  },
+  "right": {
+    "id": "251f1ae9715bb4ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fce18750afe1a45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a95a4a7bab25288",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Houdini/05_houdinikitchen.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "05_houdinikitchen 的反向链接列表"
+            }
+          },
+          {
+            "id": "8210c0ac9ccfecac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Houdini/05_houdinikitchen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "05_houdinikitchen 的出链列表"
+            }
+          },
+          {
+            "id": "065186c072fa544f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "a00331c5fb0257b1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "12a5e65cf4c24c39",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unity/00_Unity相关.canvas",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "00_Unity相关 的大纲"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 425.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "b49cca9666292914",
+  "lastOpenFiles": [
+    "Unity/00_Unity相关.canvas",
+    "计算机图形/Book/《Real-Time Rendering 3rd》 提炼总结 (it-ebooks) (Z-Library).pdf",
+    "计算机图形/Book/半透明材料的建模与渲染.pdf",
+    "计算机图形/Book/UnityShader入门精要.pdf",
+    "计算机图形/Book/GPU精粹1中文版.pdf",
+    "UE/00_学习渠道——类比其他内容学习.md",
+    "Houdini/10_苏式自宅.md",
+    "Houdini/resources/36f989b919e5904091518d475e205cae8ea581727ac07d9fb4733f7bb5a8cf52.png",
+    "UE/性能优化/UE4性能分析与优化.md",
+    "UE/性能优化/231016--Unreal Engine 4 性能分析与优化.pdf",
+    "Houdini/02_官方课程.md",
+    "计算机图形/Book/游戏造梦师游戏场景开发与设计.md",
+    "Unity/Book/游戏造梦师_游戏场景开发与设计_结构化.md",
+    "计算机图形/Book/游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
+    "Unity/Book/converted_structured.md",
+    "Unity/Book/converted.md",
+    "Unity/Book/(NEW)游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
+    "Unity/Book/游戏造梦师_游戏场景开发与设计.md",
+    "Project/Github",
+    "CS/00_计算机知识学习.md",
+    "Unity/《Unity Shader 入门精要》完结_哔哩哔哩_bilibili.md",
+    "计算机图形/Book/GPU编程与CG语言之阳春白雪下里巴人.pdf",
+    "UE/性能优化",
+    "UE/00_UE技术路线_Canvas.canvas",
+    "Project/TA工作内容.md",
+    "CS/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
+    "CS/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
+    "CS/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
+    "CS/resources/9f2a3ff1d7c7f79d1462f0f9b14362db8e75a9aae6b0559d40c9d865feb16dcb.png",
+    "CS/resources/9d621597e513dc620f2146e7f2af4040f23f0818faea5d193273b884165ab544.png",
+    "CS/resources/8e367754194284477ca6fbccf5d8fb70e56e9cd4e7ce99a0042fca13b8ab6180.png",
+    "CS/resources/79b70cca00695981b52205276b5460289081699c467bb6fc6c3ef8ebb3ceb55d.png",
+    "CS/resources/2f2c5d7af99b4a42febd54f3a309acf63340abc8c28cdf565dc8818a3bcf0cd4.png",
+    "CS/resources/2bcee04beb13940f94cfbe6931dff8799a19fdd9cefe6df88a75c7fee64bf1d3.png",
+    "Houdini/05_houdinikitchen.md",
+    "目标——简历——面试复盘/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
+    "Houdini/07_橘柚.md",
+    "Houdini/08_程序化建模案例.md",
+    "Houdini/11_操作及名词解释.md",
+    "Houdini/06_VEX.md",
+    "Houdini/01_招聘技术栈梳理.md",
+    "Houdini/09_学习资源.md",
+    "Houdini/04_框架整理.md",
+    "Houdini/03_城市生成.md",
+    "Project/PCG/PCG管线_知识库.md",
+    "Project/PCG/城市PCG技术方案架构.md",
+    "目标——简历——面试复盘/技术美术 简历.md",
+    "目标——简历——面试复盘/岗位要求.canvas",
+    "白板.canvas"
+  ]
+}

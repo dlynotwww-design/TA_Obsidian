@@ -1,0 +1,10 @@
+{
+  "editor:unindent-list": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ]
+}
