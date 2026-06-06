@@ -11,14 +11,13 @@
             "id": "ce843f8c5a63dac9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "UE/性能优化/UE4性能分析与优化.md",
-                "mode": "preview",
-                "source": false
+                "file": "未命名 2.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "UE4性能分析与优化"
+              "icon": "lucide-table",
+              "title": "未命名 2"
             }
           },
           {
@@ -179,9 +178,19 @@
               "icon": "lucide-list",
               "title": "未命名 的大纲"
             }
+          },
+          {
+            "id": "aaef20970e4b3948",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -199,9 +208,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12a5e65cf4c24c39",
+  "active": "b49cca9666292914",
   "lastOpenFiles": [
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.base",
+    "Project/TA工作内容.md",
     "Project/Github/未命名.md",
+    "UE/性能优化/UE4性能分析与优化.md",
     "未命名",
     "Unity/00_Unity相关.canvas",
     "计算机图形/Book/《Real-Time Rendering 3rd》 提炼总结 (it-ebooks) (Z-Library).pdf",
@@ -211,7 +225,6 @@
     "UE/00_学习渠道——类比其他内容学习.md",
     "Houdini/10_苏式自宅.md",
     "Houdini/resources/36f989b919e5904091518d475e205cae8ea581727ac07d9fb4733f7bb5a8cf52.png",
-    "UE/性能优化/UE4性能分析与优化.md",
     "UE/性能优化/231016--Unreal Engine 4 性能分析与优化.pdf",
     "Houdini/02_官方课程.md",
     "计算机图形/Book/游戏造梦师游戏场景开发与设计.md",
@@ -221,12 +234,9 @@
     "Unity/Book/converted.md",
     "Unity/Book/(NEW)游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
     "Unity/Book/游戏造梦师_游戏场景开发与设计.md",
-    "Project/Github",
     "CS/00_计算机知识学习.md",
     "Unity/《Unity Shader 入门精要》完结_哔哩哔哩_bilibili.md",
-    "计算机图形/Book/GPU编程与CG语言之阳春白雪下里巴人.pdf",
     "UE/00_UE技术路线_Canvas.canvas",
-    "Project/TA工作内容.md",
     "CS/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "CS/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "CS/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
@@ -248,7 +258,6 @@
     "Houdini/03_城市生成.md",
     "Project/PCG/PCG管线_知识库.md",
     "Project/PCG/城市PCG技术方案架构.md",
-    "目标——简历——面试复盘/技术美术 简历.md",
     "目标——简历——面试复盘/岗位要求.canvas",
     "白板.canvas"
   ]
