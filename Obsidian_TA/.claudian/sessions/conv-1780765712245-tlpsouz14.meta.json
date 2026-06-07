@@ -4,13 +4,12 @@
   "title": "Summarize document content",
   "titleGenerationStatus": "success",
   "createdAt": 1780765712245,
-  "updatedAt": 1780765752162,
+  "updatedAt": 1780766392076,
   "lastResponseAt": 1780765752162,
   "sessionId": "b6a2314d-01fe-4467-95f4-ddcf323f44b2",
   "providerState": {
     "providerSessionId": "b6a2314d-01fe-4467-95f4-ddcf323f44b2"
   },
-  "currentNote": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 6601,

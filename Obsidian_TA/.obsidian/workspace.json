@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a58ee109c7f7c1cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian教程/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili"
-            }
-          },
-          {
-            "id": "190c91aa6f242401",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "游戏造梦师游戏场景开发与设计"
-            }
-          },
-          {
             "id": "fac7d989bb16f13e",
             "type": "leaf",
             "state": {
@@ -48,9 +20,42 @@
               "icon": "lucide-file",
               "title": "游戏造梦师游戏场景开发与设计"
             }
+          },
+          {
+            "id": "d276f98571d21f2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "《游戏造梦师：游戏场景开发与设计》内容概括"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "759a72dc9a2eccf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01167e122f1acb38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "《游戏造梦师：游戏场景开发与设计》内容概括"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -234,7 +239,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "7a2dcc8fc6e9e18f",
   "lastOpenFiles": [
     "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
     "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
