@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780832874527-wtb4lxwhx",
+  "providerId": "claude",
+  "title": "Inspect markitdown tool",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780832874535,
+  "updatedAt": 1780833249214,
+  "lastResponseAt": 1780833249214,
+  "sessionId": "1b81dd9f-08ce-4cb0-bbb8-a016e7cf945d",
+  "providerState": {
+    "providerSessionId": "1b81dd9f-08ce-4cb0-bbb8-a016e7cf945d"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 187,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46848,
+    "contextWindow": 200000,
+    "contextTokens": 47035,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
+  }
+}
