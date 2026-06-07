@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780809478547-9d7cw96zj",
+  "providerId": "claude",
+  "title": "Convert document format to Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780809478547,
+  "updatedAt": 1780811920892,
+  "lastResponseAt": 1780810373639,
+  "sessionId": "d6bb98e3-7e70-4000-91be-b3d7535e4e24",
+  "providerState": {
+    "providerSessionId": "d6bb98e3-7e70-4000-91be-b3d7535e4e24"
+  },
+  "currentNote": "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 876,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 70016,
+    "contextWindow": 200000,
+    "contextTokens": 70892,
+    "percentage": 35,
+    "contextWindowIsAuthoritative": true
+  }
+}

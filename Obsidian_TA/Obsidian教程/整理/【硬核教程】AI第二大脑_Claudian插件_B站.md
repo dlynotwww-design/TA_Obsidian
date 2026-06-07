@@ -1,6 +1,6 @@
 ---
-title: "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合|Claudian插件用法详解|Obsidian CLI&Skill"
-source: "https://www.bilibili.com/video/BV1xFwxzKE5D/"
+title: 【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合|Claudian插件用法详解|Obsidian CLI&Skill
+source: https://www.bilibili.com/video/BV1xFwxzKE5D/
 author:
   - "[[啊喵什么都会一点点]]"
 created: 2026-06-07
@@ -10,6 +10,7 @@ tags:
   - claude
   - ai
   - 知识管理
+  - 一次成功
 ---
 
 ## 📺 视频信息

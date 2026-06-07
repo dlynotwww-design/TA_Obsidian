@@ -4,58 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "c0a3852373797347",
+        "id": "85a311f159cee6b6",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "fac7d989bb16f13e",
+            "id": "d0d7705d32638d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
-                "mode": "source",
+                "file": "Clippings/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "游戏造梦师游戏场景开发与设计"
+              "title": "硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili"
             }
           },
           {
-            "id": "d276f98571d21f2b",
+            "id": "962027fbb01e2938",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
-                "mode": "source",
+                "file": "Obsidian教程/00_学习路线.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《游戏造梦师：游戏场景开发与设计》内容概括"
+              "title": "00_学习路线"
             }
-          }
-        ]
-      },
-      {
-        "id": "759a72dc9a2eccf4",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "01167e122f1acb38",
+            "id": "1521260184fb791c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
+                "file": "Obsidian教程/整理/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《游戏造梦师：游戏场景开发与设计》内容概括"
+              "title": "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
+                "file": "Obsidian教程/00_学习路线.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "游戏造梦师游戏场景开发与设计 的大纲"
+              "title": "00_学习路线 的大纲"
             }
           },
           {
@@ -220,11 +216,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 693.5
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,47 +235,46 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7a2dcc8fc6e9e18f",
+  "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "计算机图形/BookMD/《游戏造梦师：游戏场景开发与设计》内容概括.md",
-    "计算机图形/BookMD/游戏造梦师游戏场景开发与设计.md",
-    "Obsidian教程/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
+    "Obsidian教程/整理/【硬核教程】AI第二大脑_Claudian插件_B站.md",
+    "Obsidian教程/整理/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
+    "Obsidian教程/00_学习路线.md",
+    "Clippings/用AI + Obsidian精通任何一个知识领域：AI深度研究未知领域，一键搭建Obsidian知识库架构和学习路径.md",
+    "Clippings/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
+    "Unity/00_Unity相关.canvas",
+    "CS_Gragh/BookPDF/《Real-Time Rendering 3rd》 提炼总结 (it-ebooks) (Z-Library).pdf",
+    "Houdini/Houdini知识体系总览.md",
+    "Houdini/01_招聘技术栈梳理.md",
+    "Obsidian教程/杰森的效率工坊/杰森的效率工坊.md",
+    "Houdini/Houdini知识体系总览.md.tmp.27856.5074c941b966",
+    "CS_Gragh/study",
+    "Obsidian教程/杰森的效率工坊/用 Claude Code 把 NotebookLM 深度集成到 Obsidian.md",
+    "CS_Gragh/BookMD/游戏造梦师游戏场景开发与设计.md",
+    "CS_Gragh/study/《游戏造梦师：游戏场景开发与设计》内容概括.md",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.cd8c9ab6174c",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.dfb2326c79ef",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.d0a293a2832e",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.779be459eb3d",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.2f986739d33c",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.d541f3935488",
+    "CS_Gragh/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md.tmp.8948.01b5609ed5dd",
+    "Clippings/在 Obsidian 中使用 Gemini CLI.md",
+    "Clippings/Obsidian 终极进化：用 Gemini CLI 打造 AI 驱动的“第二大脑”.md",
+    "Clippings/Obsidian CLI 详细教程：官方命令行工具，激进拥抱智能体，高效 + 自动化 + 降低Token消耗。_哔哩哔哩_bilibili.md",
+    "Clippings/Obsidian邪修用法，免费云同步，AI，手机端，还有进阶技巧.md",
     "Obsidian教程/github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
-    "Obsidian教程/Obsidian CLI 详细教程：官方命令行工具，激进拥抱智能体，高效 + 自动化 + 降低Token消耗。_哔哩哔哩_bilibili.md",
-    "Obsidian教程/Obsidian 终极进化：用 Gemini CLI 打造 AI 驱动的“第二大脑”.md",
-    "Obsidian教程/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
-    "Obsidian教程/在 Obsidian 中使用 Gemini CLI.md",
-    "Obsidian教程/【硬核教程】AI第二大脑_Claudian插件_B站.md",
-    "Obsidian教程/用AI + Obsidian精通任何一个知识领域：AI深度研究未知领域，一键搭建Obsidian知识库架构和学习路径.md",
     "Obsidian教程/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili 1.md",
     "Obsidian教程/【无需魔法新手友好】7分钟教你上手Claude Code 软件安装国内大模型选购配置CC Switch终端 or IDE？VSCode_哔哩哔哩_bilibili.md",
-    "Obsidian教程/github",
-    "Clippings/【硬核教程】AI第二大脑_Claudian插件_B站.md.tmp.20664.e22b1702e311",
-    "Clippings/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md.tmp.20664.5c379ec3696a",
     "Houdini/04_框架整理.md",
     "Houdini/03_城市生成.md",
     "Houdini/02_官方课程.md",
-    "Houdini/01_招聘技术栈梳理.md",
     "Unity/Unity知识库导航.md",
     "Unity/Kerry技术美术入门：渲染管线概述.md",
-    "Unity/00_Unity相关.canvas",
     "知识库导航.md",
-    "Houdini/11_操作及名词解释.md",
-    "Project/测试题/空间切换.md",
-    "Obsidian教程/Obsidian邪修用法，免费云同步，AI，手机端，还有进阶技巧.md",
-    "Clippings/《WorkWithUE5》CitySampleZoneGraph剖析 (二) 生成自己的城市.md",
-    "Clippings/如果进不了腾讯和网易，哪些游戏公司适合应届生前往？ - 游鲨游戏圈 的回答.md",
-    "Clippings/在UE中利用Python开发自动化工具——让美术师在UE中直接调用Houdini功能.md",
-    "Obsidian/教程.md",
-    "Obsidian教程",
     "UE/Pasted image 20260605200322.png",
     "UE/00_UE技术路线_Canvas.canvas",
-    "计算机图形/BookMD",
-    "计算机图形/BookPDF/未命名",
-    "计算机图形/BookPDF/GPU编程与CG语言之阳春白雪下里巴人.pdf",
-    "计算机图形/BookPDF/游戏造梦师游戏场景开发与设计 (霜狼_May) (Z-Library).pdf",
-    "计算机图形/BookPDF/半透明材料的建模与渲染.pdf",
-    "计算机图形/BookPDF/UnityShader入门精要.pdf",
     "Houdini/resources/36f989b919e5904091518d475e205cae8ea581727ac07d9fb4733f7bb5a8cf52.png",
     "CS/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "CS/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",

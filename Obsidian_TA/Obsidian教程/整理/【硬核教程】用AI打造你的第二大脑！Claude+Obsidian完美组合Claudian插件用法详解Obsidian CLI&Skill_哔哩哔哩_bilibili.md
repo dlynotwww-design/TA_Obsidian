@@ -1,17 +1,18 @@
 ---
-title: "【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合|Claudian插件用法详解|Obsidian CLI&Skill"
-source: "https://www.bilibili.com/video/BV1xFwxzKE5D/"
+title: 【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合|Claudian插件用法详解|Obsidian CLI&Skill
+source: https://www.bilibili.com/video/BV1xFwxzKE5D/
 author:
   - "[[啊喵什么都会一点点]]"
 published:
 created: 2026-06-07
-description: "Obsidian刚刚更新了一个超厉害的功能——Obsidian CLI！现在可以用Claude Code完全接管Obsidian。分享智能创建读书笔记、一键整理资料、可视化思维导图三个超实用案例。简单三步配置即可拥有AI+Obsidian最强外脑。"
+description: Obsidian刚刚更新了一个超厉害的功能——Obsidian CLI！现在可以用Claude Code完全接管Obsidian。分享智能创建读书笔记、一键整理资料、可视化思维导图三个超实用案例。简单三步配置即可拥有AI+Obsidian最强外脑。
 tags:
   - clippings
   - obsidian
   - claude
   - ai
   - 知识管理
+  - 一次成功
 aliases:
   - Claudian插件用法详解
   - Obsidian CLI教程

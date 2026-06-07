@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780807953579-iij9zw0i8",
+  "providerId": "claude",
+  "title": "Clean Markdown file and remove web clutter",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780807953580,
+  "updatedAt": 1780809388105,
+  "lastResponseAt": 1780808041955,
+  "sessionId": "4fb8a44f-729a-4671-97f5-ea66c3152e67",
+  "providerState": {
+    "providerSessionId": "4fb8a44f-729a-4671-97f5-ea66c3152e67"
+  },
+  "currentNote": "Obsidian教程/用AI + Obsidian精通任何一个知识领域：AI深度研究未知领域，一键搭建Obsidian知识库架构和学习路径.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2492,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30720,
+    "contextWindow": 200000,
+    "contextTokens": 33212,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

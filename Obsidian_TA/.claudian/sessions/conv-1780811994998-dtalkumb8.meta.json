@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780811994998-dtalkumb8",
+  "providerId": "claude",
+  "title": "Summarize Houdini folder contents",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780811994998,
+  "updatedAt": 1780812113185,
+  "lastResponseAt": 1780812113185,
+  "sessionId": "6f3540c4-822b-4ac3-9d89-648ff9955bae",
+  "providerState": {
+    "providerSessionId": "6f3540c4-822b-4ac3-9d89-648ff9955bae"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 175,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49536,
+    "contextWindow": 200000,
+    "contextTokens": 49711,
+    "percentage": 25,
+    "contextWindowIsAuthoritative": true
+  }
+}
