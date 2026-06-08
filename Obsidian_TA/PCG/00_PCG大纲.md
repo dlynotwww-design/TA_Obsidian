@@ -4,7 +4,8 @@
 
 ### GDC Vault
 
-- 重建秦朝巨型城市[[游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网]]
+[[游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网]]
+[[GDC2023]UE5中的程序化内容生成 (官方字幕)](https://www.bilibili.com/video/BV1gL411Y7kL/?spm_id_from=333.1387.favlist.content.click&vd_source=089349bc15fe4a0508fc235b6d5563a8)
 
 ### UnrealFest相关
 
