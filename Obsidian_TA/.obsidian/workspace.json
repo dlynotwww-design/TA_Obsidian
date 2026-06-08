@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PCG/00_PCG大纲.md",
+                "file": "00_Project/PCG/PCG管线_知识库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_PCG大纲"
+              "title": "PCG管线_知识库"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PCG/00_PCG大纲.md",
+                "file": "00_Project/PCG/PCG管线_知识库.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_PCG大纲 的大纲"
+              "title": "PCG管线_知识库 的大纲"
             }
           },
           {
@@ -222,38 +222,38 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "PCG/05AIGC相关技术及应用研究/Unreal Engine 5 — 3D Gaussian Splatting.md",
-    "PCG/05AIGC相关技术及应用研究/2024年虚幻引擎（UE）AIGC工具大汇总：提升你的开发效率！.md",
-    "PCG/04相关算法/技术美术 技美篇（十一）：【PCG TA】WFC 波函数坍塌 （一）.md",
-    "PCG/04相关算法/UE PCG项目源码全拆解（总览）.md",
-    "PCG/03软件技能/UE5.5新PCG场景Cassini分析-02 Grammar（续）.md",
-    "PCG/02典型案例/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
-    "PCG/00_PCG大纲.md",
-    "PCG/01技术大会/游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网.md",
+    "00_Project/PCG/城市PCG技术方案架构.md",
+    "00_Project/PCG/00_PCG大纲.md",
+    "00_Project/PCG/PCG管线_知识库.md",
+    "Ding/00目标/技术美术 简历.md",
+    "Ding/00目标/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
+    "Ding/00目标/复盘.md",
+    "Ding/00目标/腾讯魔方面试准备.md",
+    "00_Project/PCG/01技术大会/近十年 PCG 的技术进化轨迹.md",
+    "00_Project/PCG/05AIGC相关技术及应用研究/Unreal Engine 5 — 3D Gaussian Splatting.md",
+    "00_Project/PCG/05AIGC相关技术及应用研究/2024年虚幻引擎（UE）AIGC工具大汇总：提升你的开发效率！.md",
+    "00_Project/PCG/04相关算法/技术美术 技美篇（十一）：【PCG TA】WFC 波函数坍塌 （一）.md",
+    "00_Project/PCG/04相关算法/UE PCG项目源码全拆解（总览）.md",
+    "00_Project/PCG/03软件技能/UE5.5新PCG场景Cassini分析-02 Grammar（续）.md",
+    "00_Project/PCG/02典型案例/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
+    "00_Project/PCG/01技术大会/游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网.md",
     "Clippings/obsidian/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
     "Clippings/obsidian",
-    "Ding/00目标/复盘.md",
     "00_Project/01_测试题/空间切换.md",
     "00_Project/01_测试题/水.md",
     "00_Project/01_测试题/空间切换大纲.md",
     "00_Project/00_知识库/知识库导航.md",
     "00_Project/00_知识库/01_学习渠道_类比其他内容学习.md",
     "PCG/PCG大纲.md",
-    "PCG/05AIGC相关技术及应用研究",
-    "PCG/04相关算法",
-    "PCG/03软件技能",
-    "PCG/02典型案例",
+    "00_Project/PCG/05AIGC相关技术及应用研究",
+    "00_Project/PCG/04相关算法",
+    "00_Project/PCG/03软件技能",
+    "00_Project/PCG/02典型案例",
     "PCG/技术大会.md",
     "00_Project/00_知识库/00_职业发展.md",
-    "PCG/01技术大会",
-    "Ding/00目标/腾讯魔方面试准备.md",
+    "00_Project/PCG/01技术大会",
     "CS_Graphics/BookMD/PCG.md",
     "Houdini/Houdini知识体系总览.md",
-    "Houdini/09_学习资源.md",
-    "Houdini/08_程序化建模案例.md",
-    "Houdini/07_橘柚.md",
-    "Houdini/06_VEX.md",
-    "Houdini/05_houdinikitchen.md",
     "PCG",
     "CS_Graphics/BookPDF/GPU精粹1中文版.pdf",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
