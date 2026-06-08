@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PCG/04相关算法/UE PCG项目源码全拆解（总览）.md",
+                "file": "PCG/00_PCG大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UE PCG项目源码全拆解（总览）"
+              "title": "00_PCG大纲"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PCG/04相关算法/UE PCG项目源码全拆解（总览）.md",
+                "file": "PCG/00_PCG大纲.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE PCG项目源码全拆解（总览） 的大纲"
+              "title": "00_PCG大纲 的大纲"
             }
           },
           {
@@ -220,10 +220,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "fc7aaeae44bd1c33",
+  "active": "58d7e95d7f555796",
   "lastOpenFiles": [
-    "PCG/00_PCG大纲.md",
+    "PCG/05AIGC相关技术及应用研究/Unreal Engine 5 — 3D Gaussian Splatting.md",
+    "PCG/05AIGC相关技术及应用研究/2024年虚幻引擎（UE）AIGC工具大汇总：提升你的开发效率！.md",
+    "PCG/04相关算法/技术美术 技美篇（十一）：【PCG TA】WFC 波函数坍塌 （一）.md",
     "PCG/04相关算法/UE PCG项目源码全拆解（总览）.md",
+    "PCG/03软件技能/UE5.5新PCG场景Cassini分析-02 Grammar（续）.md",
+    "PCG/02典型案例/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
+    "PCG/00_PCG大纲.md",
     "PCG/01技术大会/游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网.md",
     "Clippings/obsidian/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
     "Clippings/obsidian",
@@ -249,11 +254,6 @@
     "Houdini/07_橘柚.md",
     "Houdini/06_VEX.md",
     "Houdini/05_houdinikitchen.md",
-    "Houdini/04_框架整理.md",
-    "Houdini/03_城市生成.md",
-    "Houdini/02_官方课程.md",
-    "00_Project/PCG/PCG管线_知识库.md",
-    "Ding/00目标/技术美术 简历.md",
     "PCG",
     "CS_Graphics/BookPDF/GPU精粹1中文版.pdf",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
