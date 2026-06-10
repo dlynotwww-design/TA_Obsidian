@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Project/01_面试题/UE5游戏项目流程.md",
+                "file": "00_Project/01_面试题/复盘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UE5游戏项目流程"
+              "title": "复盘"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Project/01_面试题/岗位JD.md",
+                "file": "00_Project/01_面试题/复盘.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "岗位JD 的反向链接列表"
+              "title": "复盘 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Project/01_面试题/岗位JD.md",
+                "file": "00_Project/01_面试题/复盘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "岗位JD 的出链列表"
+              "title": "复盘 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/01_面试题/岗位JD.md",
+                "file": "00_Project/01_面试题/复盘.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "岗位JD 的大纲"
+              "title": "复盘 的大纲"
             }
           },
           {
@@ -220,10 +220,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "b3096e8705939dc1",
   "lastOpenFiles": [
-    "2026-06-10.md",
+    "00_Project/01_面试题/面试经验.md",
+    "00_Project/01_面试题/QA游戏流程面试.md",
     "00_Project/01_面试题/岗位JD.md",
+    "2026-06-10.md",
     "2026-06-11.md",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
     "知识渠道.png",
@@ -234,7 +236,6 @@
     "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md.tmp.16464.2eb5251c9df7",
     "00_Project/01_面试题/QA_PCG技术美术面试题集.md",
     "00_Project/01_面试题/QA_30题精选题库.md.tmp.6340.26f4f39055a0",
-    "00_Project/01_面试题/QA游戏流程面试.md",
     "00_Project/01_面试题/UE5游戏项目流程.md",
     "00_Project/01_面试题/游戏流程面试QA.md.tmp.26668.260c0b94ffc7",
     "00_Project/01_面试题/QA模型规范面试.md",
@@ -244,7 +245,6 @@
     "Ding/00目标/简历面试题.md.tmp.26668.9d5154babd64",
     "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
     "00_Project/01_面试题/腾讯魔方面试准备.md",
-    "00_Project/01_面试题/面试经验.md",
     "00_Project/02_Modeling/MinerU_markdown_3D场景物件规范_2064729562614149120.md",
     "00_Project/02_Modeling/模型规范面试QA.md.tmp.26668.1cd87881dcec",
     "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.b00a72862244",
