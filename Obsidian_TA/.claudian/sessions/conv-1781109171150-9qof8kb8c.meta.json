@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781109171150-9qof8kb8c",
+  "providerId": "claude",
+  "title": "Generate 30-question interview bank from review...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781109171150,
+  "updatedAt": 1781109420394,
+  "lastResponseAt": 1781109420394,
+  "sessionId": "1b876c86-dbee-435d-8caa-fc1ca5ccdb3e",
+  "providerState": {
+    "providerSessionId": "1b876c86-dbee-435d-8caa-fc1ca5ccdb3e"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1110,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 91136,
+    "contextWindow": 200000,
+    "contextTokens": 92246,
+    "percentage": 46
+  }
+}

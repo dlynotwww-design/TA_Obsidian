@@ -4,19 +4,19 @@
   "title": "Prepare Technical Artist resume and intro",
   "titleGenerationStatus": "success",
   "createdAt": 1781102736351,
-  "updatedAt": 1781104344224,
-  "lastResponseAt": 1781104344224,
+  "updatedAt": 1781109141610,
+  "lastResponseAt": 1781109141610,
   "sessionId": "39e64785-24a1-42ae-b54a-86519f7fdf4d",
   "providerState": {
     "providerSessionId": "39e64785-24a1-42ae-b54a-86519f7fdf4d"
   },
   "usage": {
-    "model": "sonnet",
-    "inputTokens": 743,
+    "model": "opus",
+    "inputTokens": 121,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 23936,
+    "cacheReadInputTokens": 84352,
     "contextWindow": 200000,
-    "contextTokens": 24679,
-    "percentage": 12
+    "contextTokens": 84473,
+    "percentage": 42
   }
 }
