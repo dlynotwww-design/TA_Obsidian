@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "UE5游戏项目流程"
             }
-          },
-          {
-            "id": "9fa95861518c84be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QA_30题精选题库_复盘_JD_面经"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md",
+                "file": "00_Project/01_面试题/岗位JD.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "QA_30题精选题库_复盘_JD_面经 的反向链接列表"
+              "title": "岗位JD 的反向链接列表"
             }
           },
           {
@@ -142,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md",
+                "file": "00_Project/01_面试题/岗位JD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "QA_30题精选题库_复盘_JD_面经 的出链列表"
+              "title": "岗位JD 的出链列表"
             }
           },
           {
@@ -185,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md",
+                "file": "00_Project/01_面试题/岗位JD.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "QA_30题精选题库_复盘_JD_面经 的大纲"
+              "title": "岗位JD 的大纲"
             }
           },
           {
@@ -236,8 +222,13 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "00_Project/01_面试题/QA简历面试题.md",
+    "2026-06-10.md",
+    "00_Project/01_面试题/岗位JD.md",
+    "2026-06-11.md",
+    "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
+    "知识渠道.png",
     "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md",
+    "00_Project/01_面试题/QA简历面试题.md",
     "00_Project/01_面试题/复盘.md",
     "00_Project/01_面试题/QA_30题精选题库.md",
     "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md.tmp.16464.2eb5251c9df7",
@@ -251,7 +242,6 @@
     "Ding/00目标/对话中额外提出的问题.md.tmp.26668.db8c938c9e08",
     "Ding/00目标/技术美术 简历.md",
     "Ding/00目标/简历面试题.md.tmp.26668.9d5154babd64",
-    "00_Project/01_面试题/岗位JD.md",
     "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
     "00_Project/01_面试题/腾讯魔方面试准备.md",
     "00_Project/01_面试题/面试经验.md",
@@ -265,14 +255,11 @@
     "00_Project/02_Modeling/MinerU_markdown_场景制作规范_2064729632436727808.md",
     "00_Project/TA工作内容.md",
     "Ding/00目标/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
-    "2026-06-10.md",
-    "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
     "00_Project/PCG/PCG管线_知识库.md",
     "00_Project/PCG/城市PCG技术方案架构.md",
     "00_Project/PCG/00_PCG大纲.md",
     "00_Project/PCG/01技术大会/近十年 PCG 的技术进化轨迹.md",
     "00_Project/PCG/05AIGC相关技术及应用研究/Unreal Engine 5 — 3D Gaussian Splatting.md",
-    "00_Project/PCG/05AIGC相关技术及应用研究/2024年虚幻引擎（UE）AIGC工具大汇总：提升你的开发效率！.md",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "Ding/日常记录话术/立党/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "Ding/日常记录话术/立党/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
@@ -281,7 +268,6 @@
     "Ding/日常记录话术/2023/副业与赚钱项目/resources/afd7f77b9a13191a7238571aee0761a7b9077caa1bca999f888615c54be2fcd4.png",
     "Ding/日常记录话术/2023/AIGC-搞钱/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "Ding/日常记录话术/2023/AIGC-搞钱/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
-    "Ding/日常记录话术/2023/AIGC-搞钱/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
     "UE/00_UE技术路线_Canvas.canvas",
     "Unity/00_Unity相关.canvas",
     "目标——简历——面试复盘/岗位要求.canvas",
