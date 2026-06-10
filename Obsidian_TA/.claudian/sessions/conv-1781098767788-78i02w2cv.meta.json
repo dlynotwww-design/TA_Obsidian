@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781098767788-78i02w2cv",
+  "providerId": "claude",
+  "title": "Compile Tech Art interview tips from Xiaohongshu",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781098767803,
+  "updatedAt": 1781099924128,
+  "lastResponseAt": 1781099924128,
+  "sessionId": "1a3f974f-3952-497d-a7e1-6d7ca5b5fbae",
+  "providerState": {
+    "providerSessionId": "1a3f974f-3952-497d-a7e1-6d7ca5b5fbae"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1743,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 66560,
+    "contextWindow": 200000,
+    "contextTokens": 68303,
+    "percentage": 34
+  }
+}
