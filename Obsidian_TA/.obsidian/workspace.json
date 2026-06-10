@@ -13,21 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ding/00目标/复盘.md",
+                "file": "00_Project/01_面试题/UE5游戏项目流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "复盘"
+              "title": "UE5游戏项目流程"
             }
           },
           {
-            "id": "58d7e95d7f555796",
+            "id": "b3096e8705939dc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ding/00目标/岗位JD.md",
+                "file": "00_Project/01_面试题/岗位JD.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,49 +36,20 @@
             }
           },
           {
-            "id": "5004e8d4b4706bdd",
+            "id": "7aff2b2f801a466c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Project/01_面试题/PCG技术美术面试题集.md",
+                "file": "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PCG技术美术面试题集"
-            }
-          },
-          {
-            "id": "bac0fc9c0e2941cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Project/01_面试题/面试经验.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "面试经验"
-            }
-          },
-          {
-            "id": "6e468513a780c0ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Project/01_面试题/PCG技术美术面试题集.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PCG技术美术面试题集"
+              "title": "游戏3D场景模型制作规范"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Github/未命名.md",
+                "file": "00_Project/01_面试题/UE5游戏项目流程.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +132,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "UE5游戏项目流程 的反向链接列表"
             }
           },
           {
@@ -170,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Github/未命名.md",
+                "file": "00_Project/01_面试题/UE5游戏项目流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "UE5游戏项目流程 的出链列表"
             }
           },
           {
@@ -213,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/01_面试题/PCG技术美术面试题集.md",
+                "file": "00_Project/01_面试题/UE5游戏项目流程.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PCG技术美术面试题集 的大纲"
+              "title": "UE5游戏项目流程 的大纲"
             }
           },
           {
@@ -247,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 686.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,23 +235,31 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "Ding/00目标/岗位JD.md",
+    "00_Project/01_面试题/腾讯魔方面试准备.md",
+    "00_Project/01_面试题/QA_PCG技术美术面试题集.md",
+    "00_Project/01_面试题/QA模型规范面试.md",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
     "00_Project/01_面试题/面试经验.md",
-    "00_Project/01_面试题/PCG技术美术面试题集.md",
-    "00_Project/01_面试题/复盘.md",
-    "Ding/00目标/面试准备/腾讯魔方面试准备.md",
+    "00_Project/01_面试题/UE5游戏项目流程.md",
+    "00_Project/02_Modeling/MinerU_markdown_3D场景物件规范_2064729562614149120.md",
+    "00_Project/02_Modeling/模型规范面试QA.md.tmp.26668.1cd87881dcec",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.b00a72862244",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.6145683989ea",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.bd3d5ae0bb87",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.3a54f47b4352",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.f8cc94d9a051",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.bc2ac6192bcc",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.4552fb185bfb",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.ba6487a3cbbb",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.6e819bf97e47",
+    "00_Project/02_Modeling/MinerU_markdown_3D场景制作规范v1.0_2064729270287937536.md",
+    "00_Project/02_Modeling/MinerU_markdown_场景制作规范_2064729632436727808.md",
+    "00_Project/01_面试题/岗位JD.md",
     "Ding/00目标/技术美术 简历.md",
-    "00_Project/01_面试题",
-    "00_Project/02_Modeling/未命名",
+    "00_Project/01_面试题/复盘.md",
+    "00_Project/TA工作内容.md",
     "Ding/00目标/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
-    "Ding/00目标/AI",
-    "Ding/00目标/PCG技术美术面试题集.md.tmp.1664.c405d6ad75b5",
-    "Ding/00目标/PCG技术美术面试题集.md.tmp.1664.b14968f8e424",
-    "Ding/00目标/PCG技术美术面试题集.md.tmp.1664.e7b0bee8923e",
-    "Ding/00目标/面试经验.md.tmp.1664.2954d4080cb0",
-    "Ding/00目标/PCG技术美术面试题集.md.tmp.1664.090635974d54",
-    "Ding/00目标/面试经验.md.tmp.1664.1f477dff8329",
-    "Ding/00目标/面试准备",
+    "2026-06-10.md",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
     "00_Project/PCG/PCG管线_知识库.md",
     "00_Project/PCG/城市PCG技术方案架构.md",
@@ -293,13 +272,6 @@
     "00_Project/PCG/03软件技能/UE5.5新PCG场景Cassini分析-02 Grammar（续）.md",
     "00_Project/PCG/02典型案例/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
     "00_Project/PCG/01技术大会/游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网.md",
-    "Clippings/obsidian/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
-    "00_Project/01_测试题/空间切换.md",
-    "00_Project/01_测试题/水.md",
-    "00_Project/01_测试题/空间切换大纲.md",
-    "00_Project/00_知识库/知识库导航.md",
-    "00_Project/00_知识库/01_学习渠道_类比其他内容学习.md",
-    "PCG/PCG大纲.md",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "Ding/日常记录话术/立党/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "Ding/日常记录话术/立党/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
