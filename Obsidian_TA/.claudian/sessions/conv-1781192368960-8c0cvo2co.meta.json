@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781192368960-8c0cvo2co",
+  "providerId": "claude",
+  "title": "Analyze SNEC 2026 competitor controls and AI",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781192368961,
+  "updatedAt": 1781193191272,
+  "lastResponseAt": 1781193191272,
+  "sessionId": "d98c2ba4-65d6-4bb1-b346-16548afcd82a",
+  "providerState": {
+    "providerSessionId": "d98c2ba4-65d6-4bb1-b346-16548afcd82a"
+  },
+  "currentNote": "MinerU_markdown_未标题_2065095208812249088.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 126,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 123520,
+    "contextWindow": 200000,
+    "contextTokens": 123646,
+    "percentage": 62
+  }
+}

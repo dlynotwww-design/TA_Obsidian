@@ -11,14 +11,10 @@
             "id": "8740701bf9f7e819",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Project/01_面试题/复盘.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "复盘"
+              "title": "新标签页"
             }
           }
         ]
@@ -156,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/01_面试题/复盘.md",
+                "file": "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "复盘 的大纲"
+              "title": "SNEC2026_竞品软件分析报告_v2 的大纲"
             }
           },
           {
@@ -205,45 +201,45 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "8740701bf9f7e819",
   "lastOpenFiles": [
-    "00_Project/01_面试题/网易技术美术_网络面经汇总.md",
+    "MinerU_markdown_未标题_2065095208812249088.md",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.b0e598ffaebc",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.ed7a13944e87",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.08310d2f7ccd",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.7f934a98062f",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.87f080b3679b",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.46a1d35510d9",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.9120511b6fd9",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.8d6aa1a43858",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.1e45a051c6ad",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.28fb525053ae",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告.md",
+    "知识渠道.png",
     "00_Project/01_面试题/面试经验.md",
-    "00_Project/01_面试题/岗位JD.md",
     "00_Project/01_面试题/复盘.md",
+    "00_Project/01_面试题/网易技术美术_网络面经汇总.md",
+    "00_Project/01_面试题/岗位JD.md",
     "00_Project/01_面试题/QA/QA_30题精选题库.md",
-    "00_Project/01_面试题/QA",
     "Ding/00目标/技术美术 简历.md",
-    "00_Project/01_面试题/网易技术美术_网络面经汇总.md.tmp.21240.49c70228051f",
     "00_Project/01_面试题/QA/QA游戏流程面试.md",
     "2026-06-10.md",
     "2026-06-11.md",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
-    "知识渠道.png",
     "00_Project/01_面试题/QA/QA_30题精选题库_复盘_JD_面经.md",
     "00_Project/01_面试题/QA/QA简历面试题.md",
-    "00_Project/01_面试题/QA_30题精选题库_复盘_JD_面经.md.tmp.16464.2eb5251c9df7",
     "00_Project/01_面试题/QA/QA_PCG技术美术面试题集.md",
-    "00_Project/01_面试题/QA_30题精选题库.md.tmp.6340.26f4f39055a0",
     "00_Project/01_面试题/UE5游戏项目流程.md",
-    "00_Project/01_面试题/游戏流程面试QA.md.tmp.26668.260c0b94ffc7",
     "00_Project/01_面试题/QA/QA模型规范面试.md",
     "00_Project/01_面试题/QA/QA对话中额外提出的问题.md",
-    "Ding/00目标/对话中额外提出的问题.md.tmp.26668.db8c938c9e08",
-    "Ding/00目标/简历面试题.md.tmp.26668.9d5154babd64",
     "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
     "00_Project/01_面试题/腾讯魔方面试准备.md",
     "00_Project/02_Modeling/MinerU_markdown_3D场景物件规范_2064729562614149120.md",
-    "00_Project/02_Modeling/模型规范面试QA.md.tmp.26668.1cd87881dcec",
-    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.b00a72862244",
-    "00_Project/02_Modeling/游戏3D场景模型制作规范.md.tmp.26668.6145683989ea",
     "00_Project/02_Modeling/MinerU_markdown_3D场景制作规范v1.0_2064729270287937536.md",
     "00_Project/02_Modeling/MinerU_markdown_场景制作规范_2064729632436727808.md",
     "00_Project/TA工作内容.md",
     "Ding/00目标/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
-    "00_Project/PCG/PCG管线_知识库.md",
-    "00_Project/PCG/城市PCG技术方案架构.md",
-    "00_Project/PCG/00_PCG大纲.md",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "Ding/日常记录话术/立党/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "Ding/日常记录话术/立党/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
