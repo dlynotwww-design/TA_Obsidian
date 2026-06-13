@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781371182102-2vfkwrqxo",
+  "providerId": "claude",
+  "title": "Analyze resume's biggest problem",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781371182102,
+  "updatedAt": 1781371399291,
+  "lastResponseAt": 1781371399291,
+  "sessionId": "57887f68-7619-4016-a3f0-e996d8367f6d",
+  "providerState": {
+    "providerSessionId": "57887f68-7619-4016-a3f0-e996d8367f6d"
+  },
+  "currentNote": "00_Project/02_面试题/00_技术美术 简历.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 6234,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29184,
+    "contextWindow": 200000,
+    "contextTokens": 35418,
+    "percentage": 18
+  }
+}

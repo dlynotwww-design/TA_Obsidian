@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781367842015-dcjhew344",
+  "providerId": "claude",
+  "title": "整理当前最好用AI工具集与主要功能介绍",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781367842015,
+  "updatedAt": 1781371166006,
+  "lastResponseAt": 1781370503886,
+  "sessionId": "0777d786-698b-4945-bf4a-7d019fed1ef4",
+  "providerState": {
+    "providerSessionId": "0777d786-698b-4945-bf4a-7d019fed1ef4"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2749,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 39680,
+    "contextWindow": 200000,
+    "contextTokens": 42429,
+    "percentage": 21
+  }
+}

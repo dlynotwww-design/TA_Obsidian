@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781362278088-q0ablm55j",
+  "providerId": "claude",
+  "title": "Prepare NetEase interview answers from doc",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781362278108,
+  "updatedAt": 1781365197935,
+  "lastResponseAt": 1781365197935,
+  "sessionId": "4967ad6c-e138-428f-97fd-f4408a554140",
+  "providerState": {
+    "providerSessionId": "4967ad6c-e138-428f-97fd-f4408a554140"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1470,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 96512,
+    "contextWindow": 200000,
+    "contextTokens": 97982,
+    "percentage": 49
+  }
+}

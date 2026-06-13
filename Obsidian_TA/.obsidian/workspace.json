@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e1d27a1fda478a3",
+        "id": "deef74f192bc4dce",
         "type": "tabs",
         "children": [
           {
-            "id": "207f0bf90f3c808a",
+            "id": "e48015476ff7d786",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "00_Project/00_工作/文档/自然环境2.0.pdf"
+                "file": "00_Project/00_工作/00_TA工作内容.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "自然环境2.0"
+              "icon": "lucide-file",
+              "title": "00_TA工作内容"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Project/01_面试题/复盘.md",
+                "file": "00_Project/00_工作/00_TA工作内容.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "复盘 的反向链接列表"
+              "title": "00_TA工作内容 的反向链接列表"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Project/01_面试题/复盘.md",
+                "file": "00_Project/00_工作/00_TA工作内容.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "复盘 的出链列表"
+              "title": "00_TA工作内容 的出链列表"
             }
           },
           {
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/00_工作/文档/自然环境2.0.pdf",
+                "file": "00_Project/00_工作/00_TA工作内容.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "自然环境2.0 的大纲"
+              "title": "00_TA工作内容 的大纲"
             }
           },
           {
@@ -182,13 +184,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "774b8cdd63c52b28",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 585.5
+    "width": 655.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,46 +212,49 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "00_Project/00_工作/文档/节点组合.pdf",
-    "Ding/API.md",
-    "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md",
-    "Ding/日常记录话术/2023/AIGC-搞钱/08_LORA炼丹.md",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告.md",
+    "00_Project/00_工作/00_职业发展.md",
     "00_Project/00_工作/00_TA工作内容.md",
-    "00_Project/00_工作/文档",
-    "CS_Graphics/GAMES101/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili.md",
-    "CS_Graphics/GAMES101",
-    "CS_Graphics/BookMD/PCG.md",
-    "CS_Graphics/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
-    "CS_Graphics/BookMD/游戏造梦师游戏场景开发与设计.md",
-    "00_Project/02_Modeling/MinerU_markdown_3D场景物件规范_2064729562614149120.md",
-    "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
-    "00_Project/03_AI/AI工具列.md",
-    "00_Project/00_工作/文档/自然环境2.0.pdf",
-    "00_Project/00_工作/文档/UE控制台命令.pdf",
-    "00_Project/00_工作/文档/UE杂项.pdf",
-    "00_Project/01_测试题/01_空间切换/空间切换大纲.md",
-    "00_Project/00_工作",
-    "未命名",
-    "00_Project/01_测试题/01_空间切换/空间切换.md",
     "00_Project/01_测试题/01_空间切换/水.md",
-    "00_Project/01_测试题/02_道路工具",
-    "00_Project/00_知识库/知识库导航.md",
-    "00_Project/01_测试题/01_空间切换",
-    "00_Project/00_知识库/01_学习渠道_类比其他内容学习.md",
-    "00_Project/00_知识库/00_职业发展.md",
-    "01_Houdini/07_橘柚.md",
-    "01_Houdini/06_VEX.md",
-    "01_Houdini/05_houdinikitchen.md",
-    "01_Houdini/04_框架整理.md",
-    "01_Houdini/03_城市生成.md",
-    "01_Houdini/02_官方课程.md",
+    "00_Project/00_PCG/06_生态群落/Biomes In Unreal Engine.md",
+    "00_Project/02_面试题/00_技术美术 简历.md",
+    "00_Project/00_PCG/04相关算法/技术美术 技美篇（十一）：【PCG TA】WFC 波函数坍塌 （一）.md",
+    "00_Project/00_PCG/04相关算法/UE PCG项目源码全拆解（总览）.md",
+    "00_Project/00_PCG/03软件技能/UE5.5新PCG场景Cassini分析-02 Grammar（续）.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-conversations/API密钥笔记总结@20260614_004101.md",
+    "copilot/copilot-conversations/API_Key_Missing_Error@20260614_004037.md",
+    "00_Project/03_AI/00_AI知识库管线.md",
+    "00_Project/00_工作/01UEPCG",
+    "00_Project/00_PCG/07_现代城市",
+    "00_Project/03_AI/AI工具列.md",
+    "Ding/API.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "00_Project/03_AI/AI工具列.md.tmp.12672.705540f2c6a3",
+    "00_Project/06_Shader",
+    "00_Project/03_AI/AI工具列.md.tmp.12672.388eff6a917c",
+    "Unity/00_Unity相关.canvas",
+    "00_Project/00_PCG/06_生态群落",
+    "00_Project/04_PCG/00_Project",
     "知识渠道.png",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
@@ -251,7 +266,6 @@
     "Ding/日常记录话术/2023/AIGC-搞钱/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "Ding/日常记录话术/2023/AIGC-搞钱/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "UE/00_UE技术路线_Canvas.canvas",
-    "Unity/00_Unity相关.canvas",
     "目标——简历——面试复盘/岗位要求.canvas",
     "白板.canvas"
   ]
