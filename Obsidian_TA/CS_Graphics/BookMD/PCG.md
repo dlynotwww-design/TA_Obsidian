@@ -1,3 +1,9 @@
+---
+tags:
+  - NotebookLM
+  - PCG
+---
+
 学习**程序化内容生成（PCG，Procedural Content Generation）**是一个结合了算法逻辑、美术规则与工业化管线的系统过程。根据提供的源文件，以下是关于如何学习 PCG 及其应用案例的详细分析：
 
 ### **一、 如何学习 PCG 相关内容**

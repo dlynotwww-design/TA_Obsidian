@@ -11,10 +11,24 @@
             "id": "8740701bf9f7e819",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00_Project/00_工作/00_TA工作内容.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "00_TA工作内容"
+            }
+          },
+          {
+            "id": "09a811595bf80a8e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -152,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md",
+                "file": "00_Project/00_工作/00_TA工作内容.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SNEC2026_竞品软件分析报告_v2 的大纲"
+              "title": "00_TA工作内容 的大纲"
             }
           },
           {
@@ -201,45 +215,46 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "8740701bf9f7e819",
+  "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "MinerU_markdown_未标题_2065095208812249088.md",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.b0e598ffaebc",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.ed7a13944e87",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.08310d2f7ccd",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.7f934a98062f",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.87f080b3679b",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.46a1d35510d9",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.9120511b6fd9",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.8d6aa1a43858",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.1e45a051c6ad",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md.tmp.27484.28fb525053ae",
-    "30.areas/竞品分析/SNEC2026_竞品软件分析报告.md",
-    "知识渠道.png",
-    "00_Project/01_面试题/面试经验.md",
-    "00_Project/01_面试题/复盘.md",
-    "00_Project/01_面试题/网易技术美术_网络面经汇总.md",
-    "00_Project/01_面试题/岗位JD.md",
-    "00_Project/01_面试题/QA/QA_30题精选题库.md",
-    "Ding/00目标/技术美术 简历.md",
-    "00_Project/01_面试题/QA/QA游戏流程面试.md",
-    "2026-06-10.md",
-    "2026-06-11.md",
-    "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
-    "00_Project/01_面试题/QA/QA_30题精选题库_复盘_JD_面经.md",
-    "00_Project/01_面试题/QA/QA简历面试题.md",
-    "00_Project/01_面试题/QA/QA_PCG技术美术面试题集.md",
-    "00_Project/01_面试题/UE5游戏项目流程.md",
-    "00_Project/01_面试题/QA/QA模型规范面试.md",
-    "00_Project/01_面试题/QA/QA对话中额外提出的问题.md",
-    "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
-    "00_Project/01_面试题/腾讯魔方面试准备.md",
+    "00_Project/00_工作/文档/节点组合.pdf",
+    "00_Project/00_工作/文档",
+    "00_Project/00_工作/00_TA工作内容.md",
+    "CS_Graphics/GAMES101/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili.md",
+    "CS_Graphics/GAMES101",
+    "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md",
+    "CS_Graphics/BookMD/PCG.md",
+    "CS_Graphics/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
+    "CS_Graphics/BookMD/游戏造梦师游戏场景开发与设计.md",
     "00_Project/02_Modeling/MinerU_markdown_3D场景物件规范_2064729562614149120.md",
-    "00_Project/02_Modeling/MinerU_markdown_3D场景制作规范v1.0_2064729270287937536.md",
-    "00_Project/02_Modeling/MinerU_markdown_场景制作规范_2064729632436727808.md",
-    "00_Project/TA工作内容.md",
-    "Ding/00目标/「苏州招聘」-2026年苏州人才招聘信息 - BOSS直聘.md",
+    "00_Project/02_Modeling/游戏3D场景模型制作规范.md",
+    "00_Project/03_AI/AI工具列.md",
+    "00_Project/00_工作/文档/自然环境2.0.pdf",
+    "00_Project/00_工作/文档/UE控制台命令.pdf",
+    "00_Project/00_工作/文档/UE杂项.pdf",
+    "00_Project/01_测试题/01_空间切换/空间切换大纲.md",
+    "00_Project/00_工作",
+    "未命名",
+    "00_Project/01_测试题/01_空间切换/空间切换.md",
+    "00_Project/01_测试题/01_空间切换/水.md",
+    "00_Project/01_测试题/02_道路工具",
+    "00_Project/00_知识库/知识库导航.md",
+    "00_Project/01_测试题/01_空间切换",
+    "00_Project/00_知识库/01_学习渠道_类比其他内容学习.md",
+    "00_Project/00_知识库/00_职业发展.md",
+    "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md.tmp.14232.40555c8af11d",
+    "01_Houdini/07_橘柚.md",
+    "01_Houdini/06_VEX.md",
+    "01_Houdini/05_houdinikitchen.md",
+    "01_Houdini/04_框架整理.md",
+    "01_Houdini/03_城市生成.md",
+    "01_Houdini/02_官方课程.md",
+    "01_Houdini/01_招聘技术栈梳理.md",
+    "00_Project/04_PCG/05AIGC相关技术及应用研究/Unreal Engine 5 — 3D Gaussian Splatting.md",
+    "00_Project/04_PCG/05AIGC相关技术及应用研究/AI+Houdini.md",
+    "00_Project/04_PCG/05AIGC相关技术及应用研究/2024年虚幻引擎（UE）AIGC工具大汇总：提升你的开发效率！.md",
+    "知识渠道.png",
+    "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "Ding/日常记录话术/立党/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "Ding/日常记录话术/立党/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",

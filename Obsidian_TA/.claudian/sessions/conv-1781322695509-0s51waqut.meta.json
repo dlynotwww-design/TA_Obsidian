@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781322695509-0s51waqut",
+  "providerId": "claude",
+  "title": "Insert local folder link in document",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781322695509,
+  "updatedAt": 1781322711608,
+  "lastResponseAt": 1781322711608,
+  "sessionId": "8fbc733c-a3f3-4653-a716-29c2d07dbec8",
+  "providerState": {
+    "providerSessionId": "8fbc733c-a3f3-4653-a716-29c2d07dbec8"
+  },
+  "currentNote": "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 755,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23424,
+    "contextWindow": 200000,
+    "contextTokens": 24179,
+    "percentage": 12
+  }
+}

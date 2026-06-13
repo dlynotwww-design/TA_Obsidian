@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781322121720-57ny9wzq2",
+  "providerId": "claude",
+  "title": "Link external folders in Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781322121720,
+  "updatedAt": 1781322654654,
+  "lastResponseAt": 1781322139278,
+  "sessionId": "2c002fb2-fd1c-4531-805f-5f9775486a53",
+  "providerState": {
+    "providerSessionId": "2c002fb2-fd1c-4531-805f-5f9775486a53"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 21345,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 21345,
+    "percentage": 11
+  }
+}
