@@ -4,31 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4e0f13a36ee5ad6c",
+        "id": "9e1d27a1fda478a3",
         "type": "tabs",
         "children": [
           {
-            "id": "8740701bf9f7e819",
+            "id": "207f0bf90f3c808a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00_Project/00_工作/00_TA工作内容.md",
-                "mode": "source",
-                "source": false
+                "file": "00_Project/00_工作/文档/自然环境2.0.pdf"
               },
-              "icon": "lucide-file",
-              "title": "00_TA工作内容"
-            }
-          },
-          {
-            "id": "09a811595bf80a8e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file-text",
+              "title": "自然环境2.0"
             }
           }
         ]
@@ -166,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/00_工作/00_TA工作内容.md",
+                "file": "00_Project/00_工作/文档/自然环境2.0.pdf",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_TA工作内容 的大纲"
+              "title": "自然环境2.0 的大纲"
             }
           },
           {
@@ -200,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 686.5
+    "width": 585.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,11 +206,15 @@
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
     "00_Project/00_工作/文档/节点组合.pdf",
-    "00_Project/00_工作/文档",
+    "Ding/API.md",
+    "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md",
+    "Ding/日常记录话术/2023/AIGC-搞钱/08_LORA炼丹.md",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告_v2.md",
+    "30.areas/竞品分析/SNEC2026_竞品软件分析报告.md",
     "00_Project/00_工作/00_TA工作内容.md",
+    "00_Project/00_工作/文档",
     "CS_Graphics/GAMES101/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili.md",
     "CS_Graphics/GAMES101",
-    "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md",
     "CS_Graphics/BookMD/PCG.md",
     "CS_Graphics/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
     "CS_Graphics/BookMD/游戏造梦师游戏场景开发与设计.md",
@@ -242,17 +234,12 @@
     "00_Project/01_测试题/01_空间切换",
     "00_Project/00_知识库/01_学习渠道_类比其他内容学习.md",
     "00_Project/00_知识库/00_职业发展.md",
-    "00_Project/04_PCG/00_官方案例/Biomes In Unreal Engine.md.tmp.14232.40555c8af11d",
     "01_Houdini/07_橘柚.md",
     "01_Houdini/06_VEX.md",
     "01_Houdini/05_houdinikitchen.md",
     "01_Houdini/04_框架整理.md",
     "01_Houdini/03_城市生成.md",
     "01_Houdini/02_官方课程.md",
-    "01_Houdini/01_招聘技术栈梳理.md",
-    "00_Project/04_PCG/05AIGC相关技术及应用研究/Unreal Engine 5 — 3D Gaussian Splatting.md",
-    "00_Project/04_PCG/05AIGC相关技术及应用研究/AI+Houdini.md",
-    "00_Project/04_PCG/05AIGC相关技术及应用研究/2024年虚幻引擎（UE）AIGC工具大汇总：提升你的开发效率！.md",
     "知识渠道.png",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
     "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
