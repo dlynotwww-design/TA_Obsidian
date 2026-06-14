@@ -6,56 +6,70 @@ tags:
   - 生态群落
   - NotebookLM
 ---
-> 📁 [UE工程](file:///D:/TA/houdini/biome_demo_unreal_7)
+> 📁 [UE工程](file:///D:/TA/houdini/biome_demo_unreal)
+## NOTE
 
-这段视频由 Side Effects Labs 的 Bailey 演示，详细介绍了一套**将 Houdini Biome 工具组生成的Terrain（地形）和植物实例（Plant Instances）通过 Houdini Engine 导入 Unreal Engine (UE)** 的完整工作流程。
-
-## 以下是视频内容的详细拆解：
-
-### 1. 项目准备与环境搭建
-
-- **示例文件获取**：用户可以从 GitHub 的 "Side Effects Labs Examples" 仓库下载演示项目，路径位于 `projects/dryad_beta/biome_demo_unreal`。
-- **软件安装**：需要安装最新的 Houdini 每日构建版本以及 **Houdini Engine for Unreal 插件**。
-- **UE 项目配置**：在 Unreal 中创建一个第三人称项目，将 HDA、材质、网格和贴图文件夹复制到 `Content` 目录下，并将插件放入项目的 `Plugins/Runtime` 文件夹中。
-
-### 2. HDA 的参数与实时交互
-
-在 UE 中将 HDA 拖入场景并连接 Session 后，可以通过 HDA 的参数进行控制：
-
-- **路径关联**：设置网格文件夹、景观材质和植物材质的路径，确保 HDA 能正确引用 UE 中的资产。
-- **地形控制**：通过 `Shuffle biome seed` 可以**随机化生物群落（Biomes）的分布**。此外还包含水域开关、纹理渲染按钮等参数。
-- **实时反馈**：HDA 会在 UE 中生成带有材质的地形以及具有碰撞属性的植物实例（如树木设置为阻挡，灌木设置为无碰撞以便玩家穿过）。
-
-### 3. Houdini 内部节点网络（地形生成）
-
-- **生物群落定义**：在 Houdini 中，首先在平面 Heightfield 上定义生物群落区域，这些区域作为 Heightfield Layer 驱动后续所有生成步骤。
-- **地形建模**：根据区域生成特定的地貌，例如**沙漠的梯田、草原的平顶山、温带森林的起伏丘陵以及北方森林的山脉**。
-- **Copernicus (COPs) 纹理生成**：利用 Houdini 的 Copernicus 网络，根据地形形状生成 Base Color 和 Roughness 贴图，并通过 `ROP image outputs` 直接渲染导出。
-
-### 4. 植被散布系统 (Biome Toolset)
-
-- **Biome Configure Multibiomes**：这是核心工具，它将植物散布与地形的属性（如温度、降水量）结合起来。
-- **地形属性演化**：工具会根据地形高度降低温度，或根据山脉形成的雨影区创建干燥区域，甚至根据坡度移除土壤。
-- **植物定义 (Plant Define)**：
-    - 用户可以为不同物种定义**生境偏好**（温度、降水）以及**生长规则**（如树木之间不能重叠，但灌木可以在树下生长）。
-    - 支持为同一物种设置不同的模型变体（如幼苗、中型树、大型树），并根据 **Age（年龄）属性**自动分配模型。
-    - 通过 `Unreal Engine asset path` 属性，可以直接在 Houdini 中指定 UE 项目内的资产路径，实现精准实例替换。
-
-### 5. Unreal 专用属性与材质驱动
-
-为了让 UE 正确识别数据，HDA 在输出前添加了特殊的 Unreal 属性：
-
-- **景观属性**：通过 `unreal_uproperty_collision_profile_name` 设置碰撞，并将 Heightfield 图层映射为 UE 景观材质的 **Target Layer（目标层）**。
-- **Per Instance Custom Data（每实例自定义数据）**：
-    - HDA 将植物的 **Age（年龄）、Noise（噪声）和 Unique ID（唯一标识符）** 存储在 `unreal_per_instance_custom_data` 中。
-    - 在 UE 材质中，利用 `PerInstanceCustomData` 节点读取这些值，从而实现**植物颜色的随机偏移（Hue Shift）**、模拟云层覆盖的阴影效果，以及根据年龄改变色调。
-- **地形材质方案**：视频展示了两种方案：一种是基于景观层混合的简单材质，另一种是使用 Copernicus 渲染出的全局贴图的高细节材质。
-
-通过这一流程，开发者可以利用 Houdini 的程序化力量生成复杂的生物群落，并无缝地在 Unreal Engine 中实现具有丰富视觉变化和正确物理属性的环境。
-
+### labs生态群落案例
 
 ---
 
+
+这段视频由 Side Effects Labs 的 Bailey 演示，详细介绍了一套**将 Houdini Biome 工具组生成的Terrain（地形）和植物实例（Plant Instances）通过 Houdini Engine 导入 Unreal Engine (UE)** 的完整工作流程。
+
+## Biomes In Unreal Engine
+
+### 1. 项目准备与环境搭建
+
+- **示例文件获取**：演示项目可从 GitHub 的 **Side Effects Labs Examples** 仓库下载，具体位于 `projects/dryad_beta/biome_demo_unreal` 目录下。
+- **软件安装**：需要安装最新的 **Houdini 每日构建版本** 以及配套的 **Houdini Engine for Unreal 插件**。
+- **UE 项目配置**：
+    - 创建一个 UE 第三人称模版项目，将下载的 `biomes` 文件夹（包含 HDA、材质、网格和贴图）复制到项目的 `Content` 目录下。
+    - 将 Houdini Engine 插件文件夹复制到项目根目录下的 `Plugins/Runtime` 文件夹中，以确保项目运行特定版本的插件。
+    - 在 UE 中启动 Houdini Engine 会话，将 HDA 拖入场景即可看到初步生成的地形和植被。
+
+### 2. HDA 参数与交互控制
+
+在 UE 中，HDA 提供了多个关键参数来控制生成结果：
+
+- **路径关联**：包括 **Meshes folder path**（指向 UE 植物模型文件夹）、**Landscape material path**（地形材质路径）和 **Plant material path**（植物材质路径）。
+- **随机化与优化**：**Shuffle biome seed** 能够随机化生物群落的分布；**Water toggle** 按钮可开关水域生成以加快计算速度。
+- **纹理渲染**：通过 **Render textures** 按钮，可以触发 Houdini 内部的 **Copernicus (COPs)** 网络，将渲染出的 Base Color 和 Roughness 贴图直接导出到本地。
+
+### 3. Houdini 内部逻辑：地形与群落定义
+
+- **群落划分**：首先在平坦的 **Heightfield（高度场）** 上定义不同的群落区域，这些区域作为图层驱动后续生成。
+- **程序化地貌建模 (Terraformation)**：
+    - **沙漠**：生成梯田地貌（Terrace）。
+    - **萨瓦纳**：生成平顶山（Mesas）。
+    - **温带森林**：生成起伏的丘陵。
+    - **北方森林与苔原**：生成雄伟的山脉。
+- **纹理生成 (COPs)**：利用 **Geometry to Layer** 节点将高度场图层转换为图像层，在 Copernicus 中根据地形特征生成材质贴图。
+
+### 4. 植被系统与分布规则
+
+视频重点介绍了 **Labs Biome Toolset** 的使用：
+
+- **属性演化 (Biome Attributes Evolve)**：地形属性会根据几何形状动态调整。例如，**温度随海拔升高而降低**；山脉会产生**雨影区 (Rain shadow)** 导致背风坡干燥；**陡坡会移除土壤**；此外还利用噪声模拟土壤质量的差异。
+- **植物定义 (Plant Define)**：
+    - **生境偏好**：为每种植物设置对温度和降水量的忍受范围。
+    - **物理规则**：定义 **Crown radius（树冠半径）** 防止树木重叠，定义 **Trunk radius（树干半径）** 允许灌木在树下生长（只要不碰到树干）。
+    - **模型变体与 Age（年龄）**：植物被分配一个 0 到 1 的归一化 Age 属性。根据该数值，系统会自动分配不同的模型（如 0-0.33 为幼苗，0.66-1 为大树）。
+    - **UE 资产映射**：通过 `unreal_instance` 属性直接指向 UE 内部的资产路径，实现精准的模型替换。
+
+### 5. 数据传递与 Unreal 材质驱动
+
+为了实现丰富的视觉变化，HDA 将关键属性传递给 UE：
+
+- **地形层混合**：高度场图层在 UE 中被识别为 **Landscape Layers**。材质通过 `Landscape Layer Blend` 节点将这些图层（如沙漠、森林、雪地）与不同的颜色或纹理进行混合。
+- **每实例自定义数据 (Per Instance Custom Data)**：
+    - HDA 将植物的 **Age（年龄）**、**Noise（空间噪声）** 和 **Unique ID（唯一 ID）** 分别存储在自定义数据索引 0、1、2 中。
+    - **Age 驱动**：在 UE 材质中读取索引 0，使幼苗颜色更冷/更鲜嫩，老树颜色更深。
+    - **Unique ID 驱动**：利用随机浮点数节点读取索引 2，为每个实例提供独立的明度（Value）变化。
+    - **Noise 驱动**：读取索引 1，模拟类似云影覆盖的全局颜色偏移。
+- **性能优化**：所有的材质颜色变化都在**顶点级别（Per-vertex）**进行，并使用 `Vertex Interpolator` 节点进行优化。
+- **碰撞控制**：通过 `unreal_uproperty_collision_profile_name` 属性，设置树木为“Block All”（阻挡玩家），灌木为“No Collision”（允许玩家穿过）。
+
+通过这套流程，用户可以在 Houdini 中控制复杂的生态逻辑，并在 Unreal 中获得高性能、高细节且具有高度随机性的自然环境。
 ## 如何设计一个生态群落系统
 设计一个完整的生态群落系统（Biome System）是一个程序化生成的过程，需要将地形地貌、气候属性与植物分布规则有机结合。根据视频源码，该系统的设计可以分为以下核心阶段：
 

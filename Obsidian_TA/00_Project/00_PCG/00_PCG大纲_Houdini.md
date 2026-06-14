@@ -26,30 +26,31 @@
 
 ## 典型案例
 
-### Houdini
+### 黑客帝国
 
-- 黑客帝国
+### Titan
 
-- Titan
+### Project Pegasus
 
-- Project Pegasus
+### Build a City with PDG  
 
-- Build a City with PDG  
-
-- 湖边小屋
+### 湖边小屋，适合研究，不适合项目流程
 
 ---
 
 ## 软件技能
 
-### Houdini
-#### 场景生成
+### 场景生成
+
 官方视频教程，Simon
+
 houdinikitchen
-官方技术文档
-简刷刷
-红高
-#### 资产生成，结合AI
+
+简刷刷：骷髅岛
+> 📁 [UE工程](file:///D:/TA/houdini/kuloudao)
+
+红高：单体古建筑
+### 资产生成，结合AI
 [[AI+Houdini]]
 
 

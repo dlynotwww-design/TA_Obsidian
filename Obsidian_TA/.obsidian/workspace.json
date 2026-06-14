@@ -8,31 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e48015476ff7d786",
+            "id": "1a25494322861422",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00_Project/00_工作/00_职业发展.md",
-                "mode": "source",
-                "source": false
+                "file": "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
+                "viewState": {
+                  "x": -252.29817413231103,
+                  "y": 1176.7896884884185,
+                  "zoom": -0.8143045553237205
+                }
               },
-              "icon": "lucide-file",
-              "title": "00_职业发展"
+              "icon": "lucide-layout-dashboard",
+              "title": "Biomes In Unreal Engine"
             }
           },
           {
-            "id": "f0d3632639e6695f",
+            "id": "a87c2c177b7b1a1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Ding/经历_export 1/中国互联网的本质.md",
-                "mode": "source",
-                "source": false
+                "file": "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
+                "viewState": {
+                  "x": -158.2094330051311,
+                  "y": 383.2364145013876,
+                  "zoom": -0.47991614726079473
+                }
               },
-              "icon": "lucide-file",
-              "title": "中国互联网的本质"
+              "icon": "lucide-layout-dashboard",
+              "title": "Biomes In Unreal Engine"
             }
           }
         ],
@@ -171,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ding/经历_export 1/中国互联网的本质.md",
+                "file": "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "中国互联网的本质 的大纲"
+              "title": "Biomes In Unreal Engine 的大纲"
             }
           },
           {
@@ -215,7 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 596.5
+    "width": 547.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,53 +239,53 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "Ding/经历_export 1/副业.md",
-    "Ding/经历_export 1/中式/程序化中式.md",
-    "Ding/经历_export 1/观点/设计.md",
-    "Ding/经历_export 1/观点/欧美语言特权.md",
-    "Ding/经历_export 1/观点/观点.md",
-    "Ding/经历_export 1/观点/比尔盖茨.md",
-    "00_Project/03_AI/AIgame.md",
-    "Ding/经历_export 1/观点",
-    "Ding/经历_export 1/建筑往事/工作经历.md",
-    "Ding/经历_export 1/建筑往事/华东某院，全员被裁！.md",
-    "Ding/经历_export 1/建筑往事",
-    "Ding/经历_export 1/中式",
-    "Ding/经历_export 1/那些_无聊_的 AI 细分市场，正在批量创造百万富翁.md",
-    "Ding/经历_export 1/技术认知.md",
-    "Ding/经历_export 1/原则.md",
-    "Ding/经历_export 1/中国互联网的本质.md",
-    "Ding/经历_export 1",
-    "Ding/经历_export",
-    "AiGame_export/00Game.md",
-    "00_Project/00_PCG/05AIGC相关技术及应用研究/AI+Houdini.md",
-    "AiGame_export/张一鸣要再造一个Steam，Epic未挑战成功Steam字节行吗_.md",
-    "AiGame_export/AI游戏是泡沫吗_.md",
-    "AiGame_export/AI 游戏平台火了_一句话生成游戏，普通人也能入场.md",
-    "AiGame_export/世上最会骂米哈游的，居然是蔡浩宇的猫.md",
-    "AiGame_export/TRAE Editor for Unity_字节跳动把AI塞进了Unity编辑器，写代码这件事彻底变了.md",
-    "AiGame_export/开源计划-AI小镇.md",
-    "AiGame_export/Day 26_小游戏副业_主业不稳，副业难寻_我用30天，跑通了小游戏从开发到上架的全流程.md",
-    "AiGame_export/被投资人疯抢的10人团队_曾被质疑是骗钱，上线2天，游戏炸了.md",
-    "AiGame_export/独立游戏开发者的黄金时代.md",
-    "AiGame_export/开源版AI小镇续作——时空码头来了，致谢每一位支持者.md",
-    "AiGame_export/开源版AI小镇Microverse简单Q&A.md",
-    "AiGame_export",
-    "UE/性能优化/231016--Unreal Engine 4 性能分析与优化.pdf",
-    "00_Project/00_PCG/00项目",
-    "00_Project/02_面试题/Houdini AI Agent 相关项目与工具.md.tmp.9072.9eb727f20850",
-    "00_Project/02_面试题/Simon Verstraete Houdini官方教程合集.md.tmp.9072.e5403e9c80b1",
+    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.md",
+    "00_Project/00_PCG/07_生态群落/生态群落_PCG学习资料链接.md",
+    "00_Project/00_PCG/03软件技能/00_Houdini底层架构与技术解析.md",
+    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
+    "01_Houdini/12_Houdini底层架构与技术解析.md.tmp.23008.dcac3143a3ae",
+    "00_Project/04_知识库/01_学习渠道_类比其他内容学习.md",
+    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas.tmp.23020.4490c40559f7",
+    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas.tmp.23020.c69e579378b2",
+    "00_Project/00_工作/00_职业发展.md",
+    "00_Project/00_PCG/00_PCG大纲_Houdini.md",
+    "Ding/日常记录话术/中国互联网的本质.md",
+    "00_Project/02_面试题/PCG方向TA市场分析与UE项目调研.md",
+    "00_Project/02_面试题/复盘.md",
+    "00_Project/02_面试题/网易面试回答.md",
+    "00_Project/02_面试题/面试经验.md",
+    "00_Project/00_工作/00_TA工作内容.md",
+    "Ding/book链接.md",
+    "Ding/经历/01_建筑AI.md",
+    "Ding/API.md",
+    "02_AiGame/__AI游戏开发研究报告.md",
+    "Ding/日常记录话术/11_场景设想.md",
+    "Ding/日常记录话术/__日常记录话术_排行榜.md",
+    "ObsidianStudy/整理/【硬核教程】用AI打造你的第二大脑！Claude+Obsidian完美组合Claudian插件用法详解Obsidian CLI&Skill_哔哩哔哩_bilibili.md",
+    "日常记录话术/中国互联网的本质（重构版）.md",
+    "Ding/日常记录话术/__日常记录话术_评价与改进.md",
+    "Ding/日常记录话术/__日常记录话术_总览.md",
+    "Ding/经历/02_建筑.md",
+    "02_AiGame/__AiGame_总览.md",
+    "02_AiGame/00AI工具列.md",
+    "02_AiGame/260614",
+    "Ding/日常记录话术/__日常记录话术_总览.md.tmp.23020.720508df8345",
+    "Ding/日常记录话术/lidang/__AI信息获取渠道大全.md.tmp.23020.34179016fd0a",
+    "Ding/日常记录话术/lidang/__立党内容总结.md.tmp.23020.74852bd2e546",
+    "Ding/日常记录话术/__日常记录话术_总览.md.tmp.23020.8258a793cedd",
+    "Ding/日常记录话术/__日常记录话术_总览.md.tmp.23020.6d83cdfffba1",
+    "Ding/日常记录话术/__日常记录话术_总览.md.tmp.23020.8cef9c5c105f",
     "Unity/00_Unity相关.canvas",
     "知识渠道.png",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
-    "Ding/日常记录话术/立党/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
-    "Ding/日常记录话术/立党/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
-    "Ding/日常记录话术/立党/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
-    "Ding/日常记录话术/立党/resources/8e367754194284477ca6fbccf5d8fb70e56e9cd4e7ce99a0042fca13b8ab6180.png",
+    "Ding/日常记录话术/lidang/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
+    "Ding/日常记录话术/lidang/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
+    "Ding/日常记录话术/lidang/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
+    "Ding/日常记录话术/lidang/resources/8e367754194284477ca6fbccf5d8fb70e56e9cd4e7ce99a0042fca13b8ab6180.png",
     "Ding/BOOK/Mistery趋势交易论/Mistery趋势交易论（封面）.jpg",
-    "Ding/日常记录话术/2023/副业与赚钱项目/resources/afd7f77b9a13191a7238571aee0761a7b9077caa1bca999f888615c54be2fcd4.png",
-    "Ding/日常记录话术/2023/AIGC-搞钱/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
-    "Ding/日常记录话术/2023/AIGC-搞钱/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
+    "Ding/日常记录话术/副业与赚钱项目/resources/afd7f77b9a13191a7238571aee0761a7b9077caa1bca999f888615c54be2fcd4.png",
+    "Ding/日常记录话术/AIGC-搞钱/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
+    "Ding/日常记录话术/AIGC-搞钱/resources/ebaf0abaa7787e2bfeb69380146ef3ded05296f5e9317ad0261bec4b88d25ebf.png",
     "UE/00_UE技术路线_Canvas.canvas",
     "目标——简历——面试复盘/岗位要求.canvas",
     "白板.canvas"

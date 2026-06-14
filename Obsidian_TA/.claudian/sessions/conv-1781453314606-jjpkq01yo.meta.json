@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781453314606-jjpkq01yo",
+  "providerId": "claude",
+  "title": "Analyze Houdini architecture and core principles",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781453314606,
+  "updatedAt": 1781453508448,
+  "lastResponseAt": 1781453508448,
+  "sessionId": "545a3de7-0f9c-458c-ab67-3796a9115065",
+  "providerState": {
+    "providerSessionId": "545a3de7-0f9c-458c-ab67-3796a9115065"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 130,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 40832,
+    "contextWindow": 200000,
+    "contextTokens": 40962,
+    "percentage": 20
+  }
+}
