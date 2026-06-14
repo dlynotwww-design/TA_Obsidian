@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781456677647-kx8m4b9bk",
+  "providerId": "claude",
+  "title": "Extract high-quality info channel links from doc",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781456677647,
+  "updatedAt": 1781456728008,
+  "lastResponseAt": 1781456728008,
+  "sessionId": "e8430b2e-947d-4928-ac6f-e08390627bde",
+  "providerState": {
+    "providerSessionId": "e8430b2e-947d-4928-ac6f-e08390627bde"
+  },
+  "currentNote": "00_Mind/商业判断.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 92,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 26880,
+    "contextWindow": 200000,
+    "contextTokens": 26972,
+    "percentage": 13
+  }
+}

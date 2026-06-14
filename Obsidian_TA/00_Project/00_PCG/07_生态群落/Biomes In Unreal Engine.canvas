@@ -14,7 +14,8 @@
 		{"id":"terra_savanna","type":"text","text":"🌳 萨瓦纳\n**Mesas** 平顶山","x":-22,"y":193,"width":162,"height":58},
 		{"id":"terra_temperate","type":"text","text":"🌲 温带森林\n**丘陵**","x":-22,"y":252,"width":162,"height":58},
 		{"id":"terra_taiga","type":"text","text":"❄️ 北方/苔原\n**山脉**","x":-22,"y":310,"width":162,"height":58},
-		{"id":"title","type":"text","text":"# 🏔️ Houdini 生态群落系统 · 逻辑分析\n> 来源：Side Effects Labs · Bailey 演示\n\n**核心理念**：地形驱动属性 → 属性驱动分布 → 数据驱动视觉","x":-714,"y":-281,"width":580,"height":110}
+		{"id":"title","type":"text","text":"# 🏔️ Houdini 生态群落系统 · 逻辑分析\n> 来源：Side Effects Labs · Bailey 演示\n\n**核心理念**：地形驱动属性 → 属性驱动分布 → 数据驱动视觉","x":-714,"y":-317,"width":580,"height":146},
+		{"id":"ee3145a2915b4bc0","x":-1038,"y":-30,"width":250,"height":50,"type":"text","text":"简刷刷"}
 	],
 	"edges":[
 		{"id":"e_title","fromNode":"title","fromSide":"bottom","toNode":"p1","toSide":"top"},
@@ -30,6 +31,7 @@
 		{"id":"e_p5_p6","fromNode":"p5","fromSide":"bottom","toNode":"p6","toSide":"top","label":"点云 → HDA"},
 		{"id":"e_p3_core","fromNode":"p3","fromSide":"right","toNode":"core","toSide":"left","label":"属性是核心"},
 		{"id":"e_core_div","fromNode":"core","fromSide":"bottom","toNode":"division","toSide":"top"},
-		{"id":"e_div_insight","fromNode":"division","fromSide":"bottom","toNode":"insight","toSide":"top"}
+		{"id":"e_div_insight","fromNode":"division","fromSide":"bottom","toNode":"insight","toSide":"top"},
+		{"id":"40d21a860de248b4","fromNode":"p1","fromSide":"left","toNode":"ee3145a2915b4bc0","toSide":"right"}
 	]
 }

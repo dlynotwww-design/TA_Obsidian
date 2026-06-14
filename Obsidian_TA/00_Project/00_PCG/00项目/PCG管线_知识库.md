@@ -5,19 +5,6 @@ tags:
 
 ## 开源资料
 
-### youtube
-
-- GDC
-
-### houdini官方
-
-### 官方技术大会
-
-- [UnrealCircle厦门]《UE5资产优化》| 肖月
-
-- bring nanite to fortnite battle royale in chapter 4
-
-
 ### github
 
 - https://github.com/AdrianPanGithub/HoudiniPCGTranslator
