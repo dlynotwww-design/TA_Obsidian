@@ -1,8 +1,6 @@
 ---
 tags:
-  - moc
   - ai-game
-  - index
 created: 2026-06-14
 ---
 

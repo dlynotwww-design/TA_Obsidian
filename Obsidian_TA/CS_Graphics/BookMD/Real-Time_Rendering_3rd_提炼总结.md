@@ -1,14 +1,12 @@
 ---
-title: "《Real-Time Rendering 3rd》提炼总结"
+title: 《Real-Time Rendering 3rd》提炼总结
 author: 毛星云（浅墨）
 date: 2018-03
 tags:
   - graphics
-  - real-time-rendering
   - rendering-pipeline
   - computer-graphics
-  - RTR3
-source: "《Real-Time Rendering 3rd》提炼总结 (it-ebooks) (Z-Library).pdf"
+source: 《Real-Time Rendering 3rd》提炼总结 (it-ebooks) (Z-Library).pdf
 created: 2026-06-07
 ---
 

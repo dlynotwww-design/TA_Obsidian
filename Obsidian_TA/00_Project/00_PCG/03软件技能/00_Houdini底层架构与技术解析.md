@@ -1,9 +1,6 @@
 ---
 tags:
   - houdini
-  - architecture
-  - technical
-  - deep-dive
 created: 2026-06-15
 ---
 
