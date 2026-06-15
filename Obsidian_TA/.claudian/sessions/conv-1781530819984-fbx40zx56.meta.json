@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781530819984-fbx40zx56",
+  "providerId": "claude",
+  "title": "Analyze BOSS直聘 job posting",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781530819984,
+  "updatedAt": 1781530891410,
+  "lastResponseAt": 1781530891410,
+  "sessionId": "c78b1e27-431c-4533-b50c-21be2de80989",
+  "providerState": {
+    "providerSessionId": "c78b1e27-431c-4533-b50c-21be2de80989"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 13583,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 26752,
+    "contextWindow": 200000,
+    "contextTokens": 40335,
+    "percentage": 20
+  }
+}

@@ -11,17 +11,14 @@
             "id": "1a25494322861422",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
-                "viewState": {
-                  "x": -244.1848440329261,
-                  "y": 271.88602375812474,
-                  "zoom": -1.3333333822397104
-                }
+                "file": "00_Project/02_面试题/岗位JD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Biomes In Unreal Engine"
+              "icon": "lucide-file",
+              "title": "岗位JD"
             }
           }
         ]
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
+                "file": "00_Project/02_面试题/岗位JD.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Biomes In Unreal Engine 的大纲"
+              "title": "岗位JD 的大纲"
             }
           },
           {
@@ -219,15 +216,24 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "1a25494322861422",
   "lastOpenFiles": [
+    "Clippings/「TA（TapTap Maker）(A224923)招聘」_心动招聘-BOSS直聘.md",
+    "00_Project/02_面试题/岗位JD.md",
+    "Clippings/「TapTap Maker Al 开发专家（上海）招聘」_TapTap招聘-BOSS直聘.md",
+    "00_Project/02_面试题/复盘.md",
+    "Clippings/附件/Screenshot - 2026-06-15 21.34.56.png",
+    "v2-14396e5ab4a59d3adc719524e96a89b2_r.jpg",
+    "Clippings/附件/Pasted image 20260615213804.png",
+    "Clippings/附件",
+    "CS/转码.md",
+    "CS/00_计算机知识学习.md",
+    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
     "Ding/book链接.md",
     "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.md",
-    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
     "00_Project/00_PCG/07_生态群落/生态群落_PCG学习资料链接.md",
-    "v2-14396e5ab4a59d3adc719524e96a89b2_r.jpg",
     "00_Mind/技术认知.md",
-    "Clippings/obsidian/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
+    "ObsidianStudy/obsidian/硅谷顶尖 AI 大佬如何搭建个人AI知识库？从0开始用Claude Code + Obsidian搭建Karpathy的LLM Wiki知识库_哔哩哔哩_bilibili.md",
     "00_Project/01_测试题/01_空间切换/空间切换.md",
     "00_Project/02_面试题/QA/QA_30题精选题库_复盘_JD_面经.md",
     "00_Project/02_面试题/QA/QA对话中额外提出的问题.md",
@@ -243,13 +249,7 @@
     "CS_Graphics/BookMD/Real-Time_Rendering_3rd_提炼总结.md",
     "02_AiGame/__AI游戏开发研究报告.md",
     "00_Mind/高质量信息渠道汇总.md",
-    "00_Project/00_PCG/03软件技能/00_Houdini底层架构与技术解析.md",
-    "CS_Graphics/BookMD/PCG.md",
-    "00_Mind/中国互联网的本质（重构版）.md",
-    "00_Mind/商业判断.md",
-    "Ding/日常记录话术/09_OMNIVERSE.md",
     "00_Mind/高质量信息渠道汇总.md.tmp.9004.b11913e18b06",
-    "Ding/日常记录话术/lidang/01_立党.md",
     "01_Houdini/12_Houdini底层架构与技术解析.md.tmp.23008.dcac3143a3ae",
     "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas.tmp.23020.4490c40559f7",
     "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas.tmp.23020.c69e579378b2",
@@ -258,7 +258,6 @@
     "Ding/日常记录话术/lidang/__AI信息获取渠道大全.md.tmp.23020.34179016fd0a",
     "Ding/日常记录话术/lidang/__立党内容总结.md.tmp.23020.74852bd2e546",
     "Ding/日常记录话术/__日常记录话术_总览.md.tmp.23020.8258a793cedd",
-    "Ding/日常记录话术/__日常记录话术_总览.md.tmp.23020.6d83cdfffba1",
     "Unity/00_Unity相关.canvas",
     "知识渠道.png",
     "E1D0B4C3-0BEC-41A8-B913-205C8E200254.jpg",
@@ -267,8 +266,6 @@
     "Ding/日常记录话术/lidang/resources/e1e1dc00b94f8b92ee46c575ed727af31df14cd4623e77c2e047547c3403e337.png",
     "Ding/日常记录话术/lidang/resources/8e367754194284477ca6fbccf5d8fb70e56e9cd4e7ce99a0042fca13b8ab6180.png",
     "Ding/BOOK/Mistery趋势交易论/Mistery趋势交易论（封面）.jpg",
-    "Ding/日常记录话术/副业与赚钱项目/resources/afd7f77b9a13191a7238571aee0761a7b9077caa1bca999f888615c54be2fcd4.png",
-    "Ding/日常记录话术/AIGC-搞钱/resources/fdbe698bb432f44b837d6755ce37e3caf9b90626c1d0ad1ec5074185213e2f6c.png",
     "UE/00_UE技术路线_Canvas.canvas",
     "目标——简历——面试复盘/岗位要求.canvas",
     "白板.canvas"
