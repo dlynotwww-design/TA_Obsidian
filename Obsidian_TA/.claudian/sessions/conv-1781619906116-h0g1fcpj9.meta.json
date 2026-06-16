@@ -4,13 +4,12 @@
   "title": "Learn AI agent development",
   "titleGenerationStatus": "success",
   "createdAt": 1781619906116,
-  "updatedAt": 1781619938763,
+  "updatedAt": 1781623553453,
   "lastResponseAt": 1781619938763,
   "sessionId": "ce5ed360-d7bb-4793-89b1-c0da93a5ceb1",
   "providerState": {
     "providerSessionId": "ce5ed360-d7bb-4793-89b1-c0da93a5ceb1"
   },
-  "currentNote": "CS/转码.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 2287,

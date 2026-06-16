@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781623644701-nq7ac6js9",
+  "providerId": "claude",
+  "title": "Organize TapTap recruitment information",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781623644701,
+  "updatedAt": 1781627989092,
+  "lastResponseAt": 1781623973950,
+  "sessionId": "6111bc77-93ae-4d78-a65f-c17319f41bdf",
+  "providerState": {
+    "providerSessionId": "6111bc77-93ae-4d78-a65f-c17319f41bdf"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 983,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 51840,
+    "contextWindow": 200000,
+    "contextTokens": 52823,
+    "percentage": 26,
+    "contextWindowIsAuthoritative": true
+  }
+}

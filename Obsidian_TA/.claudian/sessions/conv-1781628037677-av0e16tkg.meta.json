@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781628037677-av0e16tkg",
+  "providerId": "claude",
+  "title": "Explain game scene/open world pipeline and TA",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781628037677,
+  "updatedAt": 1781629639591,
+  "lastResponseAt": 1781629639591,
+  "sessionId": "175d51a7-f420-408e-8593-ed3ddb52eb97",
+  "providerState": {
+    "providerSessionId": "175d51a7-f420-408e-8593-ed3ddb52eb97"
+  },
+  "currentNote": "00_Project/00_工作/Game/UE5游戏项目流程.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 362,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 93440,
+    "contextWindow": 200000,
+    "contextTokens": 93802,
+    "percentage": 47,
+    "contextWindowIsAuthoritative": true
+  }
+}
