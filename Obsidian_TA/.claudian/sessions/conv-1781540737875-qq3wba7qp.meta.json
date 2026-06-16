@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781540737875-qq3wba7qp",
+  "providerId": "claude",
+  "title": "Read Obsidian markdown file",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781540737875,
+  "updatedAt": 1781545372460,
+  "lastResponseAt": 1781545372460,
+  "sessionId": "bb9cf4ee-7170-4fca-b71b-de21042f6a60",
+  "providerState": {
+    "providerSessionId": "bb9cf4ee-7170-4fca-b71b-de21042f6a60"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 526,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 139008,
+    "contextWindow": 200000,
+    "contextTokens": 139534,
+    "percentage": 70,
+    "contextWindowIsAuthoritative": true
+  }
+}
