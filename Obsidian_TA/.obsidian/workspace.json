@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zzz/思格APP与SEMS+竞品分析_PPT逐页大纲.md",
+                "file": "CS/转码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "思格APP与SEMS+竞品分析_PPT逐页大纲"
+              "title": "转码"
             }
           },
           {
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zzz/思格APP与SEMS+竞品分析_PPT逐页大纲.md",
+                "file": "CS/转码.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "思格APP与SEMS+竞品分析_PPT逐页大纲 的大纲"
+              "title": "转码 的大纲"
             }
           },
           {
@@ -267,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -289,8 +289,14 @@
   },
   "active": "eae214a32caf9423",
   "lastOpenFiles": [
-    "zzz/思格APP与SEMS+产品竞品分析报告.md",
+    "CS/UCBerkeleyCS194_196/UC Berkeley - CS294194-196 Large Language Model Agents_哔哩哔哩_bilibili.md",
+    "CS/YAOSHUNYU",
+    "CS/转码.md",
+    "CS/UCBerkeleyCS194_196/UC BerkeleyCS294194-196 Large Language Model Agents.md",
+    "CS/UCBerkeleyCS194_196",
+    "CS/00_计算机知识学习.md",
     "zzz/思格APP与SEMS+竞品分析_PPT逐页大纲.md",
+    "zzz/思格APP与SEMS+产品竞品分析报告.md",
     "zzz/charts/01_产品定位矩阵.png",
     "zzz/charts/03_竞争格局预测.png",
     "zzz/charts/02_优先级矩阵.png",
@@ -307,8 +313,6 @@
     "zzz/charts/node_modules/chromium-bidi/lib/cjs/bidiMapper/modules/permissions/PermissionsProcessor.js.map",
     "zzz/charts/node_modules/chromium-bidi/lib/cjs/bidiMapper/modules/permissions/PermissionsProcessor.d.ts",
     "zzz/charts/node_modules/chromium-bidi/lib/cjs/bidiMapper/modules/permissions/PermissionsProcessor.js",
-    "zzz/charts/node_modules/chromium-bidi/lib/cjs/bidiMapper/modules/permissions",
-    "zzz/charts/node_modules/chromium-bidi/lib/cjs/bidiMapper/modules/log/LogManager.js.map",
     "zzz/charts/node_modules/mermaid/node_modules/marked/man/marked.1.md",
     "zzz/charts/node_modules/@fortawesome/fontawesome-free/svgs-full/solid/wine-glass-alt.svg",
     "zzz/charts/node_modules/@fortawesome/fontawesome-free/svgs-full/solid/wine-glass.svg",
@@ -330,11 +334,6 @@
     "zzz/charts/node_modules/@types/d3-format/README.md",
     "zzz/charts/node_modules/@types/d3-ease/README.md",
     "zzz/charts/node_modules/@types/d3-axis/README.md",
-    "zzz/charts/node_modules/ts-dedent/README.md",
-    "zzz/charts/node_modules/stylis/README.md",
-    "zzz/charts/node_modules/dagre-d3-es/README.md",
-    "zzz/charts/node_modules/dagre-d3-es/LICENSE.md",
-    "zzz/charts/node_modules/cytoscape/README.md",
     "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
     "Unity/00_Unity相关.canvas",
     "UE/00_UE技术路线_Canvas.canvas",
