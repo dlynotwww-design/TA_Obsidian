@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781619906116-h0g1fcpj9",
+  "providerId": "claude",
+  "title": "Learn AI agent development",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781619906116,
+  "updatedAt": 1781619938763,
+  "lastResponseAt": 1781619938763,
+  "sessionId": "ce5ed360-d7bb-4793-89b1-c0da93a5ceb1",
+  "providerState": {
+    "providerSessionId": "ce5ed360-d7bb-4793-89b1-c0da93a5ceb1"
+  },
+  "currentNote": "CS/转码.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2287,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27648,
+    "contextWindow": 200000,
+    "contextTokens": 29935,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
+  }
+}

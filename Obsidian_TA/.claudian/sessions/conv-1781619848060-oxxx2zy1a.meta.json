@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781619848060-oxxx2zy1a",
+  "providerId": "claude",
+  "title": "Learn AI Agent basics",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781619848060,
+  "updatedAt": 1781619895233,
+  "lastResponseAt": 1781619878882,
+  "sessionId": "863fadd5-dcb9-49c0-b4a5-8f492ff61b45",
+  "providerState": {
+    "providerSessionId": "863fadd5-dcb9-49c0-b4a5-8f492ff61b45"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 170,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27648,
+    "contextWindow": 200000,
+    "contextTokens": 27818,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}
