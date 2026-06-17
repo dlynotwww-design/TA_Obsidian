@@ -3,11 +3,12 @@
     "openTabs": [
       {
         "tabId": "tab-1780727970302-8ktoh6x",
-        "conversationId": "conv-1781628037677-av0e16tkg"
+        "conversationId": "conv-1781704763065-3v855oo1w"
       },
       {
+        "draftModel": "sonnet",
         "tabId": "tab-1780832842944-x68gn8g",
-        "conversationId": "conv-1781540737875-qq3wba7qp"
+        "conversationId": null
       },
       {
         "draftModel": "sonnet",

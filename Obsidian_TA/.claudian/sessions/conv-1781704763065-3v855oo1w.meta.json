@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781704763065-3v855oo1w",
+  "providerId": "claude",
+  "title": "Analyze interview prep Obsidian vault",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781704763065,
+  "updatedAt": 1781708385231,
+  "lastResponseAt": 1781708385231,
+  "sessionId": "5ab644d0-5acd-42b1-b33d-d611d5d0e1e7",
+  "providerState": {
+    "providerSessionId": "5ab644d0-5acd-42b1-b33d-d611d5d0e1e7"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1857,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 141568,
+    "contextWindow": 200000,
+    "contextTokens": 143425,
+    "percentage": 72,
+    "contextWindowIsAuthoritative": true
+  }
+}
