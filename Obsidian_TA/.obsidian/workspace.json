@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Project/00_工作/00_职业发展.md",
+                "file": "00_Project/02_面试题/PCG方向TA市场分析与UE项目调研.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_职业发展"
+              "title": "PCG方向TA市场分析与UE项目调研"
             }
           },
           {
@@ -41,7 +41,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "00_Project/00_工作/影视项目UE流程化.canvas",
+                "file": "00_Project/00_工作/影视流程/影视项目UE流程化.canvas",
                 "viewState": {
                   "x": 1065.0833331882664,
                   "y": 517.5546012362295,
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Project/00_工作/00_职业发展.md",
+                "file": "00_Project/02_面试题/PCG方向TA市场分析与UE项目调研.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_职业发展 的大纲"
+              "title": "PCG方向TA市场分析与UE项目调研 的大纲"
             }
           },
           {
@@ -250,9 +250,11 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
+    "00_Project/00_工作/影视流程/影视项目UE流程化.canvas",
     "00_Project/00_工作/00_TA工作内容.md",
-    "00_Project/00_工作/影视项目UE流程化.md",
+    "00_Project/00_工作/影视流程",
     "00_Project/00_工作/00_职业发展.md",
+    "00_Project/00_工作/影视流程/影视项目UE流程化.md",
     "00_Project/00_工作/UE5游戏项目流程/场景大世界管线详解.canvas",
     "00_Project/00_工作/UE5游戏项目流程/场景大世界管线详解.md",
     "00_Project/00_工作/UE5游戏项目流程/UE5游戏项目流程.md",
@@ -265,7 +267,6 @@
     "00_Mind/商业判断.md",
     "00_Mind/技术认知.md",
     "00_Mind/高质量信息渠道汇总.md",
-    "00_Project/00_工作/影视项目UE流程化.canvas",
     "00_Project/00_工作/影视项目UE流程化.md.tmp.21228.0c7ff2ca7010",
     "gen_ue_film_canvas.py",
     "gen_ue_film_canvas.py.tmp.21228.a3fed013545a",
@@ -277,7 +278,6 @@
     "00_Project/00_工作/场景大世界管线详解.canvas.tmp.21228.fe136610813e",
     "00_Project/00_工作/UE5游戏项目流程.md.tmp.21228.ea43e1f19c9c",
     "00_Project/00_工作/场景大世界管线详解.md.tmp.21228.308e77a5c7ff",
-    "00_Project/00_工作/UE5游戏项目流程",
     "CS/转码.md",
     "00_Project/00_AI相关技术及应用研究/3DAI网站.md",
     "00_Project/00_AI相关技术及应用研究/00_Agent/Claude Code + 虚幻引擎 5：两个免费 MCP 插件，用 AI 做游戏.md",
