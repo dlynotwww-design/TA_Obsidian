@@ -1,3 +1,20 @@
+
+
+## LLM
+
+> 大语言模型：文本生成、推理、分析、翻译、代码理解等。
+
+| 工具                         | 开发商       | 主要功能                                                                      | 价格                              |
+| -------------------------- | --------- | ------------------------------------------------------------------------- | ------------------------------- |
+| **Claude 4 Sonnet / Opus** | Anthropic | 最强推理与代码能力；200K 上下文；MCP 工具调用；Artifacts 实时预览；Projects 知识库；Thinking 深度思考模式   | Free/Pro $20/Max $200 月费；API 按量 |
+| **GPT-5 / GPT-4o**         | OpenAI    | 多模态理解（图文音视频）；128K 上下文；Code Interpreter、GPTs 自定义、Deep Research 深度研究；实时语音对话 | Plus $20/Pro $200 月费；API 按量     |
+| **Gemini 2.5 Pro**         | Google    | 原生多模态；1M tokens 超长上下文；Google 生态深度集成（Gmail/Drive/Calendar）；Gemini Gems 自定义 | 免费版可用；Advanced $20/月            |
+| **DeepSeek v3 / R1**       | DeepSeek  | 开源高性能模型；R1 推理模型对标 o1 级推理能力；API 价格极低（约为 GPT 的 1/30）；支持 128K 上下文            | 免费使用；API 极低价                    |
+| **Grok 3**                 | xAI       | 实时 X（Twitter）数据接入；DeepSearch 深度搜索；图像生成集成；幽默/无审查风格                         | X Premium+ $50/月；API 按量         |
+| **Qwen 3**                 | 阿里云       | 开源多模态系列；支持 256K 上下文；中英文能力突出；支持 MCP 工具调用；通义千问 App 集成                       | 免费版可用；API 按量                    |
+
+
+
 ## Agent
 
 > AI 编程助手 & 自主智能体，可自动完成编码、调试、部署等任务。
@@ -11,21 +28,6 @@
 | **Devin**              | Cognition AI     | 全自主 AI 软件工程师；可独立完成整个开发任务（写代码、调试、部署）；Slack/GitHub 集成触发                               | 团队 $500/月起                   |
 | **Manus**              | Manus AI         | 通用 AI Agent；浏览器自动化、数据分析、报告生成、多步骤任务自主完成；云端异步执行                                       | 免费版可用；Pro $39/月              |
 | **OpenAI Codex CLI**   | OpenAI           | 终端 AI 编程代理；自主执行多步骤开发任务、运行测试、修复错误；支持 GPT-5 后端                                        | ChatGPT Plus/Pro 含额度         |
-
-## LLM
-
-> 大语言模型：文本生成、推理、分析、翻译、代码理解等。
-
-| 工具                         | 开发商       | 主要功能                                                                          | 价格                              |
-| -------------------------- | --------- | ----------------------------------------------------------------------------- | ------------------------------- |
-| **Claude 4 Sonnet / Opus** | Anthropic | 最强推理与代码能力；200K 上下文；MCP 工具调用；Artifacts 实时预览；Projects 知识库；Thinking 深度思考模式       | Free/Pro $20/Max $200 月费；API 按量 |
-| **GPT-5 / GPT-4o**         | OpenAI    | 多模态理解（图文音视频）；128K 上下文；Code Interpreter、GPTs 自定义、Deep Research 深度研究；实时语音对话     | Plus $20/Pro $200 月费；API 按量     |
-| **Gemini 2.5 Pro**         | Google    | 原生多模态；1M tokens 超长上下文；Google 生态深度集成（Gmail/Drive/Calendar）；Gemini Gems 自定义     | 免费版可用；Advanced $20/月            |
-| **DeepSeek v3 / R1**       | DeepSeek  | 开源高性能模型；R1 推理模型对标 o1 级推理能力；API 价格极低（约为 GPT 的 1/30）；支持 128K 上下文                | 免费使用；API 极低价                    |
-| **Grok 3**                 | xAI       | 实时 X（Twitter）数据接入；DeepSearch 深度搜索；图像生成集成；幽默/无审查风格                             | X Premium+ $50/月；API 按量         |
-| **Qwen 3**                 | 阿里云       | 开源多模态系列；支持 256K 上下文；中英文能力突出；支持 MCP 工具调用；通义千问 App 集成                           | 免费版可用；API 按量                    |
-
-
 
 ## 绘画
 

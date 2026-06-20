@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781941785384-j6jei41gs",
+  "providerId": "claude",
+  "title": "Explain Claude Code memory functionality",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781941785445,
+  "updatedAt": 1781949228636,
+  "lastResponseAt": 1781941799577,
+  "sessionId": "845a06b9-4bc1-4c96-9509-1b9c87bbaeaf",
+  "providerState": {
+    "providerSessionId": "845a06b9-4bc1-4c96-9509-1b9c87bbaeaf"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 27710,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 27710,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}

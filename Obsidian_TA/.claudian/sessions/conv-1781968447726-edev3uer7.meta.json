@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781968447726-edev3uer7",
+  "providerId": "claude",
+  "title": "Query UnrealMCP past 30 days data",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781968447726,
+  "updatedAt": 1781969609203,
+  "lastResponseAt": 1781969609203,
+  "sessionId": "522388d5-6980-4c4a-9a06-64bbf79d4dac",
+  "providerState": {
+    "providerSessionId": "522388d5-6980-4c4a-9a06-64bbf79d4dac"
+  },
+  "currentNote": "00_展示/04_Github/last30days-skill/last30days-skill 中文操作手册.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2876,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 96000,
+    "contextWindow": 200000,
+    "contextTokens": 98876,
+    "percentage": 49
+  }
+}

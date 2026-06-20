@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781942985179-cize97wvp",
+  "providerId": "claude",
+  "title": "Format Tencent Shenzhen job content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781942985180,
+  "updatedAt": 1781948485060,
+  "lastResponseAt": 1781944359536,
+  "sessionId": "45812cab-6b8c-4f41-b9ff-e877dd18f139",
+  "providerState": {
+    "providerSessionId": "45812cab-6b8c-4f41-b9ff-e877dd18f139"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2198,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 56832,
+    "contextWindow": 200000,
+    "contextTokens": 59030,
+    "percentage": 30,
+    "contextWindowIsAuthoritative": true
+  }
+}

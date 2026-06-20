@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781951530939-u9snkmowz",
+  "providerId": "claude",
+  "title": "Set LAST30DAYS_MEMORY_DIR environment variable",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781951530939,
+  "updatedAt": 1781951565572,
+  "lastResponseAt": 1781951565572,
+  "sessionId": "fa15a1b8-38b2-4d84-bbca-f44d4c005142",
+  "providerState": {
+    "providerSessionId": "fa15a1b8-38b2-4d84-bbca-f44d4c005142"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 281,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 59136,
+    "contextWindow": 200000,
+    "contextTokens": 59417,
+    "percentage": 30
+  }
+}

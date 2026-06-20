@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781937549194-ewod21trt",
+  "providerId": "claude",
+  "title": "Summarize document",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781937549194,
+  "updatedAt": 1781938636797,
+  "lastResponseAt": 1781937562903,
+  "sessionId": "e68c6f3f-a8d2-4322-ba93-95ff3ab3d359",
+  "providerState": {
+    "providerSessionId": "e68c6f3f-a8d2-4322-ba93-95ff3ab3d359"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 865,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27648,
+    "contextWindow": 200000,
+    "contextTokens": 28513,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}

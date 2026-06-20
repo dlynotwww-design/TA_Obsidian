@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781949240216-rvrqpa8gf",
+  "providerId": "claude",
+  "title": "Create Chinese Operation Manual for Project",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781949240216,
+  "updatedAt": 1781951654505,
+  "lastResponseAt": 1781951410049,
+  "sessionId": "0065af99-abca-4e59-a58f-bc71f4a16a05",
+  "providerState": {
+    "providerSessionId": "0065af99-abca-4e59-a58f-bc71f4a16a05"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 41752,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 144384,
+    "contextWindow": 1000000,
+    "contextTokens": 186136,
+    "percentage": 19,
+    "contextWindowIsAuthoritative": true
+  }
+}

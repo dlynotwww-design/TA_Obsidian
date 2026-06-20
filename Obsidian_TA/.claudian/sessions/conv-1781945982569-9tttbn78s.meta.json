@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781945982569-9tttbn78s",
+  "providerId": "claude",
+  "title": "Create Unreal Engine film production workflow c...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781945982569,
+  "updatedAt": 1781951510744,
+  "lastResponseAt": 1781946601226,
+  "sessionId": "694cc6c9-e353-4c81-a28b-aff6ce2ccafb",
+  "providerState": {
+    "providerSessionId": "694cc6c9-e353-4c81-a28b-aff6ce2ccafb"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1115,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 60032,
+    "contextWindow": 200000,
+    "contextTokens": 61147,
+    "percentage": 31
+  }
+}

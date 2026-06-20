@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781970347106-h885m2cr6",
+  "providerId": "claude",
+  "title": "Estimate daily project completion capacity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781970347107,
+  "updatedAt": 1781970697499,
+  "lastResponseAt": 1781970697496,
+  "sessionId": "c13cfe2f-987f-4951-ae74-c63f082e261d",
+  "providerState": {
+    "providerSessionId": "c13cfe2f-987f-4951-ae74-c63f082e261d"
+  },
+  "currentNote": "00_展示/00_TA项目.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1378,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 70272,
+    "contextWindow": 200000,
+    "contextTokens": 71650,
+    "percentage": 36
+  }
+}

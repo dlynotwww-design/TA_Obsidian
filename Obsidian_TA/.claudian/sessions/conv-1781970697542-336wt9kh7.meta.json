@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781970697542-336wt9kh7",
+  "providerId": "claude",
+  "title": "Rebuild PCG Technical Artist Resume",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781970697542,
+  "updatedAt": 1781973644195,
+  "lastResponseAt": 1781973644195,
+  "sessionId": "120bf411-1120-4333-9661-001b853fd179",
+  "providerState": {
+    "providerSessionId": "120bf411-1120-4333-9661-001b853fd179"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 4817,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 102528,
+    "contextWindow": 1000000,
+    "contextTokens": 107345,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1781948494910-2gjz4xwfi",
+  "providerId": "claude",
+  "title": "Explain project usage",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781948494911,
+  "updatedAt": 1781968410632,
+  "lastResponseAt": 1781949573618,
+  "sessionId": "1c2c8445-80c0-4955-97f6-0a16695cb8b0",
+  "providerState": {
+    "providerSessionId": "1c2c8445-80c0-4955-97f6-0a16695cb8b0"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 422,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 81408,
+    "contextWindow": 200000,
+    "contextTokens": 81830,
+    "percentage": 41
+  }
+}
