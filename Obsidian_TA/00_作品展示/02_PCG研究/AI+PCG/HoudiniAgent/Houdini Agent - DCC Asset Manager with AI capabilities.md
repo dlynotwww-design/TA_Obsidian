@@ -8,9 +8,10 @@ description: "Houdini Agent - DCC Asset Manager with AI capabilities - Kazama-Su
 tags:
   - "clippings"
 ---
-## Houdini Agent
-
 [# Houdini AI时代已来（Agent开源）](https://www.bilibili.com/video/BV1pwcbzBEEh/?spm_id_from=333.1387.favlist.content.click&vd_source=089349bc15fe4a0508fc235b6d5563a8)
+
+
+## Houdini Agent
 
 **[English](https://github.com/Kazama-Suichiku/Houdini-Agent/blob/main/README.md)** | **[中文](https://github.com/Kazama-Suichiku/Houdini-Agent/blob/main/README_CN.md)**
 

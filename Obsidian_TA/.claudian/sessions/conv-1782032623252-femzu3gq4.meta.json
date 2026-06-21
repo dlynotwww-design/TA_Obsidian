@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782032623252-femzu3gq4",
+  "providerId": "claude",
+  "title": "分析项目",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782032623253,
+  "updatedAt": 1782058344462,
+  "lastResponseAt": 1782033272489,
+  "sessionId": "3baf9ff0-73fa-4930-b4d5-aa13c3c0c363",
+  "providerState": {
+    "providerSessionId": "3baf9ff0-73fa-4930-b4d5-aa13c3c0c363"
+  },
+  "currentNote": "01_知识库/00_Houdini/00_github/sideeffectsSideFXLabsExamples Example files and demo projects created for SideFX Labs.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

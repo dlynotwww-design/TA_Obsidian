@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782048202461-kj5dmfro9",
+  "providerId": "claude",
+  "title": "Convert Level-4 Headings to Body Text",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782048202461,
+  "updatedAt": 1782050333447,
+  "lastResponseAt": 1782048224179,
+  "sessionId": "4e6e21d5-cccf-492c-9813-ac35b97cdacb",
+  "providerState": {
+    "providerSessionId": "4e6e21d5-cccf-492c-9813-ac35b97cdacb"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 802,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30208,
+    "contextWindow": 200000,
+    "contextTokens": 31010,
+    "percentage": 16
+  }
+}

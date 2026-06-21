@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782058382576-6hip71cda",
+  "providerId": "claude",
+  "title": "Fix Git repository connection issue",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782058382577,
+  "updatedAt": 1782058443304,
+  "lastResponseAt": 1782058443304,
+  "sessionId": "9251a088-f633-432f-95b1-cb9159282888",
+  "providerState": {
+    "providerSessionId": "9251a088-f633-432f-95b1-cb9159282888"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 11413,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35072,
+    "contextWindow": 200000,
+    "contextTokens": 46485,
+    "percentage": 23
+  }
+}

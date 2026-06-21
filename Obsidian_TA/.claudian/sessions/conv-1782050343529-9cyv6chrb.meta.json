@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782050343529-9cyv6chrb",
+  "providerId": "claude",
+  "title": "Evaluate Current Workflow",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782050343529,
+  "updatedAt": 1782052871780,
+  "lastResponseAt": 1782052871780,
+  "sessionId": "7fea3fd1-6a22-4020-823e-439ce44151f0",
+  "providerState": {
+    "providerSessionId": "7fea3fd1-6a22-4020-823e-439ce44151f0"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1910,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 82816,
+    "contextWindow": 200000,
+    "contextTokens": 84726,
+    "percentage": 42
+  }
+}

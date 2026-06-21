@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782024459662-fchjw4my9",
+  "providerId": "claude",
+  "title": "Reorganize document with pipeline and technical...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782024459662,
+  "updatedAt": 1782032609143,
+  "lastResponseAt": 1782025593805,
+  "sessionId": "d7ab8d1d-6565-491b-8ef1-300d6fec7fe1",
+  "providerState": {
+    "providerSessionId": "d7ab8d1d-6565-491b-8ef1-300d6fec7fe1"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 4346,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34240,
+    "contextWindow": 200000,
+    "contextTokens": 38586,
+    "percentage": 19
+  }
+}
