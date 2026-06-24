@@ -13,12 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_知识库/00_Houdini/07_橘柚.md",
+                "file": "00_作品展示/00_流程规范/项目流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07_橘柚"
+              "title": "项目流程"
+            }
+          }
+        ]
+      },
+      {
+        "id": "211d99b46366ddd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bdb153921335225",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap-nextgen-plugin",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mindmap"
             }
           }
         ]
@@ -156,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_知识库/00_Houdini/07_橘柚.md",
+                "file": "00_作品展示/00_流程规范/项目流程.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "07_橘柚 的大纲"
+              "title": "项目流程 的大纲"
             }
           },
           {
@@ -196,11 +212,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 566.5
+    "width": 444.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +232,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "aba3c6866dbb5a58",
   "lastOpenFiles": [
+    "00_作品展示/00_TA项目.md",
+    "00_作品展示/03_AI工具/ClaudeCode/官方教程.md",
+    "00_作品展示/03_AI工具/AI_Basic/AI工具列.md",
+    "00_作品展示/03_AI工具/AI_Basic/LLM能力边界.md",
+    "00_作品展示/02_PCG研究/00_PCG大纲_Houdini.md",
+    "00_作品展示/00_流程规范/项目流程.md",
+    "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
+    "00_作品展示/00_流程规范/导入内容.md",
+    "00_作品展示/00_流程规范/影视项目UE流程化.md",
+    "01_知识库/00_Houdini/07_橘柚.md",
     "01_知识库/00_Houdini/06_VEX.md",
     "01_知识库/00_Houdini/05_houdinikitchen.md",
     "01_知识库/00_Houdini/00_github/sideeffectsSideFXLabsExamples Example files and demo projects created for SideFX Labs.md",
@@ -225,7 +251,6 @@
     "01_知识库/00_Houdini/00_github/sideeffectsGameDevelopmentToolset A series of Houdini shelf tools that are geared towards game developers!.md",
     "02_个人/2026-06-21计划.md",
     "02_个人/00_面试准备/PCG方向TA市场分析与UE项目调研.md",
-    "00_作品展示/00_TA项目.md",
     "00_作品展示/02_PCG研究/软件操作/Procedural Content Generation in Electric Dreams  Unreal Engine 5.5 Documentation.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
     "02_个人/00_面试准备/00_职业发展.md",
@@ -236,21 +261,12 @@
     "00_作品展示/03_AI工具/AI落地环节排序.md",
     "00_作品展示/03_AI工具/AI蓝图生成器插件 - AI Engine Assistant - Kibibyte Labs (Blueprint Generator & More!).md",
     "00_作品展示/03_AI工具/蓝图智能工具 — 自动将蓝图转换为C++代码 - Blueprint Intelligence - Convert Blueprints to C++ code automatically.md",
-    "00_作品展示/02_PCG研究/00_PCG大纲_Houdini.md",
     "00_作品展示/02_PCG研究/00_PCG大纲_UE.md",
     "00_作品展示/01_项目文档/Ivy_技术文档.md",
     "00_作品展示/01_项目文档/工作文档临时/UE控制台命令.md",
     "00_作品展示/01_项目文档/工作文档临时/UE常见美术问题及解决方案.md",
-    "00_作品展示/01_项目文档/工作文档临时/自然环境2.0.md",
-    "00_作品展示/01_项目文档/插件工具/Batch Rename Tool.md",
     "00_作品展示/01_项目文档/插件工具",
-    "00_作品展示/02_PCG研究/AI+PCG/AI + Houdini + Unreal：PCG建筑资产开发全流程复盘.md",
     "00_展示/00_TA项目.md.tmp.30096.7b47860d35f7",
-    "00_作品展示/00_首页.md",
-    "00_展示/01_项目文档/工作文档临时/UE杂项.md",
-    "00_作品展示/01_项目文档/PSD转体块工具.md",
-    "00_作品展示/01_项目文档/植被生态群落工具集.md",
-    "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
     "01_知识库/00_Houdini/00_github",
     "00_展示/01_项目文档/IVY/dd_Ivy_技术文档.md.tmp.14044.78be9e5931da",
     "00_展示/01_项目文档/IVY/chat_train_20260621_143647_3samples.jsonl",
