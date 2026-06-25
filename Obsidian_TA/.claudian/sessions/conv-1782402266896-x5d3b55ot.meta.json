@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782402266896-x5d3b55ot",
+  "providerId": "claude",
+  "title": "Analyze personal records and game concept",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782402266897,
+  "updatedAt": 1782402379294,
+  "lastResponseAt": 1782402379294,
+  "sessionId": "970149de-4a9d-4f7e-bd18-e398de8650f4",
+  "providerState": {
+    "providerSessionId": "970149de-4a9d-4f7e-bd18-e398de8650f4"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 6628,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 62848,
+    "contextWindow": 200000,
+    "contextTokens": 69476,
+    "percentage": 35
+  }
+}

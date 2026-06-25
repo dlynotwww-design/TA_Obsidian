@@ -15,9 +15,9 @@
               "state": {
                 "file": "00_作品展示/03_AI/MyGame/癫狂的世界.canvas",
                 "viewState": {
-                  "x": 87.95982016237878,
-                  "y": 389.38013682830814,
-                  "zoom": -0.7384995436295072
+                  "x": -94.43004408949,
+                  "y": 279.2745442379929,
+                  "zoom": -1.2399897270056701
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -199,11 +199,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 444.5
+    "width": 601.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,18 +221,19 @@
   },
   "active": "aba3c6866dbb5a58",
   "lastOpenFiles": [
+    "00_作品展示/03_AI/MyGame/库哈斯.md",
+    "02_个人/日常记录话术/03_食.md",
+    "02_个人/日常记录话术/10_游戏.md",
+    "00_作品展示/03_AI/MyGame/癫狂的世界.canvas",
+    "00_作品展示/03_AI/MyGame/Beomsik Won的“Archisculpture”系列.md",
+    "00_作品展示/03_AI/MyGame/癫狂的世界.md",
     "00_作品展示/03_AI/MyGame/Messenger.md",
     "00_作品展示/03_AI/MyGame/Matthias Jung的超现实建筑拼贴作品.md",
-    "00_作品展示/03_AI/MyGame/Beomsik Won的“Archisculpture”系列.md",
-    "00_作品展示/03_AI/MyGame/库哈斯.md",
-    "00_作品展示/03_AI/MyGame/癫狂的世界.canvas",
     "00_作品展示/03_AI/MyGame/Untitled.md",
-    "00_作品展示/03_AI/MyGame/癫狂的世界.md",
     "00_作品展示/03_AI/MyGame/附件/Pasted image 20260625231237.png",
     "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
     "02_个人/日常记录话术/03_建筑.md",
     "02_个人/日常记录话术/08_AIGC.md",
-    "02_个人/日常记录话术/10_游戏.md",
     "02_个人/日常记录话术/13_中国建筑.md",
     "02_个人/日常记录话术/14_低风险创业.md",
     "02_个人/日常记录话术/12_西方建筑.md",
