@@ -15,9 +15,9 @@
               "state": {
                 "file": "00_作品展示/03_AI/MyGame/癫狂的世界.canvas",
                 "viewState": {
-                  "x": 38.39187757611376,
-                  "y": 531.305085539298,
-                  "zoom": -1.4051662347493625
+                  "x": 87.95982016237878,
+                  "y": 389.38013682830814,
+                  "zoom": -0.7384995436295072
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -219,7 +219,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "aba3c6866dbb5a58",
   "lastOpenFiles": [
     "00_作品展示/03_AI/MyGame/Messenger.md",
     "00_作品展示/03_AI/MyGame/Matthias Jung的超现实建筑拼贴作品.md",
