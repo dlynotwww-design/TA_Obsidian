@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782485657284-ffm6dpj8t",
+  "providerId": "claude",
+  "title": "Summarize development log",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782485657285,
+  "updatedAt": 1782492962738,
+  "lastResponseAt": 1782492962738,
+  "sessionId": "73d06770-2451-4e23-9972-86f15f3bac3f",
+  "providerState": {
+    "providerSessionId": "73d06770-2451-4e23-9972-86f15f3bac3f"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 5630,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 137600,
+    "contextWindow": 200000,
+    "contextTokens": 143230,
+    "percentage": 72
+  }
+}

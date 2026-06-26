@@ -4,8 +4,8 @@
   "title": "Analyze personal records and game concept",
   "titleGenerationStatus": "success",
   "createdAt": 1782402266897,
-  "updatedAt": 1782405273503,
-  "lastResponseAt": 1782405273503,
+  "updatedAt": 1782485601878,
+  "lastResponseAt": 1782485109996,
   "sessionId": "970149de-4a9d-4f7e-bd18-e398de8650f4",
   "providerState": {
     "providerSessionId": "970149de-4a9d-4f7e-bd18-e398de8650f4",
@@ -607,11 +607,12 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 410,
+    "inputTokens": 203,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 146432,
-    "contextWindow": 200000,
-    "contextTokens": 146842,
-    "percentage": 73
+    "cacheReadInputTokens": 153344,
+    "contextWindow": 1000000,
+    "contextTokens": 153547,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
   }
 }
