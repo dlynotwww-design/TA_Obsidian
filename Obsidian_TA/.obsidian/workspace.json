@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_作品展示/04_Github/项目清单.md",
+                "file": "00_作品展示/03_AI/ClaudeCode/GitHub.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目清单"
+              "title": "GitHub"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_作品展示/04_Github/项目清单.md",
+                "file": "00_作品展示/03_AI/ClaudeCode/GitHub.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目清单 的大纲"
+              "title": "GitHub 的大纲"
             }
           },
           {
@@ -230,10 +230,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "aba3c6866dbb5a58",
   "lastOpenFiles": [
-    "00_作品展示/03_AI/ClaudeCode/Git.md",
     "00_作品展示/04_Github/项目清单.md",
+    "00_作品展示/03_AI/ClaudeCode/GitHub.md",
     "00_作品展示/03_AI/ClaudeCode/官方教程链接.md",
     "00_作品展示/03_AI/AI_Basic/AI学习研究完整教程（第一期）.md",
     "00_作品展示/MyGame/DevLog/Claude/twinkly-splashing-parasol.md",
