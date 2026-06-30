@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_作品展示/04_Github/项目清单.md",
+                "file": "00_作品展示/TA项目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目清单"
+              "title": "TA项目"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_作品展示/04_Github/项目清单.md",
+                "file": "00_作品展示/TA项目.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目清单 的大纲"
+              "title": "TA项目 的大纲"
             }
           },
           {
@@ -233,15 +233,30 @@
   },
   "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "00_作品展示/04_Github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
+    "00_作品展示/作品结构.md",
+    "00_作品展示/05_TechNew/USD_历史发展.md",
+    "00_作品展示/05_TechNew/USD_流程概念.md",
+    "00_作品展示/05_TechNew/USD_历史发展.md.tmp.14812.ca8272da9aca",
+    "00_作品展示/05_TechNew/3DGS_最新发展_2026.md",
+    "00_作品展示/05_TechNew/USD_流程概念.md.tmp.14812.cf73323b70e2",
+    "00_作品展示/05_DigtalTechNew/Gaussian Splatting.md",
+    "00_作品展示/02_PCG研究/3DGS_最新发展_2026.md.tmp.14812.c073f8964b62",
+    "00_作品展示/05_TechNew/USD.md",
+    "00_作品展示/TA项目.md",
+    "00_作品展示/05_TechNew",
+    "01_知识库/02_计算机基础/转码.md",
+    "01_知识库/02_计算机基础/00_计算机知识学习.md",
+    "01_知识库/01_图形学/BookMD/Real-Time_Rendering_3rd_提炼总结.md",
+    "01_知识库/01_图形学/BookMD/PCG.md",
+    "01_知识库/01_图形学/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
+    "01_知识库/01_图形学/BookMD/游戏造梦师游戏场景开发与设计.md",
     "00_作品展示/04_Github/项目清单.md",
+    "00_作品展示/04_Github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
     "02_个人/book链接.md",
     "02_个人/00_面试准备/00_技术美术 简历.md",
     "02_个人/2026-06-21计划.md",
     "00_作品展示/01_项目文档/测试题/01_空间切换/空间切换.md",
     "00_作品展示/00_TAFolder.md",
-    "00_作品展示/作品结构.md",
-    "00_作品展示/TA项目.md",
     "02_个人/00_PDF/Claude-Code-Complete-Guide-zh-v260411.pdf",
     "02_个人/00_PDF/Agent-Skills-Complete-Guide-zh-v260411.pdf",
     "00_作品展示/03_AI/pdf.md",
@@ -252,24 +267,9 @@
     "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
     "00_作品展示/03_AI/ClaudeCode/官方教程链接.md",
     "00_作品展示/03_AI/ClaudeCode/GitHub.md",
-    "00_作品展示/03_AI/AI落地环节排序.md",
-    "02_个人/00_面试准备/PCG方向TA市场分析与UE项目调研.md",
-    "02_个人/00_面试准备/网易面试回答.md",
-    "02_个人/00_面试准备/网易技术美术_网络面经汇总.md",
-    "02_个人/00_面试准备/腾讯魔方面试准备--准备内容偏差太大.md",
-    "02_个人/00_面试准备/面试经验.md",
-    "02_个人/00_面试准备/00_岗位JD.md",
-    "02_个人/00_面试准备/00_技术美术 简历_PCG方向.md",
-    "02_个人/00_面试准备/00_职业发展.md",
-    "00_作品展示/03_AI/UE/MCP.md",
+    "00_作品展示/03_AI/AI+PCG工作流/00_游戏项目AI落地环节排序.md",
     "00_作品展示/03_AI/UE_MCP/未命名",
-    "00_作品展示/03_AI/UE/AI蓝图生成器插件 - AI Engine Assistant - Kibibyte Labs (Blueprint Generator & More!).md",
-    "00_作品展示/03_AI/UE/蓝图智能工具 — 自动将蓝图转换为C++代码 - Blueprint Intelligence - Convert Blueprints to C++ code automatically.md",
     "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
-    "未命名",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md.tmp.20020.db7c865109a2",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md.tmp.20020.07999c085563",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md.tmp.20020.2e62f2843eb0",
     "00_作品展示/MyGame/癫狂的世界设计.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625231237.png",
     "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
