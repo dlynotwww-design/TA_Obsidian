@@ -1,6 +1,6 @@
 ---
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-27 22:00
 tags:
   - claude-code
   - 参考手册
@@ -314,91 +314,113 @@ winget install Anthropic.ClaudeCode
 
 | 命令 | 说明 |
 |------|------|
-| `/clear` | 清空当前会话 |
-| `/compact` | 压缩会话（保留关键上下文，释放 Token） |
+| `/clear` | 清空当前会话（旧会话保留在 `/resume` 中） |
+| `/compact` | 压缩会话，释放上下文（支持传递焦点指令） |
 | `/resume` | 恢复之前的会话 |
-| `/cost` | 查看当前会话费用 |
-| `/context` | 查看 Context 用量 |
-| `/status` | 查看会话配置（模型、目录、Token） |
+| `/cost` | 查看当前会话费用（别名 `/usage`） |
+| `/context` | 可视化上下文用量 |
+| `/status` | 查看版本、模型、账户和连接状态 |
 | `/doctor` | 诊断环境配置问题 |
 | `/rename` | 重命名会话 |
 | `/recap` | 生成会话摘要 |
 | `/btw` | 快速侧边提问（不影响主对话历史） |
+| `/rewind` | 回退代码和对话到检查点 |
+| `/export` | 导出对话为纯文本 |
 
 ### 配置与记忆
 
 | 命令 | 说明 |
 |------|------|
 | `/init` | 扫描项目生成 CLAUDE.md |
-| `/config` | 打开设置界面（`/config key=value` 直接修改单项） |
+| `/config` | 打开设置界面（支持 `key=value` 直接修改单项） |
+| `/memory` | 编辑 CLAUDE.md 文件、开关 auto-memory |
 | `/theme` | 切换终端主题 |
 | `/model` | 切换模型 |
-| `/permissions` | 管理权限 |
-| `/terminal-setup` | 配置终端绑定 |
-| `/voice` | 配置语音输入 |
+| `/permissions` | 管理工具权限规则 |
+| `/hooks` | 查看 Hook 配置 |
+| `/keybindings` | 打开键盘快捷键文件 |
+| `/terminal-setup` | 配置终端键位绑定 |
+| `/voice` | 配置语音输入（`hold` / `tap` / `off`） |
 
-### 项目管理
+### 并行与后台
 
 | 命令 | 说明 |
 |------|------|
+| `/agents` | 管理子代理配置 |
+| `/tasks` | 查看/管理所有后台任务 |
+| `/background` | 将会话转为后台运行（别名 `/bg`） |
+| `/schedule` | 创建定时例行任务（Routines，云端执行） |
+| `/loop` | 循环执行提示（Skill） |
 | `/add-dir` | 添加额外工作目录 |
-| `/agents` | 查看/管理后台代理 |
-| `/todos` | 查看任务列表 |
-| `/schedule` | 创建定时例行任务 |
-| `/loop` | 循环执行提示 |
 | `/mcp` | 管理 MCP 服务器连接 |
 | `/plugin` | 管理插件 |
 | `/desktop` | 将会话移交到桌面应用 |
+| `/workflows` | 查看/管理工作流 |
 
 ### 开发工作流
 
 | 命令 | 说明 |
 |------|------|
-| `/code-review` | 代码审查 |
-| `/review-pr` | 审查 Pull Request |
-| `/debug` | 调试辅助 |
-| `/ultrareview` | 深度审查 |
-| `/workflows` | 查看/管理工作流 |
-| `/output-style` | 切换输出风格 |
+| `/code-review` | 代码审查（Skill，支持 `--fix` `--comment` `ultra`） |
+| `/review` | 审查 GitHub Pull Request |
+| `/debug` | 调试辅助（Skill） |
+| `/ultrareview` | 深度审查（别名 `/code-review ultra`） |
+| `/simplify` | 代码清理审查（Skill） |
+| `/security-review` | 安全漏洞审查 |
+| `/diff` | 交互式 diff 查看器 |
+| `/plan` | 进入计划模式 |
+| `/run` | 启动并驱动项目应用（Skill） |
+| `/verify` | 验证代码改动（Skill） |
 
 ---
 
 ## 六、CLAUDE.md（项目记忆）
 
-### 四层优先级
+### 存储位置
 
-| 优先级 | 位置 | 作用范围 |
-|--------|------|----------|
-| **最高**（就近覆盖） | 内联 `@CLAUDE.md` | 当前对话临时说明 |
-| **高** | 子目录 `CLAUDE.md` | 该子目录及下层 |
-| **中** | 项目根 `CLAUDE.md` | 整个项目 |
-| **低** | `~/.claude/CLAUDE.md` | 所有项目 |
+CLAUDE.md 文件可以放在多个位置，每个位置的加载顺序从最广泛到最具体，**所有文件的内容都会拼接进上下文，不会互相覆盖**：
 
-### 推荐模板
+| 位置 | 作用范围 | 用途 |
+|------|----------|------|
+| 系统级：`/Library/Application Support/ClaudeCode/CLAUDE.md`（macOS）等 | 组织全员 | 公司编码标准、安全策略 |
+| `~/.claude/CLAUDE.md` | 个人，所有项目 | 代码风格偏好、个人工具链 |
+| `./CLAUDE.md` 或 `./.claude/CLAUDE.md` | 项目，所有协作者 | 项目架构、构建命令、编码规范 |
+| `./CLAUDE.local.md` | 个人，仅当前项目（加入 `.gitignore`） | 个人沙箱 URL、测试数据偏好 |
+
+### .claude/rules/ 规则文件
+
+在 `.claude/rules/` 目录下按主题拆分指令文件。支持通过 YAML frontmatter 中 `paths` 字段限定规则只对特定文件生效：
 
 ```markdown
-# 项目意图
-[一句话定位]。核心用户：[谁]。当前阶段：[原型/内测/上线]。
+---
+paths:
+  - "src/api/**/*.ts"
+---
 
-# 技术栈
-- 语言/框架/数据库/部署
-
-# 禁止改动
-- 不要修改 `core/` 下的文件
-- 不要引入新的全量依赖
-
-# 验收标准
-- 改动前跑测试
-- 接口变动需同步文档
-
-# 工作流
-- 默认 Plan Mode
-- 大改动先开 plan.md
+# API 开发规范
+- 所有 API 端点必须包含输入校验
 ```
+
+### 导入其他文件
+
+CLAUDE.md 中可用 `@path/to/file` 语法导入其他文件。导入的文件在启动时加载进上下文。
+
+```markdown
+@AGENTS.md
+
+## Claude Code 专属
+使用 Plan Mode 处理 `src/billing/` 下的改动。
+```
+
+### Auto Memory（自动记忆）
+
+Claude 自动写入 `~/.claude/projects/<project>/memory/MEMORY.md`，记录构建命令、调试经验、代码风格偏好等。首 200 行（或 25KB）在每个会话启动时加载。通过 `/memory` 管理。
 
 ---
 
 ## 七、Skills（自定义技能）
+
+Skills 和自定义命令已合并——`.claude/commands/deploy.md` 和 `.claude/skills/deploy/SKILL.md` 效果相同。Skills 额外支持：附属文件目录、frontmatter 控制调用方式、Claude 自动加载。
 
 ### 目录结构
 
@@ -430,19 +452,54 @@ description: 触发条件描述。关键词：[列表]
 3. 输出到指定位置
 ```
 
+### 调用控制
+
+通过 frontmatter 控制技能的调用方式：
+
+| 字段 | 说明 |
+|------|------|
+| `name` | 技能名（必填） |
+| `description` | 描述（Claude 据此判断何时自动调用） |
+| `allowed-tools` | 限制技能可用工具 |
+| `model` | 指定运行该技能的模型 |
+
+> **Skills 管流程，MCP 管连接，子代理管分工。**
+
 ---
 
 ## 八、MCP（Model Context Protocol）
 
+MCP 是连接 AI 工具与外部数据源的开源标准。Claude Code 可通过 MCP 连接数百个外部工具：Jira、Sentry、Slack、Google Drive、PostgreSQL 等。
+
+### CLI 命令
+
 | 命令 | 说明 |
 |------|------|
 | `claude mcp` | 打开 MCP 管理面板 |
+| `claude mcp add <name> <type> <url>` | 添加 MCP 服务器 |
+| `claude mcp remove <name>` | 移除 MCP 服务器 |
 | `claude mcp login <name>` | OAuth 认证 MCP 服务器 |
 | `claude mcp logout <name>` | 清除 OAuth 凭据 |
 | `--mcp-config <files>` | 启动时加载 MCP 配置 |
-| `--strict-mcp-config` | 仅使用指定的 MCP 配置 |
+| `--strict-mcp-config` | 仅使用 `--mcp-config` 指定的 MCP 服务器 |
 
-> **Skills 管流程，MCP 管连接，子代理管分工。**
+### 会话内命令
+
+| 命令 | 说明 |
+|------|------|
+| `/mcp` | 打开交互式 MCP 管理面板 |
+| `/mcp reconnect <server>` | 重连断开的服务器 |
+| `/mcp enable/disable <server\|all>` | 启用/禁用服务器 |
+
+### MCP Prompts
+
+MCP 服务器可以暴露 Prompts，格式为 `/mcp__<server>__<prompt>`，在 `/` 菜单中自动发现。
+
+### 资源与安全
+
+- MCP 服务器在 Claude 请求时读取资源，不会自动扫描整个服务器
+- 添加远程服务器前需批准连接
+- 可在 settings 中的 `permissions` 下配置 MCP 工具的 allow/ask/deny 规则
 
 ---
 
@@ -457,17 +514,22 @@ description: 触发条件描述。关键词：[列表]
 
 ---
 
-## 十、常用工作模式
+## 十、权限模式
 
-| 模式 | 快捷键 | 适用场景 |
-|------|--------|----------|
-| **Normal** | `Shift+Tab` | 边问边做，标准对话 |
-| **Plan** | `Shift+Tab` | 先规划再执行，复杂任务推荐 |
-| **Auto** | `Shift+Tab` | 全自动模式，Claude 自主决策 |
-| **Accept Edits** | `Shift+Tab` | 自动接受编辑，跳过一次确认 |
-| **Bypass Permissions** | 需手动启用 | 跳过所有权限提示（CI/脚本） |
+| 模式 | 无提示自动执行的内容 | 适用场景 |
+|------|------|----------|
+| **Default** | 仅读取 | 入门、敏感操作 |
+| **Accept Edits** | 读取 + 文件编辑 + 常见文件系统命令（`mkdir`、`mv`、`cp` 等） | 边改边审 |
+| **Plan** | 仅读取 | 先探索代码再改动 |
+| **Auto** | 全部（后台安全检查） | 长任务、减少提示疲劳 |
+| **DontAsk** | 仅预批准的工具 | 锁定的 CI/脚本环境 |
+| **Bypass Permissions** | 全部 | 仅隔离容器/VM |
 
-> **建议**：80% 的任务在 Plan Mode 跑。Auto Mode 适合简单明确的任务。
+`Shift+Tab` 循环切换：`default` → `acceptEdits` → `plan`。`auto` 和 `bypassPermissions` 需满足条件才出现在循环中。
+
+### Protected Paths（受保护路径）
+
+在 `bypassPermissions` 以外的所有模式下，对以下目录/文件的写入绝不自动批准：`.git`、`.vscode`、`.idea`、`.husky`、`.bashrc`、`.zshrc`、`.npmrc`、`.mcp.json`、`.claude/`（`worktrees` 除外）等。
 
 ---
 
@@ -485,45 +547,36 @@ description: 触发条件描述。关键词：[列表]
 - 支持 `Ctrl+B` 后台化长时间命令
 - 支持 `Tab` 历史自动补全
 - 退出：空提示下按 `Esc`、`Backspace` 或 `Ctrl+U`
+- v2.1.186+：命令执行完后 Claude 自动分析输出并回复（此前版本需手动追问）
+
+可通过设置 `"respondToBashCommands": false` 恢复旧行为。
 
 ---
 
-## 十二、配置环境变量（常用）
+## 十二、环境变量
+
+环境变量可在 shell 中设置，也可在 `settings.json` 的 `env` 字段下配置。常用变量：
 
 | 变量 | 说明 |
 |------|------|
 | `ANTHROPIC_MODEL` | 设置默认模型 |
 | `ANTHROPIC_API_KEY` | API Key（使用 API 计费时） |
+| `ANTHROPIC_BASE_URL` | 自定义 API 端点 |
 | `CLAUDE_CODE_SIMPLE` | 简化模式（等同 `--bare`） |
 | `CLAUDE_CODE_SAFE_MODE` | 安全模式 |
 | `CLAUDE_CODE_SKIP_PROMPT_HISTORY` | 禁用会话持久化 |
 | `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION` | 控制提示建议（`true`/`false`） |
 | `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS` | 禁用后台任务 |
+| `CLAUDE_CODE_DISABLE_AUTO_MEMORY` | 禁用自动记忆 |
 | `CLAUDE_CODE_DEBUG_LOGS_DIR` | 调试日志目录 |
 | `CLAUDE_CODE_TASK_LIST_ID` | 命名任务列表路径 |
 | `CLAUDE_AX_SCREEN_READER` | 屏幕阅读器模式 |
-
----
-
-## 十三、急救三步（卡死时用）
-
-| 步骤 | 操作 | 说明 |
-|------|------|------|
-| **1. 中断** | `Ctrl+C` | 掐掉正在跑的循环 |
-| **2. 清空** | `/clear` | 清掉全部历史包袱 |
-| **3. 重述** | 重新描述任务 | 基于学到的"它会卡在哪"，Prompt 写得更具体 |
-
-### 五大常见错误
-
-| # | 错误 | 解决 |
-|----|------|------|
-| 1 | Token 烧爆 | `/compact` 或 `/clear` |
-| 2 | 没 Plan 直接 Auto | 80% 任务在 Plan Mode 跑 |
-| 3 | 没写 CLAUDE.md | 进项目先 `/init` |
-| 4 | `@` 错大文件 | `@` 之前确认是否真的需要 |
-| 5 | 一个对话塞五件事 | 一个 Prompt 一件事 |
+| `CLAUDE_CODE_USE_BEDROCK` | 启用 Amazon Bedrock |
+| `CLAUDE_CODE_USE_VERTEX` | 启用 Google Vertex AI |
+| `CLAUDE_CODE_ENABLE_AUTO_MODE` | 在 Bedrock/Vertex/Foundry 上启用 Auto Mode |
+| `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD` | 从 `--add-dir` 目录加载 CLAUDE.md |
+| `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX` | Remote Control 会话名前缀 |
 
 ---
 
 > 📚 **官方文档**：[code.claude.com/docs](https://code.claude.com/docs)
-> 📖 **橙皮书**：花叔《Claude Code 完全指南》[GitHub](https://github.com/alchaincyf/claude-code-orange-book)

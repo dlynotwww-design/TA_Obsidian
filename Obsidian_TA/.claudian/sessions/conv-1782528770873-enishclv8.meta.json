@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782528770873-enishclv8",
+  "providerId": "claude",
+  "title": "Compile manual from official website content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782528770873,
+  "updatedAt": 1782528992088,
+  "lastResponseAt": 1782528992088,
+  "sessionId": "7d9676b9-e407-40ed-8dd9-3586e97c5d26",
+  "providerState": {
+    "providerSessionId": "7d9676b9-e407-40ed-8dd9-3586e97c5d26"
+  },
+  "currentNote": "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 87351,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 3712,
+    "contextWindow": 200000,
+    "contextTokens": 91063,
+    "percentage": 46
+  }
+}
