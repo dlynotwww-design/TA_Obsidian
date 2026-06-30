@@ -1,0 +1,26 @@
+{
+  "id": "conv-1782826259447-szw4puv86",
+  "providerId": "claude",
+  "title": "List folder structure of 00_作品展示",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782826259447,
+  "updatedAt": 1782828641317,
+  "lastResponseAt": 1782828641317,
+  "sessionId": "be1f185c-7a68-47ac-8e35-2f64ebaaa2e1",
+  "providerState": {
+    "providerSessionId": "be1f185c-7a68-47ac-8e35-2f64ebaaa2e1"
+  },
+  "externalContextPaths": [
+    "D:\\TA\\TA_Obsidian\\Obsidian_TA\\02_个人\\00_面试准备"
+  ],
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 37123,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36864,
+    "contextWindow": 1000000,
+    "contextTokens": 73987,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}

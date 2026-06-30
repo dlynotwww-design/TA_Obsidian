@@ -4,13 +4,12 @@
   "title": "Compile manual from official website content",
   "titleGenerationStatus": "success",
   "createdAt": 1782528770873,
-  "updatedAt": 1782528992088,
+  "updatedAt": 1782826204114,
   "lastResponseAt": 1782528992088,
   "sessionId": "7d9676b9-e407-40ed-8dd9-3586e97c5d26",
   "providerState": {
     "providerSessionId": "7d9676b9-e407-40ed-8dd9-3586e97c5d26"
   },
-  "currentNote": "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
   "usage": {
     "model": "opus",
     "inputTokens": 87351,
