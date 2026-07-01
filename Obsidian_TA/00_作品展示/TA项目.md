@@ -1,5 +1,33 @@
 # TA项目
 
+## 个人项目--AI开发工具+PCG
+
+### AI使用，解释代码，写技术文档
+
+- ClaudeCode
+
+- houdini：解释代码
+
+- UE：蓝图转c++，代码解释
+- 材质辅助工具
+
+- ComfyUI接入ue
+
+- Meshy接入ue
+
+### Houdini_Demo
+
+- psd转街区，地形
+- 独立UI界面，Python开发
+
+- PDG
+
+- AI生成资产，程序化处理，独立UI
+
+### 黑客帝国
+
+### 游戏流程Demo
+
 ## 万维猫项目
 
 ### Houdini应用
@@ -81,34 +109,6 @@
 ### 解决美术问题，整理文档
 
 - 美术问题汇总 → [[UE常见美术问题及解决方案|UE常见美术问题及解决方案]]
-
-## 个人项目
-
-### AI使用，解释代码，写技术文档
-
-- ClaudeCode
-
-- houdini：解释代码
-
-- UEMPC：解释代码
-
-- ComfyUI
-
-- Meshy
-
-### Houdini_Demo
-
-- PDG
-
-- Python开发
-
-- AI开发
-
-- AI资产
-
-### 黑客帝国
-
-### 游戏流程Demo
 
 ## 弥华
 

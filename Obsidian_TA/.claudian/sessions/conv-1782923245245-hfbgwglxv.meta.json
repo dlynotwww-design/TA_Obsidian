@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782923245245-hfbgwglxv",
+  "providerId": "claude",
+  "title": "Find Obsidian plugins for folder content graph ...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782923245245,
+  "updatedAt": 1782923294957,
+  "lastResponseAt": 1782923294957,
+  "sessionId": "ed435159-beb7-4051-84d1-1894e7faa469",
+  "providerState": {
+    "providerSessionId": "ed435159-beb7-4051-84d1-1894e7faa469"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 3101,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29440,
+    "contextWindow": 200000,
+    "contextTokens": 32541,
+    "percentage": 16
+  }
+}

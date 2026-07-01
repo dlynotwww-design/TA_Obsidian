@@ -4,35 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "85423a642184c21f",
+        "id": "0c7b74f53cf8eced",
         "type": "tabs",
         "children": [
           {
-            "id": "aba3c6866dbb5a58",
+            "id": "6ef3a37a7e01e802",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00_作品展示/00_TAFolder.md",
-                "mode": "source",
-                "source": false
+                "file": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
+                "viewState": {
+                  "x": 890.7109552796039,
+                  "y": 605.4291854705039,
+                  "zoom": -1.3333334189194934
+                }
               },
-              "icon": "lucide-file",
-              "title": "00_TAFolder"
+              "icon": "lucide-layout-dashboard",
+              "title": "游戏开发美术与程序岗位职责"
             }
           },
           {
-            "id": "277e52a80d81692b",
+            "id": "64f777a3926803e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00_作品展示/05_TechNew/3DGS_历史发展.md",
-                "mode": "source",
-                "source": false
+                "file": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
+                "viewState": {
+                  "x": 626.7909069616701,
+                  "y": 767.6721087902667,
+                  "zoom": -1.0601876765181972
+                }
               },
-              "icon": "lucide-file",
-              "title": "3DGS_历史发展"
+              "icon": "lucide-layout-dashboard",
+              "title": "游戏开发美术与程序岗位职责"
+            }
+          },
+          {
+            "id": "c40c82023329881f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ],
@@ -93,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5096130371094
+    "width": 370.5096130371094
   },
   "right": {
     "id": "251f1ae9715bb4ec",
@@ -171,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_作品展示/05_TechNew/3DGS_历史发展.md",
+                "file": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3DGS_历史发展 的大纲"
+              "title": "游戏开发美术与程序岗位职责 的大纲"
             }
           },
           {
@@ -211,11 +227,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 633.5
+    "width": 567.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,66 +244,66 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "realclaudian:Open Claudian": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "lemon-vault-dashboard:仓库仪表盘": false
     }
   },
-  "active": "277e52a80d81692b",
+  "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "02_个人/00_面试准备/00_技术美术 简历.md",
-    "00_作品展示/05_TechNew/3DGS_历史发展.md",
-    "00_作品展示/05_TechNew/3DGS_历史发展.md.tmp.14812.8b60f1744384",
-    "00_作品展示/TA项目.md",
-    "00_作品展示/作品结构.md",
-    "00_作品展示/05_TechNew/USD_历史发展.md",
-    "00_作品展示/05_TechNew/USD_流程概念.md",
-    "00_作品展示/05_TechNew/USD_历史发展.md.tmp.14812.ca8272da9aca",
-    "00_作品展示/05_TechNew/3DGS_最新发展_2026.md",
-    "00_作品展示/05_TechNew/USD_流程概念.md.tmp.14812.cf73323b70e2",
-    "00_作品展示/05_DigtalTechNew/Gaussian Splatting.md",
-    "00_作品展示/02_PCG研究/3DGS_最新发展_2026.md.tmp.14812.c073f8964b62",
-    "00_作品展示/05_TechNew/USD.md",
-    "00_作品展示/05_TechNew",
-    "01_知识库/02_计算机基础/转码.md",
-    "01_知识库/02_计算机基础/00_计算机知识学习.md",
-    "01_知识库/01_图形学/BookMD/Real-Time_Rendering_3rd_提炼总结.md",
-    "01_知识库/01_图形学/BookMD/PCG.md",
-    "01_知识库/01_图形学/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
-    "01_知识库/01_图形学/BookMD/游戏造梦师游戏场景开发与设计.md",
-    "00_作品展示/04_Github/项目清单.md",
-    "00_作品展示/04_Github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
-    "02_个人/book链接.md",
-    "02_个人/2026-06-21计划.md",
-    "00_作品展示/01_项目文档/测试题/01_空间切换/空间切换.md",
-    "00_作品展示/00_TAFolder.md",
-    "02_个人/00_PDF/Claude-Code-Complete-Guide-zh-v260411.pdf",
-    "02_个人/00_PDF/Agent-Skills-Complete-Guide-zh-v260411.pdf",
-    "00_作品展示/03_AI/pdf.md",
-    "02_个人/00_PDF/Obsidian-AI-v1.0.0.pdf",
-    "02_个人/00_PDF",
-    "02_个人/新建文件夹",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 操作命令速查表.md",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
-    "00_作品展示/03_AI/ClaudeCode/官方教程链接.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/UI_UX.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/UE5游戏项目流程.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.md",
     "00_作品展示/03_AI/ClaudeCode/GitHub.md",
     "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
+    "01_知识库/04_Unity/Unity知识库导航.md",
+    "01_知识库/04_Unity/Unity shader课程及git工程.md",
+    "01_知识库/04_Unity/TA技术美术学习体系框架 （别再买垃圾教程了）_哔哩哔哩_bilibili.md",
+    "01_知识库/04_Unity/Kerry技术美术入门：渲染管线概述.md",
+    "01_知识库/04_Unity/00_Unity相关.canvas",
+    "01_知识库/04_Unity/《Unity Shader 入门精要》完结_哔哩哔哩_bilibili.md",
+    "01_知识库/04_Unity/resources/02.png",
+    "01_知识库/04_Unity/resources/01.png",
+    "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
+    "01_知识库/04_Unity/resources/Pasted image 20260605170637.png",
+    "01_知识库/04_Unity/resources/Pasted image 20260605170044.png",
+    "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
+    "01_知识库/04_Unity/resources/Pasted image 20260603230236.png",
+    "00_作品展示/00_流程规范/影视项目UE流程化.md",
+    "00_作品展示/TA项目.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas.tmp.27068.55676a088ec4",
+    "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
+    "00_作品展示/03_AI/ClaudeCode/Claude Code 操作命令速查表.md",
+    "00_作品展示/03_AI/ClaudeCode/官方教程链接.md",
+    "00_作品展示/03_AI/UE/MCP.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/AI游戏开发生产流程.canvas",
+    "00_作品展示/03_AI/UE/Experimental MCP Server Support Walkthrough.md",
+    "00_作品展示/03_AI/UE/Claude Code + 虚幻引擎 5：两个免费 MCP 插件，用 AI 做游戏.md",
+    "00_作品展示/03_AI/UE/AI蓝图生成器插件 - AI Engine Assistant - Kibibyte Labs (Blueprint Generator & More!).md",
+    "00_作品展示/03_AI/UE/蓝图智能工具 — 自动将蓝图转换为C++代码 - Blueprint Intelligence - Convert Blueprints to C++ code automatically.md",
+    "02_个人/00_面试准备/00_岗位JD.md",
+    "00_作品展示/03_AI/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
+    "02_个人/00_面试准备/00_职业发展.md",
+    "00_作品展示/03_AI/AIgame/soon.md",
+    "00_作品展示/03_AI/AIgame/taptap.md",
+    "00_作品展示/05_TechNew/AI游戏开发生产流程.canvas.tmp.8928.96295613c0ac",
+    "00_作品展示/05_TechNew/游戏开发美术与程序岗位职责.md.tmp.8928.41ce9f5b2921",
+    "00_作品展示/05_TechNew/3DGS_历史发展.md.tmp.14812.8b60f1744384",
+    "00_作品展示/05_TechNew/USD_历史发展.md.tmp.14812.ca8272da9aca",
+    "00_作品展示/05_TechNew/USD_流程概念.md.tmp.14812.cf73323b70e2",
+    "00_作品展示/02_PCG研究/3DGS_最新发展_2026.md.tmp.14812.c073f8964b62",
+    "00_作品展示/05_TechNew",
+    "02_个人/00_PDF/Claude-Code-Complete-Guide-zh-v260411.pdf",
+    "02_个人/00_PDF/Agent-Skills-Complete-Guide-zh-v260411.pdf",
     "00_作品展示/MyGame/癫狂的世界设计.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625231237.png",
     "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625225236.png",
     "00_作品展示/MyGame/附件/Pasted image 20260625224923.png",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
-    "01_知识库/04_Unity/00_Unity相关.canvas",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170637.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170044.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
-    "01_知识库/04_Unity/resources/02.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260603230236.png",
-    "01_知识库/04_Unity/resources/01.png",
     "01_知识库/15_Unity/00_Unity相关.canvas",
     "00_Project/00_工作/影视流程/影视项目UE流程化.canvas",
-    "00_Project/00_工作/UE5游戏项目流程/场景大世界管线详解.canvas",
-    "00_Project/00_PCG/07_生态群落/Biomes In Unreal Engine.canvas",
-    "Unity/00_Unity相关.canvas"
+    "00_Project/00_工作/UE5游戏项目流程/场景大世界管线详解.canvas"
   ]
 }

@@ -13,22 +13,6 @@ tags:
 ---
 ## 《Unity Shader 入门精要》完结
 
-22.8万
-
-652
-
-<video src="blob:https://www.bilibili.com/effdb051-d08f-49c8-9b1e-e7f0cc0ceaa6" controls=""></video>
-
-关注
-
-正在缓冲...
-
-5人正在看
-
-已关闭弹幕
-
-[弹幕礼仪](https://www.bilibili.com/blackboard/help.html#/?qid=359&pid=357)
-
 优先使用播放器内置策略播放
 
 优先使用 AV1 编码视频播放

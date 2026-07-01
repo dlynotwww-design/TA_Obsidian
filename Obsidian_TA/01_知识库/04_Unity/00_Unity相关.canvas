@@ -15,7 +15,7 @@
 		{"id":"fa37e272f849a99c","type":"file","file":"Unity/网易计算机课程.md","x":1260,"y":-703,"width":486,"height":201},
 		{"id":"fc90d4a4270efcd8","type":"file","file":"Unity/ABOUTCG视频教程.md","x":1814,"y":-703,"width":456,"height":201},
 		{"id":"5e5916afa2ad8108","type":"file","file":"Unity/resources/02.png","x":1142,"y":205,"width":593,"height":193},
-		{"id":"22f4456ee09a581a","type":"file","file":"Unity/resources/01.png","x":1142,"y":-158,"width":580,"height":282},
+		{"id":"22f4456ee09a581a","type":"file","file":"01_知识库/04_Unity/resources/01.png","x":1142,"y":-158,"width":580,"height":282},
 		{"id":"7e7f48a3eb067eb5","type":"file","file":"Unity/resources/Pasted image 20260605165655.png","x":1142,"y":488,"width":413,"height":136},
 		{"id":"7d8acf40c1485f98","type":"text","text":"shader入门精要[[UnityShader入门精要.pdf]]","x":1162,"y":763,"width":400,"height":50},
 		{"id":"b666be3d1cdd93ed","type":"text","text":"GPU阳春白雪[[GPU编程与CG语言之阳春白雪下里巴人.pdf]]","x":1162,"y":846,"width":400,"height":50},

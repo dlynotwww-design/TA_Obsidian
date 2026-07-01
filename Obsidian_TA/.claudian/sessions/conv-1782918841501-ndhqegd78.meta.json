@@ -1,0 +1,22 @@
+{
+  "id": "conv-1782918841501-ndhqegd78",
+  "providerId": "claude",
+  "title": "Render document content to canvas",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782918841501,
+  "updatedAt": 1782922033235,
+  "lastResponseAt": 1782922033235,
+  "sessionId": "ec7f869b-b627-42df-9d05-c42dfabc4f8e",
+  "providerState": {
+    "providerSessionId": "ec7f869b-b627-42df-9d05-c42dfabc4f8e"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1322,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 85888,
+    "contextWindow": 200000,
+    "contextTokens": 87210,
+    "percentage": 44
+  }
+}

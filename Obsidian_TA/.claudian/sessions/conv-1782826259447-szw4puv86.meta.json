@@ -4,20 +4,20 @@
   "title": "List folder structure of 00_作品展示",
   "titleGenerationStatus": "success",
   "createdAt": 1782826259447,
-  "updatedAt": 1782836939099,
-  "lastResponseAt": 1782836939099,
+  "updatedAt": 1782918820838,
+  "lastResponseAt": 1782914648568,
   "sessionId": "be1f185c-7a68-47ac-8e35-2f64ebaaa2e1",
   "providerState": {
     "providerSessionId": "be1f185c-7a68-47ac-8e35-2f64ebaaa2e1"
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 85776,
+    "inputTokens": 3319,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 18432,
+    "cacheReadInputTokens": 117376,
     "contextWindow": 1000000,
-    "contextTokens": 104208,
-    "percentage": 10,
+    "contextTokens": 120695,
+    "percentage": 12,
     "contextWindowIsAuthoritative": true
   }
 }
