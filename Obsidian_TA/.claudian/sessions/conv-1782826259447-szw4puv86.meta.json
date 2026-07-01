@@ -4,23 +4,20 @@
   "title": "List folder structure of 00_作品展示",
   "titleGenerationStatus": "success",
   "createdAt": 1782826259447,
-  "updatedAt": 1782833896331,
-  "lastResponseAt": 1782833896331,
+  "updatedAt": 1782836939099,
+  "lastResponseAt": 1782836939099,
   "sessionId": "be1f185c-7a68-47ac-8e35-2f64ebaaa2e1",
   "providerState": {
     "providerSessionId": "be1f185c-7a68-47ac-8e35-2f64ebaaa2e1"
   },
-  "externalContextPaths": [
-    "D:\\TA\\TA_Obsidian\\Obsidian_TA\\02_个人\\00_面试准备"
-  ],
   "usage": {
     "model": "sonnet",
-    "inputTokens": 0,
+    "inputTokens": 85776,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 18432,
     "contextWindow": 1000000,
-    "contextTokens": 0,
-    "percentage": 0,
+    "contextTokens": 104208,
+    "percentage": 10,
     "contextWindowIsAuthoritative": true
   }
 }
