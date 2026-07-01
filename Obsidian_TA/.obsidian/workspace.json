@@ -42,6 +42,16 @@
             }
           },
           {
+            "id": "bd6993e65cb1aea0",
+            "type": "leaf",
+            "state": {
+              "type": "vault-dashboard-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "仓库仪表盘"
+            }
+          },
+          {
             "id": "c40c82023329881f",
             "type": "leaf",
             "state": {
@@ -52,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -248,7 +258,7 @@
       "lemon-vault-dashboard:仓库仪表盘": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "bd6993e65cb1aea0",
   "lastOpenFiles": [
     "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
