@@ -1,0 +1,16 @@
+{
+  "moduleEnabled": {},
+  "dashboard": {
+    "ignorePathPrefixes": "",
+    "showDiskFolderEstimate": false,
+    "scanYieldEvery": 25,
+    "deepLinkScanForOrphans": true,
+    "useBodyLinkScan": false
+  },
+  "identity": {
+    "showBadge": false,
+    "customText": "",
+    "badgeColor": "",
+    "opacity": 0.8
+  }
+}

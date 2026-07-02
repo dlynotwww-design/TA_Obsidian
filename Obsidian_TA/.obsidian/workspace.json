@@ -28,27 +28,14 @@
             "id": "64f777a3926803e1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
-                "viewState": {
-                  "x": 626.7909069616701,
-                  "y": 767.6721087902667,
-                  "zoom": -1.0601876765181972
-                }
+                "file": "Clippings/AeollAelib Digital Assets for Houdini FX.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "游戏开发美术与程序岗位职责"
-            }
-          },
-          {
-            "id": "bd6993e65cb1aea0",
-            "type": "leaf",
-            "state": {
-              "type": "vault-dashboard-view",
-              "state": {},
               "icon": "lucide-file",
-              "title": "仓库仪表盘"
+              "title": "AeollAelib Digital Assets for Houdini FX"
             }
           },
           {
@@ -62,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,13 +184,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "游戏开发美术与程序岗位职责 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -237,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -258,10 +244,13 @@
       "lemon-vault-dashboard:仓库仪表盘": false
     }
   },
-  "active": "bd6993e65cb1aea0",
+  "active": "64f777a3926803e1",
   "lastOpenFiles": [
-    "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.md",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas",
+    "Clippings/AeollAelib Digital Assets for Houdini FX.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.canvas",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas.tmp.9032.9bf878f118b6",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
     "00_作品展示/00_流程规范/UE5游戏项目流程/UI_UX.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/UE5游戏项目流程.md",
@@ -297,7 +286,6 @@
     "00_作品展示/03_AI/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
     "02_个人/00_面试准备/00_职业发展.md",
     "00_作品展示/03_AI/AIgame/soon.md",
-    "00_作品展示/03_AI/AIgame/taptap.md",
     "00_作品展示/05_TechNew/AI游戏开发生产流程.canvas.tmp.8928.96295613c0ac",
     "00_作品展示/05_TechNew/游戏开发美术与程序岗位职责.md.tmp.8928.41ce9f5b2921",
     "00_作品展示/05_TechNew/3DGS_历史发展.md.tmp.14812.8b60f1744384",
@@ -306,14 +294,12 @@
     "00_作品展示/02_PCG研究/3DGS_最新发展_2026.md.tmp.14812.c073f8964b62",
     "00_作品展示/05_TechNew",
     "02_个人/00_PDF/Claude-Code-Complete-Guide-zh-v260411.pdf",
-    "02_个人/00_PDF/Agent-Skills-Complete-Guide-zh-v260411.pdf",
     "00_作品展示/MyGame/癫狂的世界设计.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625231237.png",
     "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625225236.png",
     "00_作品展示/MyGame/附件/Pasted image 20260625224923.png",
     "01_知识库/15_Unity/00_Unity相关.canvas",
-    "00_Project/00_工作/影视流程/影视项目UE流程化.canvas",
-    "00_Project/00_工作/UE5游戏项目流程/场景大世界管线详解.canvas"
+    "00_Project/00_工作/影视流程/影视项目UE流程化.canvas"
   ]
 }

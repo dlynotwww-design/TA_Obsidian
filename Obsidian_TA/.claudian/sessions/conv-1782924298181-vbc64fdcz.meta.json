@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782924298181-vbc64fdcz",
+  "providerId": "claude",
+  "title": "Create 2D Game Job Position Diagram",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782924298181,
+  "updatedAt": 1782924429710,
+  "lastResponseAt": 1782924429710,
+  "sessionId": "9f686500-435e-46a6-adc7-8ce68ce3bfbf",
+  "providerState": {
+    "providerSessionId": "9f686500-435e-46a6-adc7-8ce68ce3bfbf"
+  },
+  "currentNote": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2139,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45440,
+    "contextWindow": 200000,
+    "contextTokens": 47579,
+    "percentage": 24
+  }
+}
