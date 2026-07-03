@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783093160535-78gkci9mo",
+  "providerId": "claude",
+  "title": "Script UrhoX engine with Lua 5.4",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783093160548,
+  "updatedAt": 1783093586501,
+  "lastResponseAt": 1783093586501,
+  "sessionId": "e73c3e5b-5ce5-47fd-a78a-947f45a3f917",
+  "providerState": {
+    "providerSessionId": "e73c3e5b-5ce5-47fd-a78a-947f45a3f917"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 5786,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43264,
+    "contextWindow": 200000,
+    "contextTokens": 49050,
+    "percentage": 25
+  }
+}

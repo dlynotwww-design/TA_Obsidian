@@ -25,27 +25,17 @@
             }
           },
           {
-            "id": "64f777a3926803e1",
+            "id": "c40c82023329881f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/AeollAelib Digital Assets for Houdini FX.md",
+                "file": "00_作品展示/03_AI/AIgame/taptap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AeollAelib Digital Assets for Houdini FX"
-            }
-          },
-          {
-            "id": "c40c82023329881f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "taptap"
             }
           }
         ],
@@ -244,10 +234,27 @@
       "lemon-vault-dashboard:仓库仪表盘": false
     }
   },
-  "active": "64f777a3926803e1",
+  "active": "c40c82023329881f",
   "lastOpenFiles": [
-    "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas",
+    "00_作品展示/TA项目.md",
+    "00_作品展示/作品结构.md",
+    "00_作品展示/MyGame/癫狂的世界设计.canvas",
+    "02_个人/API.md",
+    "Clippings/《InsideUE5》GameFeatures架构（一）发展由来.md",
+    "Clippings/1. 介绍  Shadertoy中文教程.md",
+    "Clippings/Advanced Road Generation  Erwin Heyms  Games Workshop.md",
+    "Untitled.md",
+    "00_作品展示/02_PCG研究/现代城市/pcg城市.canvas",
+    "00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png",
+    "00_作品展示/02_PCG研究/现代城市/附件",
+    "00_作品展示/02_PCG研究/00_PCG大纲_Houdini.md",
+    "01_知识库/00_Houdini/07_橘柚.md",
+    "01_知识库/00_Houdini/08_程序化建模案例.md",
+    "01_知识库/00_Houdini/03_城市生成.md",
+    "00_作品展示/02_PCG研究/典型案例/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
+    "Clippings/Aeollae_SVG SVG Importer and Exporter for Houdini.md",
     "Clippings/AeollAelib Digital Assets for Houdini FX.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas",
     "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.canvas",
     "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas.tmp.9032.9bf878f118b6",
     "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.md",
@@ -271,21 +278,9 @@
     "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
     "01_知识库/04_Unity/resources/Pasted image 20260603230236.png",
     "00_作品展示/00_流程规范/影视项目UE流程化.md",
-    "00_作品展示/TA项目.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas.tmp.27068.55676a088ec4",
     "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 操作命令速查表.md",
-    "00_作品展示/03_AI/ClaudeCode/官方教程链接.md",
-    "00_作品展示/03_AI/UE/MCP.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/AI游戏开发生产流程.canvas",
-    "00_作品展示/03_AI/UE/Experimental MCP Server Support Walkthrough.md",
-    "00_作品展示/03_AI/UE/Claude Code + 虚幻引擎 5：两个免费 MCP 插件，用 AI 做游戏.md",
-    "00_作品展示/03_AI/UE/AI蓝图生成器插件 - AI Engine Assistant - Kibibyte Labs (Blueprint Generator & More!).md",
-    "00_作品展示/03_AI/UE/蓝图智能工具 — 自动将蓝图转换为C++代码 - Blueprint Intelligence - Convert Blueprints to C++ code automatically.md",
-    "02_个人/00_面试准备/00_岗位JD.md",
-    "00_作品展示/03_AI/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
-    "02_个人/00_面试准备/00_职业发展.md",
-    "00_作品展示/03_AI/AIgame/soon.md",
     "00_作品展示/05_TechNew/AI游戏开发生产流程.canvas.tmp.8928.96295613c0ac",
     "00_作品展示/05_TechNew/游戏开发美术与程序岗位职责.md.tmp.8928.41ce9f5b2921",
     "00_作品展示/05_TechNew/3DGS_历史发展.md.tmp.14812.8b60f1744384",
@@ -293,13 +288,9 @@
     "00_作品展示/05_TechNew/USD_流程概念.md.tmp.14812.cf73323b70e2",
     "00_作品展示/02_PCG研究/3DGS_最新发展_2026.md.tmp.14812.c073f8964b62",
     "00_作品展示/05_TechNew",
-    "02_个人/00_PDF/Claude-Code-Complete-Guide-zh-v260411.pdf",
-    "00_作品展示/MyGame/癫狂的世界设计.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625231237.png",
     "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
     "00_作品展示/MyGame/附件/Pasted image 20260625225236.png",
-    "00_作品展示/MyGame/附件/Pasted image 20260625224923.png",
-    "01_知识库/15_Unity/00_Unity相关.canvas",
-    "00_Project/00_工作/影视流程/影视项目UE流程化.canvas"
+    "01_知识库/15_Unity/00_Unity相关.canvas"
   ]
 }

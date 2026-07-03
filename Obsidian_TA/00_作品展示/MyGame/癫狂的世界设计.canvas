@@ -19,9 +19,9 @@
 		{"id":"c56aae991c3f2222","type":"text","text":"绘画","x":-473,"y":55,"width":169,"height":60},
 		{"id":"ee48b897fa1baeb5","type":"text","text":"苏联未来现代主义","x":-288,"y":495,"width":250,"height":60},
 		{"id":"5de564298659ecfa","type":"text","text":"创造一个表达情绪的空间，城市，世界","x":-3,"y":161,"width":231,"height":90,"color":"1"},
+		{"id":"ba1dce86e98bccdf","type":"text","text":"现有ugc平台","x":296,"y":-700,"width":250,"height":60},
 		{"id":"4650abab61dfae80","type":"text","text":"叙事，美术，玩法，技术栈\n","x":-70,"y":-74,"width":366,"height":60},
-		{"id":"704b9ff529004a2e","type":"text","text":"会抄，缝合\n\n自动总结 ob dev log\n\nob的球体，知识点大楼，文件夹分类\n\nai场景白盒\n\nHoudini空间白盒，飞行视角\n\ntaptapmaker产品\n无限大","x":-388,"y":-640,"width":355,"height":327},
-		{"id":"ba1dce86e98bccdf","x":296,"y":-700,"width":250,"height":60,"type":"text","text":"现有ugc平台"}
+		{"id":"704b9ff529004a2e","type":"text","text":"会抄，缝合\n\n自动总结 ob dev log\n\nob的球体，知识点大楼，文件夹分类\n\nai场景白盒\n\nHoudini空间白盒，飞行视角\n\ntaptapmaker产品\n无限大","x":-388,"y":-640,"width":355,"height":327}
 	],
 	"edges":[
 		{"id":"5cc8cd49cf1f07ce","fromNode":"c56aae991c3f2222","fromSide":"left","toNode":"d2fe5cdca2a325dd","toSide":"right"},
