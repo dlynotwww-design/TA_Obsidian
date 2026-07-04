@@ -28,14 +28,17 @@
             "id": "c40c82023329881f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00_作品展示/03_AI/AIgame/taptap.md",
-                "mode": "source",
-                "source": false
+                "file": "00_作品展示/02_PCG研究/现代城市/pcg城市.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "taptap"
+              "icon": "lucide-layout-dashboard",
+              "title": "pcg城市"
             }
           }
         ],
@@ -236,6 +239,17 @@
   },
   "active": "c40c82023329881f",
   "lastOpenFiles": [
+    "Clippings/GTA 5 Interactive Map.md",
+    "00_作品展示/02_PCG研究/现代城市/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
+    "00_作品展示/02_PCG研究/现代城市/道路中心线.md",
+    "00_作品展示/02_PCG研究/现代城市/pcg城市.canvas",
+    "00_作品展示/02_PCG研究/现代城市/Houdini都市PCG教程资源.md",
+    "Clippings/Photoshop Level Design in Unity using Houdini Engine  Luiz Kruel  GDC 2019.md",
+    "Clippings/Photoshop Level Design in Unity using Houdini Engine  Luiz Kruel.md",
+    "Clippings/hesreallyhimawesome-claude-code A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic.md",
+    "00_作品展示/02_PCG研究/现代城市/Simon Verstraete Houdini官方教程合集.md",
+    "00_作品展示/01_项目文档/PSD城市规划.md",
+    "00_作品展示/03_AI/AIgame/taptap.md",
     "00_作品展示/TA项目.md",
     "00_作品展示/作品结构.md",
     "00_作品展示/MyGame/癫狂的世界设计.canvas",
@@ -244,7 +258,6 @@
     "Clippings/1. 介绍  Shadertoy中文教程.md",
     "Clippings/Advanced Road Generation  Erwin Heyms  Games Workshop.md",
     "Untitled.md",
-    "00_作品展示/02_PCG研究/现代城市/pcg城市.canvas",
     "00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png",
     "00_作品展示/02_PCG研究/现代城市/附件",
     "00_作品展示/02_PCG研究/00_PCG大纲_Houdini.md",
@@ -261,15 +274,8 @@
     "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
     "00_作品展示/00_流程规范/UE5游戏项目流程/UI_UX.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/UE5游戏项目流程.md",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.md",
-    "00_作品展示/03_AI/ClaudeCode/GitHub.md",
     "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
-    "01_知识库/04_Unity/Unity知识库导航.md",
-    "01_知识库/04_Unity/Unity shader课程及git工程.md",
-    "01_知识库/04_Unity/TA技术美术学习体系框架 （别再买垃圾教程了）_哔哩哔哩_bilibili.md",
-    "01_知识库/04_Unity/Kerry技术美术入门：渲染管线概述.md",
     "01_知识库/04_Unity/00_Unity相关.canvas",
-    "01_知识库/04_Unity/《Unity Shader 入门精要》完结_哔哩哔哩_bilibili.md",
     "01_知识库/04_Unity/resources/02.png",
     "01_知识库/04_Unity/resources/01.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
@@ -277,9 +283,7 @@
     "01_知识库/04_Unity/resources/Pasted image 20260605170044.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
     "01_知识库/04_Unity/resources/Pasted image 20260603230236.png",
-    "00_作品展示/00_流程规范/影视项目UE流程化.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas.tmp.27068.55676a088ec4",
-    "00_作品展示/03_AI/ClaudeCode/Claude Code 官方使用手册.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/AI游戏开发生产流程.canvas",
     "00_作品展示/05_TechNew/AI游戏开发生产流程.canvas.tmp.8928.96295613c0ac",
     "00_作品展示/05_TechNew/游戏开发美术与程序岗位职责.md.tmp.8928.41ce9f5b2921",
@@ -290,7 +294,6 @@
     "00_作品展示/05_TechNew",
     "00_作品展示/MyGame/附件/Pasted image 20260625231237.png",
     "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
-    "00_作品展示/MyGame/附件/Pasted image 20260625225236.png",
     "01_知识库/15_Unity/00_Unity相关.canvas"
   ]
 }

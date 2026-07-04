@@ -1,11 +1,17 @@
 {
 	"nodes":[
-		{"id":"4686e269ecb5e2d5","x":-188,"y":-253,"width":331,"height":85,"type":"text","text":"原画平面肌理\n道路，河流，绿地，建筑"},
-		{"id":"96fee2eac0a87bd6","x":-188,"y":-125,"width":331,"height":60,"type":"text","text":"道路，水系，公园切分城市肌理"},
-		{"id":"8556d7d8151d0cdd","x":-648,"y":-289,"width":400,"height":297,"type":"file","file":"00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png"},
-		{"id":"8261a68427ddc1c8","x":-188,"y":-18,"width":131,"height":52,"type":"text","text":"建筑地块"},
-		{"id":"2bbdaeb0e6a53920","x":-10,"y":-31,"width":262,"height":60,"type":"text","text":"特定平面轮廓"},
-		{"id":"2556cdce7ff2fb7d","x":-10,"y":53,"width":250,"height":60,"type":"text","text":"随机商业切分"}
+		{"id":"4686e269ecb5e2d5","type":"text","text":"原画平面肌理\n道路，河流，绿地，建筑","x":-188,"y":-253,"width":331,"height":85},
+		{"id":"96fee2eac0a87bd6","type":"text","text":"道路，水系，公园切分城市肌理","x":-188,"y":-125,"width":331,"height":60},
+		{"id":"f85fdea7713a0c59","type":"text","text":"异环城市地图","x":-628,"y":35,"width":250,"height":60},
+		{"id":"17887ddb9d0da412","type":"text","text":"单体体块造型","x":82,"y":370,"width":250,"height":60},
+		{"id":"2d57f38e9d1e7613","type":"text","text":"单体","x":-188,"y":370,"width":250,"height":60},
+		{"id":"8261a68427ddc1c8","type":"text","text":"建筑地块，大地块划分\n","x":-188,"y":72,"width":188,"height":56},
+		{"id":"2556cdce7ff2fb7d","type":"text","text":"随机商业切分，转角切割","x":178,"y":95,"width":250,"height":60},
+		{"id":"baa3543974c6a149","type":"text","text":"wfc图片控制特定肌理","x":178,"y":174,"width":250,"height":60},
+		{"id":"2bbdaeb0e6a53920","type":"text","text":"特定大型建筑平面轮廓体量","x":178,"y":12,"width":262,"height":60},
+		{"id":"87c169cb272a4f03","type":"text","text":"随机地图生成","x":-624,"y":204,"width":250,"height":60},
+		{"id":"8556d7d8151d0cdd","type":"file","file":"00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png","x":-1356,"y":-273,"width":400,"height":297},
+		{"id":"89b1336076f56c24","type":"file","file":"00_作品展示/02_PCG研究/现代城市/附件/ChatGPT Image 2026年7月5日 01_25_15.png","x":-884,"y":-524,"width":559,"height":479}
 	],
 	"edges":[
 		{"id":"797b64e42a9787bc","fromNode":"8261a68427ddc1c8","fromSide":"right","toNode":"2bbdaeb0e6a53920","toSide":"left"}
