@@ -26,6 +26,10 @@
 
 ## 典型案例
 
+### [POST APOCALYPTIC RUINS FOR UE4](https://www.sidefx.com/tutorials/post-apocalyptic-ruins-for-ue4/)
+
+### [WFC DUNGEON GENERATOR](https://www.sidefx.com/tutorials/wfc-dungeon-generator/)
+
 ### 黑客帝国
 
 ### Titan

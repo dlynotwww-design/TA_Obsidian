@@ -8,41 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ef3a37a7e01e802",
+            "id": "babee1f4960a6ca8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas",
-                "viewState": {
-                  "x": 890.7109552796039,
-                  "y": 605.4291854705039,
-                  "zoom": -1.3333334189194934
-                }
+                "file": "Clippings/Claude Fable 5 + This Godot AI Plugin Change Game Dev Forever (Ziva).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "游戏开发美术与程序岗位职责"
-            }
-          },
-          {
-            "id": "c40c82023329881f",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "00_作品展示/02_PCG研究/现代城市/pcg城市.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "pcg城市"
+              "icon": "lucide-file",
+              "title": "Claude Fable 5 + This Godot AI Plugin Change Game Dev Forever (Ziva)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00_作品展示/MyGame/癫狂的纽约/GPT对话/独游网站.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "独游网站 的大纲"
             }
           },
           {
@@ -214,13 +194,23 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "d3f6007e409b74c4",
+            "type": "leaf",
+            "state": {
+              "type": "x-bookmarks-webview",
+              "state": {},
+              "icon": "x-bookmarks-sync",
+              "title": "X bookmarks"
+            }
           }
         ],
         "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 567.5
+    "width": 490.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,48 +224,60 @@
       "obsidian-git:Open Git source control": false,
       "realclaudian:Open Claudian": false,
       "copilot:Open Copilot Chat": false,
-      "lemon-vault-dashboard:仓库仪表盘": false
+      "lemon-vault-dashboard:仓库仪表盘": false,
+      "x-bookmarks-sync:Open X bookmarks": false
     }
   },
-  "active": "c40c82023329881f",
+  "active": "7a2dcc8fc6e9e18f",
   "lastOpenFiles": [
-    "Clippings/GTA 5 Interactive Map.md",
-    "00_作品展示/02_PCG研究/现代城市/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
-    "00_作品展示/02_PCG研究/现代城市/道路中心线.md",
-    "00_作品展示/02_PCG研究/现代城市/pcg城市.canvas",
-    "00_作品展示/02_PCG研究/现代城市/Houdini都市PCG教程资源.md",
-    "Clippings/Photoshop Level Design in Unity using Houdini Engine  Luiz Kruel  GDC 2019.md",
-    "Clippings/Photoshop Level Design in Unity using Houdini Engine  Luiz Kruel.md",
-    "Clippings/hesreallyhimawesome-claude-code A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic.md",
-    "00_作品展示/02_PCG研究/现代城市/Simon Verstraete Houdini官方教程合集.md",
-    "00_作品展示/01_项目文档/PSD城市规划.md",
-    "00_作品展示/03_AI/AIgame/taptap.md",
-    "00_作品展示/TA项目.md",
-    "00_作品展示/作品结构.md",
-    "00_作品展示/MyGame/癫狂的世界设计.canvas",
-    "02_个人/API.md",
-    "Clippings/《InsideUE5》GameFeatures架构（一）发展由来.md",
-    "Clippings/1. 介绍  Shadertoy中文教程.md",
-    "Clippings/Advanced Road Generation  Erwin Heyms  Games Workshop.md",
     "Untitled.md",
-    "00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png",
-    "00_作品展示/02_PCG研究/现代城市/附件",
-    "00_作品展示/02_PCG研究/00_PCG大纲_Houdini.md",
-    "01_知识库/00_Houdini/07_橘柚.md",
-    "01_知识库/00_Houdini/08_程序化建模案例.md",
-    "01_知识库/00_Houdini/03_城市生成.md",
-    "00_作品展示/02_PCG研究/典型案例/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
-    "Clippings/Aeollae_SVG SVG Importer and Exporter for Houdini.md",
-    "Clippings/AeollAelib Digital Assets for Houdini FX.md",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.canvas",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/2D游戏开发美术与程序岗位职责.canvas.tmp.9032.9bf878f118b6",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.md",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/UI_UX.md",
+    "Clippings/Claude Fable 5 + This Godot AI Plugin Change Game Dev Forever (Ziva).md",
+    "00_作品展示/MyGame/溜猫/开发文档/test.md",
+    "00_作品展示/MyGame/BK聊天/260703.md",
+    "00_作品展示/MyGame/溜猫/开发文档",
+    "00_作品展示/MyGame/溜猫/策划/策划01.md",
+    "00_作品展示/MyGame/溜猫/策划/策划00.md",
     "00_作品展示/00_流程规范/UE5游戏项目流程/UE5游戏项目流程.md",
-    "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
-    "01_知识库/04_Unity/00_Unity相关.canvas",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.canvas",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.md",
+    "00_作品展示/MyGame/溜猫/策划",
+    "00_作品展示/MyGame/癫狂的纽约/GPT对话/独游网站.md",
+    "00_作品展示/MyGame/溜猫",
+    "00_作品展示/MyGame/癫狂的纽约/GPT对话/案例调研.md",
+    "00_作品展示/MyGame/癫狂的纽约/GPT对话/素材生成.md",
+    "00_作品展示/00_TAFolder.md",
+    "01_知识库/00_GameDesign/概览.md",
+    "00_作品展示/MyGame/癫狂的纽约/GPT对话/文档1.0.md",
+    "00_作品展示/MyGame/癫狂的纽约/director/癫狂的世界设计.canvas",
+    "00_作品展示/MyGame/癫狂的纽约/director",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/ReferenceLibrary.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/Transmetropolitan.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/03_Comics.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/Akira.md",
+    "00_作品展示/MyGame/癫狂的纽约/GPT对话",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/01_Books/Delirious New York.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/03_Comics.md.tmp.10632.eedfaef75bd9",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/02_Games/02_Games.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/02_Games/02_Games.md.tmp.10632.59478fa32a64",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/01_Books/01_Books.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/01_Books/01_Books.md.tmp.10632.f93dcf9304fb",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/ReferenceLibrary.md.tmp.10632.c9f3652c81c1",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/02_Games/Gorogoa.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/Transmetropolitan.md.tmp.10632.9a53ff56e46a",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/The Incal.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/BLAME.md",
+    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/02_Games/Messenger.md",
+    "x-bookmarks/Navigation/01_AI艺术.canvas",
+    "x-bookmarks/Navigation/02_3D与游戏.canvas",
+    "x-bookmarks/Navigation/主页.canvas",
+    "x-bookmarks/📊_导航/主页.canvas",
+    "x-bookmarks/📊_导航/05_影视与摄影.canvas",
+    "x-bookmarks/📊_导航/01_AI艺术.canvas",
+    "x-bookmarks/📊_导航/07_时间线.canvas",
+    "x-bookmarks/📊_导航/06_教程与工具.canvas",
+    "00_作品展示/02_PCG研究/现代城市/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
+    "00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png",
     "01_知识库/04_Unity/resources/02.png",
     "01_知识库/04_Unity/resources/01.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
@@ -283,17 +285,6 @@
     "01_知识库/04_Unity/resources/Pasted image 20260605170044.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
     "01_知识库/04_Unity/resources/Pasted image 20260603230236.png",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/游戏开发美术与程序岗位职责.canvas.tmp.27068.55676a088ec4",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/AI游戏开发生产流程.canvas",
-    "00_作品展示/05_TechNew/AI游戏开发生产流程.canvas.tmp.8928.96295613c0ac",
-    "00_作品展示/05_TechNew/游戏开发美术与程序岗位职责.md.tmp.8928.41ce9f5b2921",
-    "00_作品展示/05_TechNew/3DGS_历史发展.md.tmp.14812.8b60f1744384",
-    "00_作品展示/05_TechNew/USD_历史发展.md.tmp.14812.ca8272da9aca",
-    "00_作品展示/05_TechNew/USD_流程概念.md.tmp.14812.cf73323b70e2",
-    "00_作品展示/02_PCG研究/3DGS_最新发展_2026.md.tmp.14812.c073f8964b62",
-    "00_作品展示/05_TechNew",
-    "00_作品展示/MyGame/附件/Pasted image 20260625231237.png",
-    "00_作品展示/03_AI/MyGame/癫狂的世界 1.canvas",
-    "01_知识库/15_Unity/00_Unity相关.canvas"
+    "00_作品展示/MyGame/癫狂的纽约/附件/Pasted image 20260625231237.png"
   ]
 }

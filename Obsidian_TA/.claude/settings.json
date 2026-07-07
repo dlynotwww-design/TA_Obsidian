@@ -1,10 +1,11 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(cd \"D:\\\\TA\\\\TA_Obsidian\\\\Obsidian_TA\\\\03_Python\" 2>/dev/null && find . -type f || echo \"03_Python does not exist at top level\")"
-    ]
-  },
   "env": {
     "LAST30DAYS_MEMORY_DIR": "D:\\TA\\TA_Obsidian\\Obsidian_TA\\00_展示\\04_Github\\last30days-skill"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(cd \"D:\\\\TA\\\\TA_Obsidian\\\\Obsidian_TA\\\\03_Python\" 2>/dev/null && find . -type f || echo \"03_Python does not exist at top level\")",
+      "mcp__node_repl__js"
+    ]
   }
 }
