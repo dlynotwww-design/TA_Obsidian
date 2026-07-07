@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Full Pipeline\n完整管线总览\n\n从零到完整城市","x":0,"y":0,"width":300,"height":90},
+		{"id":"2","type":"text","text":"## 管线全景\n\nInput Data\n    ↓\n01_City_Layout\n    ↓\n02_Road_Generator\n    ↓\n03_Intersection\n    ↓\n04_Block_Generator\n    ↓\n05_Parcel_Generator\n    ↓\n06_Building_Generator\n    ↓\n07_Facade_System\n    ↓\n08_Roof_System\n    ↓\n09_Scatter_System\n    ↓\n10_Attribute_Flow (贯穿全程)\n    ↓\n11_PDG_Pipeline (并行调度)\n    ↓\n12_PointCloud_Export\n    ↓\n13_RuleProcessor (UE5)\n    ↓\n14_Unreal_PCG (运行时)","x":0,"y":130,"width":340,"height":480},
+		{"id":"3","type":"text","text":"## Houdini 侧 (离线)\n\n• SOP: 城市生成主逻辑\n• VEX: 核心算法\n• Python: 工具 & 导出\n• PDG (TOP): 并行 & 批处理\n• 输出: Point Cloud (.csv / .pbc)","x":420,"y":0,"width":340,"height":170},
+		{"id":"4","type":"text","text":"## Unreal 侧 (运行时)\n\n• Rule Processor: 点→实例\n• World Partition: 流式加载\n• Mass AI: NPC / 车辆\n• ZoneGraph: 导航\n• HLOD: 远距离代理","x":420,"y":210,"width":340,"height":170},
+		{"id":"5","type":"text","text":"## 数据流核心\n\nAttributes 驱动一切：\nseed → zone → road_type → block_id\n→ parcel_id → building_type\n→ height → variant → prop_id\n\n每个下游模块通过 Attribute\n获取上游决策信息","x":420,"y":420,"width":340,"height":200},
+		{"id":"6","type":"text","text":"## 关键设计原则\n\n1. 数据驱动 → Attribute 贯穿\n2. 模块解耦 → HDA 独立\n3. 确定性 → Seed 可复现\n4. 可扩展 → 规则可增删\n5. 性能优先 → Point Cloud 轻量\n6. 离线+运行时分工","x":420,"y":660,"width":340,"height":190},
+		{"id":"7","type":"text","text":"## 对比传统流程\n\n传统: 建模师 → 手动摆放\nMatrix: 规则 → 自动生成\n\n传统: FBX 导出 → GB 级\nMatrix: Point Cloud → MB 级\n\n传统: 改一个 → 改全部\nMatrix: 改规则 → 全城刷新","x":0,"y":650,"width":340,"height":160},
+		{"id":"8","type":"text","text":"## 可复用框架\n\n从 Matrix City 提炼：\n• Road Generator HDA\n• Parcel Generator HDA\n• Building Generator HDA\n• Scatter HDA\n• Point Cloud Exporter\n可直接用于自己的项目","x":0,"y":850,"width":340,"height":160}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e3","fromNode":"7","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

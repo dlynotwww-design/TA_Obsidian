@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Rule Processor\nUE5 规则处理器\n\n官方最大的创新","x":0,"y":0,"width":300,"height":90},
+		{"id":"2","type":"text","text":"## 什么是 Rule Processor？\n\n• UE5 内置的点云→实例系统\n• 读取 Point Cloud 和 Attribute\n• 根据规则匹配生成实例\n• 不存储几何 → 运行时实例化\n• 支持 Building / Props / Traffic","x":0,"y":130,"width":300,"height":180},
+		{"id":"3","type":"text","text":"## 处理流程\n\nPoint Cloud (csv/pbc)\n    ↓\nData Asset 导入\n    ↓\nRule 匹配解析\n    ↓\nISM (Instanced Static Mesh)\n    ↓\nHISM (Hierarchical ISM)\n    ↓\nWorld Partition 分块加载","x":360,"y":0,"width":320,"height":240},
+		{"id":"4","type":"text","text":"## Rule 匹配逻辑\n\nIF building_type = \"skyscraper\"\n  → Skyscraper_BP\nELSE IF building_type = \"office\"\n  → Office_BP + variant\nELSE IF building_type = \"residential\"\n  → Residential_BP\n  → Height = building_height\n  → Seed = seed → 随机变体","x":360,"y":280,"width":340,"height":200},
+		{"id":"5","type":"text","text":"## ISM / HISM\n\n• ISM: Instanced Static Mesh\n  → 同 Mesh 批量实例化\n  → 极低 Draw Call\n• HISM: Hierarchical ISM\n  → LOD 自动管理\n  → 剔除优化\n  → Nanite 兼容","x":360,"y":520,"width":340,"height":180},
+		{"id":"6","type":"text","text":"## 实例化内容\n\n• Building → Static Mesh (带 LOD)\n• Sidewalk → Spline Mesh\n• Tree → Foliage ISM\n• Lamp / Bench → Single ISM\n• Car → Vehicle BP\n• NPC → Mass Entity","x":0,"y":350,"width":300,"height":180},
+		{"id":"7","type":"text","text":"## World Partition\n\n• 空间分块 (Grid-based)\n• 每个 Tile 对应 Point Cloud Tile\n• 流式加载/卸载\n• Data Layer 分层管理\n• One File Per Actor (OFPA)","x":0,"y":570,"width":300,"height":170},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Rule Processor 实现了\n'Houdini 定义规则，UE 执行实例化'\n的完美分工。点云小到可以\n存在 Data Asset 里\"","x":360,"y":740,"width":320,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

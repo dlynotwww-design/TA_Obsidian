@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783261076002-gdweibf9i",
+  "providerId": "claude",
+  "title": "Analyze Houdini Procedural City Generation Project",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783261076002,
+  "updatedAt": 1783343840027,
+  "lastResponseAt": 1783268621146,
+  "sessionId": "deca9036-53b2-4fc1-b09b-82a4a1d48dcc",
+  "providerState": {
+    "providerSessionId": "deca9036-53b2-4fc1-b09b-82a4a1d48dcc"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 656,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 190336,
+    "contextWindow": 200000,
+    "contextTokens": 190992,
+    "percentage": 95
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Facade System\n立面系统\n\nFacade Rule 核心逻辑","x":0,"y":0,"width":300,"height":90},
+		{"id":"2","type":"text","text":"## 处理流程\n\nBuilding Footprint\n    ↓\nFacade Rule → 面选择\n    ↓\nCorner → 转角处理\n    ↓\nWindow → 窗洞生成\n    ↓\nVariation → 变化系统","x":0,"y":130,"width":300,"height":200},
+		{"id":"3","type":"text","text":"## Facade Rule\n\n• 每面独立规则\n• 前立面: 主入口 + 大面积窗\n• 侧立面: 少量窗 + 实墙\n• 后立面: 服务入口 + 消防梯\n• 规则由 building_type 驱动","x":380,"y":0,"width":320,"height":160},
+		{"id":"4","type":"text","text":"## Corner 处理\n\n• 检测建筑转角顶点\n• 转角处窗洞特殊处理\n• Corner Radius 圆角\n• 转角柱放大 (结构暗示)\n• 与普通面的过渡","x":380,"y":200,"width":320,"height":150},
+		{"id":"5","type":"text","text":"## Window 生成逻辑\n\n• Grid → 均匀网格窗\n• Random → 随机大小/位置\n• Alternating → 交错排列\n• Vertical Strip → 竖条窗\n• Horizontal Band → 横条窗\n• 与 floor_count 同步","x":380,"y":390,"width":320,"height":180},
+		{"id":"6","type":"text","text":"## Variation 系统\n\n• Material ID 随机\n• 窗框颜色变体\n• 阳台生成概率\n• 空调外机位置\n• 装饰线条变化\n• 全部由 seed 驱动","x":0,"y":370,"width":300,"height":190},
+		{"id":"7","type":"text","text":"## 属性传递\n\n• facade_type (front/side/back)\n• window_style\n• material_id\n• balcony_seed\n• parapet_height\n• cornice_style","x":0,"y":600,"width":300,"height":170},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Facade 是城市视觉的核心\nEpic 的 Facade Rule 通过\n参数化而非建模来创造多样性\n一套规则生成数千种立面\"","x":380,"y":610,"width":320,"height":150}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

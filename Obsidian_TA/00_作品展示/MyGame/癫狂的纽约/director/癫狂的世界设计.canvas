@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"c93c8fa67eb917c9","type":"group","x":655,"y":-394,"width":456,"height":582,"label":"Messenger"},
+		{"id":"6b20766cf58064cf","type":"group","x":655,"y":293,"width":456,"height":386,"label":"卡卡波比"},
+		{"id":"52dcbbac99bbb580","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/附件/Pasted image 20260625225236.png","x":675,"y":-103,"width":416,"height":271},
+		{"id":"04a19d37254ab3ea","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/02_Games/Messenger.md","x":675,"y":-354,"width":416,"height":224},
+		{"id":"d2fe5cdca2a325dd","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/附件/Pasted image 20260625224923.png","x":-1064,"y":-379,"width":514,"height":305},
+		{"id":"aa8224c44c1485f7","type":"text","text":"Matthias Jung的超现实建筑拼贴作品","x":-964,"y":45,"width":250,"height":60},
+		{"id":"7de348c8356da77a","type":"text","text":"Beomsik Won的“Archisculpture”系列","x":-964,"y":115,"width":250,"height":60},
+		{"id":"e46843ba590dfa36","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/美术/Matthias Jung的超现实建筑拼贴作品.md","x":-1616,"y":-41,"width":435,"height":216},
+		{"id":"f188c54b1873a619","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/美术/Beomsik Won的“Archisculpture”系列.md","x":-1616,"y":194,"width":435,"height":279},
+		{"id":"839be96b2e923027","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/叙事/库哈斯.md","x":-1377,"y":535,"width":582,"height":294},
+		{"id":"95782089c023b2df","type":"text","text":"游戏","x":338,"y":176,"width":188,"height":60},
+		{"id":"b7cc2b792cd3b62e","type":"text","text":"[# 【这个世界观和玩法怎么样？】Steam古风策略建造游戏【重檐】开发日记36](https://www.bilibili.com/video/BV1FQ4y1u76C?spm_id_from=333.788.videopod.sections&vd_source=089349bc15fe4a0508fc235b6d5563a8)","x":675,"y":337,"width":399,"height":60},
+		{"id":"60cdf9b796156892","type":"text","text":"建筑表达情绪","x":-516,"y":194,"width":256,"height":74},
+		{"id":"fceb8c9ea76584ec","type":"text","text":"库哈斯","x":-615,"y":496,"width":250,"height":60},
+		{"id":"c17bf1f971e50823","type":"text","text":"盖里，扎哈，蓝天组","x":-615,"y":597,"width":250,"height":60},
+		{"id":"676e920846d9cc12","type":"file","file":"00_作品展示/MyGame/癫狂的纽约/附件/Pasted image 20260625231237.png","x":675,"y":473,"width":399,"height":184},
+		{"id":"c56aae991c3f2222","type":"text","text":"绘画","x":-473,"y":55,"width":169,"height":60},
+		{"id":"ee48b897fa1baeb5","type":"text","text":"苏联未来现代主义","x":-288,"y":495,"width":250,"height":60},
+		{"id":"5de564298659ecfa","type":"text","text":"创造一个表达情绪的空间，城市，世界","x":-3,"y":161,"width":231,"height":90,"color":"1"},
+		{"id":"ba1dce86e98bccdf","type":"text","text":"现有ugc平台","x":296,"y":-700,"width":250,"height":60},
+		{"id":"4650abab61dfae80","type":"text","text":"叙事，美术，玩法，技术栈\n","x":-70,"y":-74,"width":366,"height":60},
+		{"id":"704b9ff529004a2e","type":"text","text":"会抄，缝合\n\n自动总结 ob dev log\n\nob的球体，知识点大楼，文件夹分类\n\nai场景白盒\n\nHoudini空间白盒，飞行视角\n\ntaptapmaker产品\n无限大","x":-388,"y":-640,"width":355,"height":327}
+	],
+	"edges":[
+		{"id":"5cc8cd49cf1f07ce","fromNode":"c56aae991c3f2222","fromSide":"left","toNode":"d2fe5cdca2a325dd","toSide":"right"},
+		{"id":"7827be6be980e4b4","fromNode":"fceb8c9ea76584ec","fromSide":"bottom","toNode":"c17bf1f971e50823","toSide":"top"},
+		{"id":"2358fa504dbccdc0","fromNode":"60cdf9b796156892","fromSide":"bottom","toNode":"fceb8c9ea76584ec","toSide":"top"},
+		{"id":"5cb3446afec30eeb","fromNode":"95782089c023b2df","fromSide":"right","toNode":"52dcbbac99bbb580","toSide":"left"},
+		{"id":"68f753f1026198ac","fromNode":"60cdf9b796156892","fromSide":"bottom","toNode":"ee48b897fa1baeb5","toSide":"top"},
+		{"id":"94c3ff7e5d3d31c9","fromNode":"5de564298659ecfa","fromSide":"left","toNode":"c56aae991c3f2222","toSide":"right"},
+		{"id":"4573a8f6ae957f38","fromNode":"5de564298659ecfa","fromSide":"left","toNode":"60cdf9b796156892","toSide":"right"},
+		{"id":"2ec15eb07831c50e","fromNode":"5de564298659ecfa","fromSide":"right","toNode":"95782089c023b2df","toSide":"left"},
+		{"id":"3a9ed90569ce0d9d","fromNode":"95782089c023b2df","fromSide":"bottom","toNode":"6b20766cf58064cf","toSide":"left"},
+		{"id":"dc65632a8370acb5","fromNode":"aa8224c44c1485f7","fromSide":"left","toNode":"e46843ba590dfa36","toSide":"right"},
+		{"id":"9d7ac1ec4057db2e","fromNode":"c56aae991c3f2222","fromSide":"left","toNode":"aa8224c44c1485f7","toSide":"right"},
+		{"id":"8ccbc2ff753886c9","fromNode":"7de348c8356da77a","fromSide":"left","toNode":"f188c54b1873a619","toSide":"right"},
+		{"id":"8298a422502916d4","fromNode":"c56aae991c3f2222","fromSide":"left","toNode":"7de348c8356da77a","toSide":"right"},
+		{"id":"fd2807b117feccc8","fromNode":"fceb8c9ea76584ec","fromSide":"left","toNode":"839be96b2e923027","toSide":"right"}
+	]
+}

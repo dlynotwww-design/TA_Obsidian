@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Parcel Generator\n地块细分\n\nBlock → Lots","x":0,"y":0,"width":280,"height":90},
+		{"id":"2","type":"text","text":"## 处理流程\n\nCity Block\n    ↓\nSubdivision → 细分算法\n    ↓\nLot 生成\n    ↓\n面积过滤 & 随机化\n    ↓\nDensity 分配","x":0,"y":130,"width":280,"height":200},
+		{"id":"3","type":"text","text":"## Subdivision 策略\n\n• Grid → 规则网格 (住宅区)\n• Voronoi → 有机分割 (郊区)\n• Skeleton → 骨架拉伸 (商业区)\n• Recursive → 递归二分 (工业区)\n• Offset → 内缩 + 细分","x":360,"y":0,"width":320,"height":180},
+		{"id":"4","type":"text","text":"## Lot 随机化规则\n\n• 面积随机偏差: ±20%\n• 长宽比限制: 1:1 ~ 1:4\n• 最小 Lot: 200 m²\n• 最大 Lot: 5000 m²\n• 沿街面宽 ≥ 10m","x":360,"y":220,"width":320,"height":170},
+		{"id":"5","type":"text","text":"## 密度分配\n\n• Downtown → 高密度 (80-100%)\n• Midtown → 中密度 (60-80%)\n• Residential → 低密度 (30-60%)\n• Suburb → 极低密度 (10-30%)","x":360,"y":430,"width":320,"height":150},
+		{"id":"6","type":"text","text":"## Parcel 属性\n\n• parcel_id (唯一标识)\n• block_id (所属街区)\n• lot_area\n• lot_frontage (沿街面宽)\n• density\n• setback (退线距离)","x":0,"y":370,"width":280,"height":170},
+		{"id":"7","type":"text","text":"## VEX 关键节点\n\n• Clip → Block 切割\n• PolyExtrude → 内缩偏移\n• Resample → 边采样\n• Divide → 多边形细分\n• Measure → 面积属性","x":0,"y":580,"width":280,"height":170},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Parcel 是城市肌理的体现\n不同细分策略创造不同的\n城市风貌和街道体验\n密度驱动建筑高度和类型\"","x":360,"y":620,"width":320,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

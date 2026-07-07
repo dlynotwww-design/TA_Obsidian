@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783345603074-wgrc2x9iw",
+  "providerId": "claude",
+  "title": "Find game design GitHub summary skills in repo",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783345603086,
+  "updatedAt": 1783347925188,
+  "lastResponseAt": 1783346806483,
+  "sessionId": "59c21ae1-d77a-42e6-8d60-4a975d162c59",
+  "providerState": {
+    "providerSessionId": "59c21ae1-d77a-42e6-8d60-4a975d162c59"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1410,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 65536,
+    "contextWindow": 200000,
+    "contextTokens": 66946,
+    "percentage": 33
+  }
+}
