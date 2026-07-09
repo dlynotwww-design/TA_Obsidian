@@ -4,19 +4,19 @@
   "title": "Fix Git commit failure",
   "titleGenerationStatus": "success",
   "createdAt": 1783441124801,
-  "updatedAt": 1783441236133,
-  "lastResponseAt": 1783441236133,
+  "updatedAt": 1783441336598,
+  "lastResponseAt": 1783441336598,
   "sessionId": "ffca0e11-0a6b-4c94-8dea-8601f8c1f359",
   "providerState": {
     "providerSessionId": "ffca0e11-0a6b-4c94-8dea-8601f8c1f359"
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 263,
+    "inputTokens": 7150,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 44288,
+    "cacheReadInputTokens": 54144,
     "contextWindow": 200000,
-    "contextTokens": 44551,
-    "percentage": 22
+    "contextTokens": 61294,
+    "percentage": 31
   }
 }
