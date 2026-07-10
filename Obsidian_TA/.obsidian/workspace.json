@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_作品展示/MyGame/溜猫/开发文档/test.md",
-                "mode": "source",
+                "file": "x-bookmarks/2026-07-06-Ryan Sael-Everything is data..md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "2aeba72ae64bfc61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_作品展示/02_PCG研究/典型案例/黑客帝国/资源链接.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "资源链接"
+              "title": "2026-07-06-Ryan Sael-Everything is data."
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_作品展示/MyGame/癫狂的纽约/GPT对话/独游网站.md",
+                "file": "x-bookmarks/2026-07-06-Ryan Sael-Everything is data..md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "独游网站 的大纲"
+              "title": "2026-07-06-Ryan Sael-Everything is data. 的大纲"
             }
           },
           {
@@ -221,11 +206,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 591.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,63 +228,63 @@
       "x-bookmarks-sync:Open X bookmarks": false
     }
   },
-  "active": "2aeba72ae64bfc61",
+  "active": "7a2dcc8fc6e9e18f",
   "lastOpenFiles": [
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Houdini UE5程序化城市构建.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/UnrealCircle模块化的城市生成  Epic Games 肖月.md",
-    "x-bookmarks/2024-08-26-AI Will-麻省理工大学刚刚发布了免费的在线课程。.md",
-    "00_作品展示/MyGame/溜猫/开发文档/test.md",
-    "00_作品展示/04_Github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
-    "00_作品展示/03_AI/AI_Basic/liyupiai-guide 程序员鱼皮的 AI 资源大全与 Vibe Coding 教程.md",
-    "00_作品展示/04_Github/codecrafters-iobuild-your-own-x Master programming by recreating your favorite technologies from scratch.md",
-    "Clippings/Claude Fable 5 + This Godot AI Plugin Change Game Dev Forever (Ziva).md",
-    "Untitled.md",
-    "00_作品展示/MyGame/BK聊天/260703.md",
-    "00_作品展示/MyGame/溜猫/开发文档",
-    "00_作品展示/MyGame/溜猫/策划/策划01.md",
-    "00_作品展示/MyGame/溜猫/策划/策划00.md",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/UE5游戏项目流程.md",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.md",
+    "x-bookmarks/2026-07-07-导演BK｜游戏行业幕后-？？？.md",
+    "x-bookmarks/2026-07-07-Adrien Rouquié-#AutoRemesher 1.0 came out and I couldn't resist vibe-coding a tiny Blender bridge for it..md",
+    "x-bookmarks/2026-07-07-Alek Pauls-Procedural dungeons generation in action. With a multiplayer of course..md",
+    "x-bookmarks/2026-07-07-LOY-Bookmark.md",
+    "x-bookmarks/2026-07-07-William Faucher-After many months of work, I’m happy to (finally) announce the release of EasyWaterscape for #unrealengine!.md",
+    "x-bookmarks/2026-07-08-白骏知识分享-这种风格+英文配音.md",
+    "x-bookmarks/2026-07-09-SpaceXAI-Announcing Grok 4.5, our first model trained specifically for coding and agents. It was trained with Cursor an.md",
+    "00_作品展示/MyGame/《游戏造梦师：游戏场景开发与设计》内容概括.md",
+    "x-bookmarks/2026-07-05-Dr. Moyu｜摸鱼局长-赚到三千万的黄猫股神 @leto_bao，推荐过的这三本书，我觉得普通人真可以读一读.md",
+    "x-bookmarks/2026-07-06-Ryan Sael-Everything is data..md",
+    "x-bookmarks/2026-07-06-Farrukh Abdur-Using here the new AutoRemesher free tool with Blender. It produces good quad topology maintaining edge flow..md",
+    "01_知识库/00_Houdini/07_橘柚.md",
+    "01_知识库/00_Houdini/Houdini知识体系总览.md",
+    "01_知识库/00_Houdini/11_操作及名词解释.md",
+    "01_知识库/00_Houdini/10_传统中式.md",
+    "01_知识库/00_Houdini/09_学习资源.md",
+    "01_知识库/00_Houdini/08_程序化建模案例.md",
+    "01_知识库/00_Houdini/05_houdinikitchen.md",
+    "01_知识库/00_Houdini/06_VEX.md",
+    "01_知识库/00_Houdini/04_框架整理.md",
+    "01_知识库/00_Houdini/02_官方课程.md",
+    "01_知识库/00_Houdini/03_城市生成.md",
+    "01_知识库/00_Houdini/00_github/sideeffectsSideFXLabsExamples Example files and demo projects created for SideFX Labs.md",
+    "01_知识库/00_Houdini/01_招聘技术栈梳理.md",
+    "01_知识库/00_Houdini/00_github/sideeffectsSideFXLabs.md",
+    "01_知识库/00_Houdini/00_github/sideeffectsGameDevelopmentToolset A series of Houdini shelf tools that are geared towards game developers!.md",
+    "00_作品展示/MyGame/GameDev2D_目录.md.tmp.18176.55ac847d8058",
+    "00_作品展示/MyGame/GameDev2D_目录.md.tmp.18176.4d64c472c77e",
+    "00_作品展示/MyGame/GameDev2D_目录.md.tmp.18176.ff7c3caa8f6d",
+    "00_作品展示/MyGame/GameDev2D.md.tmp.18176.13c9ed3097e1",
+    "01_知识库/知识渠道.png",
+    "00_作品展示/06_RenderPipline",
+    "未命名",
+    "00_作品展示/02_PCG研究/GameCity/pcg城市.canvas",
+    "01_知识库/07_Godot",
     "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.canvas",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.md",
-    "00_作品展示/MyGame/溜猫/策划",
-    "00_作品展示/MyGame/癫狂的纽约/GPT对话/独游网站.md",
-    "00_作品展示/MyGame/溜猫",
-    "00_作品展示/MyGame/癫狂的纽约/GPT对话/案例调研.md",
-    "00_作品展示/MyGame/癫狂的纽约/GPT对话/素材生成.md",
-    "00_作品展示/00_TAFolder.md",
-    "01_知识库/00_GameDesign/概览.md",
-    "00_作品展示/MyGame/癫狂的纽约/GPT对话/文档1.0.md",
+    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
+    "00_作品展示/MyGame/与猫同行/开发文档",
+    "00_作品展示/MyGame/与猫同行/策划",
+    "00_作品展示/MyGame/与猫同行",
     "00_作品展示/MyGame/癫狂的纽约/director/癫狂的世界设计.canvas",
-    "00_作品展示/MyGame/癫狂的纽约/director",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/ReferenceLibrary.md",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/Transmetropolitan.md",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/03_Comics.md",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/Akira.md",
-    "00_作品展示/MyGame/癫狂的纽约/GPT对话",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/03_Comics.md.tmp.10632.eedfaef75bd9",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/02_Games/02_Games.md.tmp.10632.59478fa32a64",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/01_Books/01_Books.md.tmp.10632.f93dcf9304fb",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/ReferenceLibrary.md.tmp.10632.c9f3652c81c1",
-    "00_作品展示/MyGame/癫狂的纽约/ReferenceLibrary/03_Comics/Transmetropolitan.md.tmp.10632.9a53ff56e46a",
     "x-bookmarks/Navigation/01_AI艺术.canvas",
     "x-bookmarks/Navigation/02_3D与游戏.canvas",
     "x-bookmarks/Navigation/主页.canvas",
     "x-bookmarks/📊_导航/主页.canvas",
     "x-bookmarks/📊_导航/05_影视与摄影.canvas",
     "x-bookmarks/📊_导航/01_AI艺术.canvas",
-    "x-bookmarks/📊_导航/07_时间线.canvas",
-    "x-bookmarks/📊_导航/06_教程与工具.canvas",
-    "00_作品展示/02_PCG研究/现代城市/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
-    "00_作品展示/02_PCG研究/现代城市/附件/Screenshot - 2026-07-03 00.16.42.png",
+    "00_作品展示/02_PCG研究/GameCity/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
+    "00_作品展示/02_PCG研究/GameCity/附件/Screenshot - 2026-07-03 00.16.42.png",
     "01_知识库/04_Unity/resources/02.png",
     "01_知识库/04_Unity/resources/01.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170637.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170044.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260603230236.png",
-    "00_作品展示/MyGame/癫狂的纽约/附件/Pasted image 20260625231237.png"
+    "01_知识库/04_Unity/resources/Pasted image 20260603230236.png"
   ]
 }

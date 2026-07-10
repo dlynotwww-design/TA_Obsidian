@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783612772623-1bl5k26fx",
+  "providerId": "claude",
+  "title": "Extract Document Outline",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783612772623,
+  "updatedAt": 1783613010873,
+  "lastResponseAt": 1783613010873,
+  "sessionId": "c4e8a13c-27bd-4510-ab82-b49feb5e8706",
+  "providerState": {
+    "providerSessionId": "c4e8a13c-27bd-4510-ab82-b49feb5e8706"
+  },
+  "currentNote": "00_作品展示/MyGame/GameDev2D.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 669,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44416,
+    "contextWindow": 200000,
+    "contextTokens": 45085,
+    "percentage": 23
+  }
+}
