@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783763090785-wqwdqv7i8",
+  "providerId": "claude",
+  "title": "Organize this document",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783763090785,
+  "updatedAt": 1783763444904,
+  "lastResponseAt": 1783763220870,
+  "sessionId": "5caf0d3f-18e6-4460-88b4-863dcb7dda4f",
+  "providerState": {
+    "providerSessionId": "5caf0d3f-18e6-4460-88b4-863dcb7dda4f"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 4180,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43264,
+    "contextWindow": 200000,
+    "contextTokens": 47444,
+    "percentage": 24
+  }
+}

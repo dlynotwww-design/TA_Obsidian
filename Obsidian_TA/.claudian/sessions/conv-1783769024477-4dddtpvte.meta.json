@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783769024477-4dddtpvte",
+  "providerId": "claude",
+  "title": "Generate Flowchart from Key Points",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783769024477,
+  "updatedAt": 1783769951404,
+  "lastResponseAt": 1783769951404,
+  "sessionId": "2553ae95-d6d8-4161-a6a6-a94852595fbf",
+  "providerState": {
+    "providerSessionId": "2553ae95-d6d8-4161-a6a6-a94852595fbf"
+  },
+  "currentNote": "00_作品展示/01_项目文档/Ivy_技术文档.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 721,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52352,
+    "contextWindow": 200000,
+    "contextTokens": 53073,
+    "percentage": 27
+  }
+}

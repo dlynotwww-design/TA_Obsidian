@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783788647252-xq4h6zoke",
+  "providerId": "claude",
+  "title": "Read srt-to-markdown skill",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783788647253,
+  "updatedAt": 1783788933257,
+  "lastResponseAt": 1783788897485,
+  "sessionId": "9b04d8af-a14e-47d7-8c2e-cb24c5a2d916",
+  "providerState": {
+    "providerSessionId": "9b04d8af-a14e-47d7-8c2e-cb24c5a2d916"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 575,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45568,
+    "contextWindow": 200000,
+    "contextTokens": 46143,
+    "percentage": 23
+  }
+}

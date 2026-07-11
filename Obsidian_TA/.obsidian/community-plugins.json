@@ -2,8 +2,10 @@
   "obsidian-mindmap-nextgen",
   "obsidian-git",
   "realclaudian",
-  "copilot",
   "obsidian-excel-to-markdown-table",
   "lemon-vault-dashboard",
-  "x-bookmarks-sync"
+  "x-bookmarks-sync",
+  "mermaid-flow",
+  "drawio",
+  "subtitles-md"
 ]

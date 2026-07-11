@@ -4,13 +4,12 @@
   "title": "Extract Document Outline",
   "titleGenerationStatus": "success",
   "createdAt": 1783612772623,
-  "updatedAt": 1783613010873,
+  "updatedAt": 1783758061134,
   "lastResponseAt": 1783613010873,
   "sessionId": "c4e8a13c-27bd-4510-ab82-b49feb5e8706",
   "providerState": {
     "providerSessionId": "c4e8a13c-27bd-4510-ab82-b49feb5e8706"
   },
-  "currentNote": "00_作品展示/MyGame/GameDev2D.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 669,

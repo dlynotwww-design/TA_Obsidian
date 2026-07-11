@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783765966422-t423iqglj",
+  "providerId": "claude",
+  "title": "Generate flowchart from extracted content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783765966423,
+  "updatedAt": 1783768994908,
+  "lastResponseAt": 1783766022216,
+  "sessionId": "ba01adec-b9b3-4c06-ac45-93ada00608c8",
+  "providerState": {
+    "providerSessionId": "ba01adec-b9b3-4c06-ac45-93ada00608c8"
+  },
+  "currentNote": "00_作品展示/VideoToObsidianAgent/AI 视频知识库自动化流水线.canvas",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1076,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 40320,
+    "contextWindow": 200000,
+    "contextTokens": 41396,
+    "percentage": 21
+  }
+}

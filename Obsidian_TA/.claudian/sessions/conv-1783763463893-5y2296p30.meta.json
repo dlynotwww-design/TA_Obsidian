@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783763463893-5y2296p30",
+  "providerId": "claude",
+  "title": "Convert Document to Canvas",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783763463893,
+  "updatedAt": 1783765951643,
+  "lastResponseAt": 1783765693103,
+  "sessionId": "ddf77611-19c1-4ab9-aef3-b447b5870cd8",
+  "providerState": {
+    "providerSessionId": "ddf77611-19c1-4ab9-aef3-b447b5870cd8"
+  },
+  "currentNote": "00_作品展示/VideoToObsidianAgent/AI 视频知识库自动化流水线.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 927,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 64128,
+    "contextWindow": 200000,
+    "contextTokens": 65055,
+    "percentage": 33
+  }
+}

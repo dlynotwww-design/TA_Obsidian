@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783787036661-aadr0casl",
+  "providerId": "claude",
+  "title": "Convert SRT subtitles to Markdown format",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783787036661,
+  "updatedAt": 1783787963990,
+  "lastResponseAt": 1783787237730,
+  "sessionId": "dbd5ae2b-b7b6-4523-b326-4e55fdf3e453",
+  "providerState": {
+    "providerSessionId": "dbd5ae2b-b7b6-4523-b326-4e55fdf3e453"
+  },
+  "currentNote": "01_知识库/srt/已处理/基于虚幻引擎 刘陌桑 腾讯天美J3工作室 高级技术美术.srt",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 5124,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 59392,
+    "contextWindow": 200000,
+    "contextTokens": 64516,
+    "percentage": 32
+  }
+}

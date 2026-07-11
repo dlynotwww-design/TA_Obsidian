@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783758071880-qb9ag8d7s",
+  "providerId": "claude",
+  "title": "Organize document",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783758071880,
+  "updatedAt": 1783758457273,
+  "lastResponseAt": 1783758146920,
+  "sessionId": "49cb1ed8-51d3-4794-bd09-c6e67a3124f5",
+  "providerState": {
+    "providerSessionId": "49cb1ed8-51d3-4794-bd09-c6e67a3124f5"
+  },
+  "currentNote": "00_作品展示/03_AI/AI_Basic/LD/讲座29：AI学习研究完整教程（第一期）.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2788,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52608,
+    "contextWindow": 200000,
+    "contextTokens": 55396,
+    "percentage": 28
+  }
+}

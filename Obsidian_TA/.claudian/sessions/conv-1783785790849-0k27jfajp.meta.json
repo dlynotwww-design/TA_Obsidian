@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783785790849-0k27jfajp",
+  "providerId": "claude",
+  "title": "Create SRT-to-Markdown conversion skill",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783785790849,
+  "updatedAt": 1783787002764,
+  "lastResponseAt": 1783786504642,
+  "sessionId": "975e6e52-4b6f-4a76-bb59-b5d1e267c623",
+  "providerState": {
+    "providerSessionId": "975e6e52-4b6f-4a76-bb59-b5d1e267c623"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 334,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 84736,
+    "contextWindow": 200000,
+    "contextTokens": 85070,
+    "percentage": 43
+  }
+}

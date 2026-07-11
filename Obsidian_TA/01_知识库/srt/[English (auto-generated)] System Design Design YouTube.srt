@@ -1,0 +1,711 @@
+1
+00:00:00,240 --> 00:00:02,399
+Upload video, watch video. Sounds
+
+2
+00:00:02,399 --> 00:00:05,120
+simple. YouTube processes 500 hours of
+
+3
+00:00:05,120 --> 00:00:08,000
+video every minute. That's 30,000 hours
+
+4
+00:00:08,000 --> 00:00:10,559
+of content uploaded every hour. The
+
+5
+00:00:10,559 --> 00:00:12,639
+engineering behind this interface is
+
+6
+00:00:12,639 --> 00:00:15,519
+complex. Let's design YouTube. Not the
+
+7
+00:00:15,519 --> 00:00:17,600
+billion user version, but a smaller
+
+8
+00:00:17,600 --> 00:00:19,840
+system that we can learn from. This
+
+9
+00:00:19,840 --> 00:00:22,160
+video covers the core components. We'll
+
+10
+00:00:22,160 --> 00:00:24,400
+focus on video upload and streaming.
+
+11
+00:00:24,400 --> 00:00:26,800
+There's much more to YouTube. search,
+
+12
+00:00:26,800 --> 00:00:29,760
+recommendations, comments, monetization.
+
+13
+00:00:29,760 --> 00:00:32,000
+Each could be its own deep dive. Today,
+
+14
+00:00:32,000 --> 00:00:34,640
+we'll build a foundation you can extend.
+
+15
+00:00:34,640 --> 00:00:36,160
+Here are the requirements we'll focus
+
+16
+00:00:36,160 --> 00:00:39,200
+on. People upload massive videos. A
+
+17
+00:00:39,200 --> 00:00:42,320
+10-minute 4K video ranges from 1.5 GB
+
+18
+00:00:42,320 --> 00:00:45,600
+highly compressed to 30 GB in ProRes.
+
+19
+00:00:45,600 --> 00:00:48,480
+When uploading huge videos, users expect
+
+20
+00:00:48,480 --> 00:00:51,120
+resumable uploads. For viewing, playback
+
+21
+00:00:51,120 --> 00:00:53,199
+must adapt to network condition in real
+
+22
+00:00:53,199 --> 00:00:55,520
+time. When your connection drops from 25
+
+23
+00:00:55,520 --> 00:00:57,760
+megabit per second to 2 megabit per
+
+24
+00:00:57,760 --> 00:01:00,320
+second, playback shouldn't stop. The
+
+25
+00:01:00,320 --> 00:01:02,000
+upload challenge reveals the first
+
+26
+00:01:02,000 --> 00:01:04,320
+design decision. We could route large
+
+27
+00:01:04,320 --> 00:01:06,479
+videos through our API servers,
+
+28
+00:01:06,479 --> 00:01:08,000
+configure streaming instead of
+
+29
+00:01:08,000 --> 00:01:10,479
+buffering, increase time out from 30
+
+30
+00:01:10,479 --> 00:01:12,960
+seconds to 30 minutes, handle partial
+
+31
+00:01:12,960 --> 00:01:15,520
+uploads is all solvable. But why make
+
+32
+00:01:15,520 --> 00:01:17,280
+our servers handle gigabytes of pass
+
+33
+00:01:17,280 --> 00:01:18,880
+through traffic when they could be
+
+34
+00:01:18,880 --> 00:01:21,600
+serving actual API requests? There's a
+
+35
+00:01:21,600 --> 00:01:24,880
+better pattern. use pre-signed URLs. Our
+
+36
+00:01:24,880 --> 00:01:27,439
+API server generates a temporary signed
+
+37
+00:01:27,439 --> 00:01:29,920
+URL that grants direct upload permission
+
+38
+00:01:29,920 --> 00:01:32,320
+to blob storage. The client uploads
+
+39
+00:01:32,320 --> 00:01:34,560
+straight to storage. Our server stay
+
+40
+00:01:34,560 --> 00:01:37,200
+free to handle other work. Blob storage
+
+41
+00:01:37,200 --> 00:01:39,119
+gives us another benefit. We get
+
+42
+00:01:39,119 --> 00:01:41,759
+multiport uploads built in. The client
+
+43
+00:01:41,759 --> 00:01:44,000
+splits the videos into chunks. Each
+
+44
+00:01:44,000 --> 00:01:46,799
+chunk is 5 to 10 megabyte. It's small
+
+45
+00:01:46,799 --> 00:01:48,640
+enough to upload quickly on slower
+
+46
+00:01:48,640 --> 00:01:50,960
+connections. Large enough to minimize
+
+47
+00:01:50,960 --> 00:01:53,680
+overhead. Each chunk get a SH 256
+
+48
+00:01:53,680 --> 00:01:55,920
+fingerprint. The client uploads chunks
+
+49
+00:01:55,920 --> 00:01:58,079
+in parallel. Six chunks uploading
+
+50
+00:01:58,079 --> 00:02:00,799
+simultaneously is common. This pattern
+
+51
+00:02:00,799 --> 00:02:03,280
+appears in Dropbox, Google Drive, and
+
+52
+00:02:03,280 --> 00:02:05,759
+backup services. Any system handling
+
+53
+00:02:05,759 --> 00:02:08,959
+large files uses similar approaches.
+
+54
+00:02:08,959 --> 00:02:10,800
+The processing pipeline presents a
+
+55
+00:02:10,800 --> 00:02:12,959
+different challenge. Video transcoding
+
+56
+00:02:12,959 --> 00:02:15,680
+burns massive compute cycles. User
+
+57
+00:02:15,680 --> 00:02:17,200
+uploads videos in many different
+
+58
+00:02:17,200 --> 00:02:20,720
+formats. iPhone record in HGVC. Android
+
+59
+00:02:20,720 --> 00:02:23,040
+phones uses H.264.
+
+60
+00:02:23,040 --> 00:02:26,160
+Someone uploads a 4K Pro file from Final
+
+61
+00:02:26,160 --> 00:02:28,319
+Cut Pro. We need these videos playable
+
+62
+00:02:28,319 --> 00:02:31,280
+on every device. Old Android phones run
+
+63
+00:02:31,280 --> 00:02:34,640
+ancient Android. Smart TVs from 2018,
+
+64
+00:02:34,640 --> 00:02:36,400
+web browsers that haven't updated in
+
+65
+00:02:36,400 --> 00:02:38,800
+years. The solution is a processing
+
+66
+00:02:38,800 --> 00:02:41,120
+pipeline that converts one video into
+
+67
+00:02:41,120 --> 00:02:43,360
+many versions. We generate multiple
+
+68
+00:02:43,360 --> 00:02:47,280
+resolutions from 2160p down to 240p. We
+
+69
+00:02:47,280 --> 00:02:49,360
+need so many because network conditions
+
+70
+00:02:49,360 --> 00:02:52,000
+and device speeds vary widely. Someone
+
+71
+00:02:52,000 --> 00:02:55,120
+on fiber with a fast device needs 4K.
+
+72
+00:02:55,120 --> 00:02:57,280
+Someone on 3G with an ancient phone
+
+73
+00:02:57,280 --> 00:03:01,519
+needs 240p. Then consider codecs. H264
+
+74
+00:03:01,519 --> 00:03:03,360
+works everywhere but uses more
+
+75
+00:03:03,360 --> 00:03:06,239
+bandwidth. VP9 saves bandwidth but older
+
+76
+00:03:06,239 --> 00:03:09,200
+devices can decode it. AV1 saves even
+
+77
+00:03:09,200 --> 00:03:10,959
+more bandwidth but needs powerful
+
+78
+00:03:10,959 --> 00:03:14,319
+hardware. We encode in all three. Next,
+
+79
+00:03:14,319 --> 00:03:17,280
+we package these in containers. MP4 for
+
+80
+00:03:17,280 --> 00:03:19,840
+maximum compatibility. Webb for web
+
+81
+00:03:19,840 --> 00:03:22,800
+optimization. Now one upload becomes 15
+
+82
+00:03:22,800 --> 00:03:25,280
+to 20 files. How do we process
+
+83
+00:03:25,280 --> 00:03:28,080
+efficiently? Model the workflow as a
+
+84
+00:03:28,080 --> 00:03:30,400
+DAG. DAG stands for the directed as
+
+85
+00:03:30,400 --> 00:03:33,280
+cyclic graph. Each processing step is a
+
+86
+00:03:33,280 --> 00:03:35,680
+note. Dependencies are edges. The
+
+87
+00:03:35,680 --> 00:03:38,159
+asyclic part matters. It ensures task
+
+88
+00:03:38,159 --> 00:03:39,680
+can complete without circular
+
+89
+00:03:39,680 --> 00:03:42,799
+dependencies. First split the video into
+
+90
+00:03:42,799 --> 00:03:45,200
+segments. Videos have key frames every
+
+91
+00:03:45,200 --> 00:03:47,599
+two to 10 seconds. These frames send
+
+92
+00:03:47,599 --> 00:03:50,080
+alone without referencing others. Split
+
+93
+00:03:50,080 --> 00:03:52,720
+a key frames now use segment processes
+
+94
+00:03:52,720 --> 00:03:55,360
+independently. The workflow splits into
+
+95
+00:03:55,360 --> 00:03:58,159
+multiple streams. Video, audio, and
+
+96
+00:03:58,159 --> 00:04:00,319
+metadata each take their own path
+
+97
+00:04:00,319 --> 00:04:02,720
+through the system. Video segments fan
+
+98
+00:04:02,720 --> 00:04:04,959
+out to hundreds of workers while one
+
+99
+00:04:04,959 --> 00:04:08,000
+machine transcodes segment one to 1080p.
+
+100
+00:04:08,000 --> 00:04:11,439
+Another handles segment 2 to 720p. Audio
+
+101
+00:04:11,439 --> 00:04:13,360
+processing runs in parallel on different
+
+102
+00:04:13,360 --> 00:04:15,280
+hardware. Thumbnail generation and
+
+103
+00:04:15,280 --> 00:04:17,199
+subtitle extraction happen on their own
+
+104
+00:04:17,199 --> 00:04:19,600
+dedicated workers. This is the power of
+
+105
+00:04:19,600 --> 00:04:22,079
+modeling work as a DAG. One video
+
+106
+00:04:22,079 --> 00:04:23,840
+becomes hundreds of parallel tasks
+
+107
+00:04:23,840 --> 00:04:26,240
+across a worker farm. As each task
+
+108
+00:04:26,240 --> 00:04:28,479
+completes, results flows to the next
+
+109
+00:04:28,479 --> 00:04:30,720
+stage. Sequential processing would take
+
+110
+00:04:30,720 --> 00:04:33,280
+hours. Parallel processing completes in
+
+111
+00:04:33,280 --> 00:04:36,240
+minutes. Now streaming. Modern video
+
+112
+00:04:36,240 --> 00:04:38,160
+streaming uses adaptive bitray
+
+113
+00:04:38,160 --> 00:04:39,919
+streaming. The video player doesn't
+
+114
+00:04:39,919 --> 00:04:41,520
+download one file. It downloads
+
+115
+00:04:41,520 --> 00:04:44,080
+segments, small chunks of videos, each a
+
+116
+00:04:44,080 --> 00:04:46,320
+few seconds long. When network bandwidth
+
+117
+00:04:46,320 --> 00:04:48,479
+is high, the player fetches 1080p
+
+118
+00:04:48,479 --> 00:04:50,560
+segment. When bandwidth drops, it
+
+119
+00:04:50,560 --> 00:04:52,880
+switches to 480p segments. The
+
+120
+00:04:52,880 --> 00:04:55,199
+transition is usually seamless. This
+
+121
+00:04:55,199 --> 00:04:57,440
+work through manifest files. The primary
+
+122
+00:04:57,440 --> 00:05:00,080
+manifest lists all available formats.
+
+123
+00:05:00,080 --> 00:05:02,000
+Each format then has its own media
+
+124
+00:05:02,000 --> 00:05:04,400
+manifest with URLs for every segment.
+
+125
+00:05:04,400 --> 00:05:06,720
+The player reads manifests, monitors
+
+126
+00:05:06,720 --> 00:05:08,400
+bandwidth using the download speed of
+
+127
+00:05:08,400 --> 00:05:10,479
+the recent segments, and fetches the
+
+128
+00:05:10,479 --> 00:05:12,400
+probate segments. All this happened
+
+129
+00:05:12,400 --> 00:05:15,280
+invisibly. The player makes HTTP range
+
+130
+00:05:15,280 --> 00:05:18,639
+requests. Give me 1,000 to 2,000 of
+
+131
+00:05:18,639 --> 00:05:21,600
+segment five of the 720p version. This
+
+132
+00:05:21,600 --> 00:05:23,759
+enables instance seeking to jump to
+
+133
+00:05:23,759 --> 00:05:26,000
+minute 47. The player calculates which
+
+134
+00:05:26,000 --> 00:05:28,240
+segments to fetch. These segments are
+
+135
+00:05:28,240 --> 00:05:30,639
+stores in CDN's, content delivery
+
+136
+00:05:30,639 --> 00:05:33,120
+networks. Popular videos cache across
+
+137
+00:05:33,120 --> 00:05:35,440
+edge servers worldwide. A viewer in
+
+138
+00:05:35,440 --> 00:05:37,680
+Tokyo get segments from Tokyo, not
+
+139
+00:05:37,680 --> 00:05:40,320
+California. Geographic proximity means
+
+140
+00:05:40,320 --> 00:05:43,039
+lower latency, better streaming. We've
+
+141
+00:05:43,039 --> 00:05:44,880
+just scratched the surface. Several
+
+142
+00:05:44,880 --> 00:05:47,680
+areas deserve deeper exploration. The
+
+143
+00:05:47,680 --> 00:05:49,840
+hot video problems challenges every
+
+144
+00:05:49,840 --> 00:05:52,000
+video platform. When one video goes
+
+145
+00:05:52,000 --> 00:05:53,759
+viral, millions request it
+
+146
+00:05:53,759 --> 00:05:56,240
+simultaneously. We need metadata caching
+
+147
+00:05:56,240 --> 00:05:58,960
+and database hotspot prevention. Cost
+
+148
+00:05:58,960 --> 00:06:01,440
+optimization requires trade-offs. Do we
+
+149
+00:06:01,440 --> 00:06:03,600
+transcode everything immediately or
+
+150
+00:06:03,600 --> 00:06:05,759
+popular formats first? Should rare
+
+151
+00:06:05,759 --> 00:06:08,400
+formats use ondemand transcoding? When
+
+152
+00:06:08,400 --> 00:06:10,880
+do we migrate to code storage? Pipeline
+
+153
+00:06:10,880 --> 00:06:13,280
+optimization can improve latency. Stop
+
+154
+00:06:13,280 --> 00:06:15,199
+processing segments as they arrive
+
+155
+00:06:15,199 --> 00:06:17,440
+instead of waiting for complete upload.
+
+156
+00:06:17,440 --> 00:06:19,680
+Pipeline to upload and processing for
+
+157
+00:06:19,680 --> 00:06:22,080
+faster availability. We could explore
+
+158
+00:06:22,080 --> 00:06:24,560
+geographic CDN placement, readwrite
+
+159
+00:06:24,560 --> 00:06:27,680
+ratios or lazy transcoding strategies.
+
+160
+00:06:27,680 --> 00:06:29,600
+Each topic could be its own deep dive,
+
+161
+00:06:29,600 --> 00:06:31,919
+but the fundamentals remain the same.
+
+162
+00:06:31,919 --> 00:06:34,000
+What makes this design work at scale?
+
+163
+00:06:34,000 --> 00:06:35,919
+Direct uploads keep servers free for
+
+164
+00:06:35,919 --> 00:06:38,400
+actual logic. DAX transforms sequential
+
+165
+00:06:38,400 --> 00:06:40,560
+bottlenecks into parallel workflow.
+
+166
+00:06:40,560 --> 00:06:42,400
+Adaptive streaming ensures smooth
+
+167
+00:06:42,400 --> 00:06:44,000
+playback regardless of network
+
+168
+00:06:44,000 --> 00:06:45,919
+conditions. Once we understand these
+
+169
+00:06:45,919 --> 00:06:47,759
+principles, we see them everywhere.
+
+170
+00:06:47,759 --> 00:06:49,759
+Large file sharing, machine learning
+
+171
+00:06:49,759 --> 00:06:51,840
+pipelines, and live streaming all build
+
+172
+00:06:51,840 --> 00:06:54,720
+on these same foundations.
+
+173
+00:06:54,720 --> 00:06:56,240
+Ready to ace your next technical
+
+174
+00:06:56,240 --> 00:06:58,400
+interview? Join our community where we
+
+175
+00:06:58,400 --> 00:07:00,560
+offer comprehensive courses on system
+
+176
+00:07:00,560 --> 00:07:03,520
+design, coding, behavioral questions,
+
+177
+00:07:03,520 --> 00:07:05,599
+machine learning, and object-oriented
+
+178
+00:07:05,599 --> 00:07:10,280
+design. Learn more at bitebico.com.

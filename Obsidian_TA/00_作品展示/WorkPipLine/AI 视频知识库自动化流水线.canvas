@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"g00000000000007","type":"group","x":463,"y":-156,"width":440,"height":430,"color":"6","label":"七、增强模块 (推荐)"},
+		{"id":"5bd5619543194fd4","type":"group","x":-1439,"y":-422,"width":379,"height":402,"color":"4","label":"youtube"},
+		{"id":"32142ded349d2a79","type":"text","text":"\n[youtube](https://app.downsub.com/dashboard)","x":-1419,"y":-402,"width":339,"height":70,"color":"4"},
+		{"id":"8e1739047c0a4831","type":"text","text":"obsidian插件抓取","x":-1419,"y":-297,"width":339,"height":60,"color":"4"},
+		{"id":"3e9348642b2b751d","type":"text","text":"skill：\n整理文档，\n保留原始视频链接到标签的source，\n归档到对应知识库目录","x":-1419,"y":-194,"width":339,"height":154,"color":"4"},
+		{"id":"t00000000000001","type":"text","text":"# AI 视频，音频知识库自动化流水线\nB站视频 → 字幕提取 → AI总结 → Obsidian知识库","x":-1442,"y":-758,"width":570,"height":109,"color":"6"},
+		{"id":"e198798ae3b15f43","type":"text","text":"Ai记录软件操作的流程，自动处理","x":-1442,"y":-608,"width":329,"height":62,"color":"1"},
+		{"id":"03351191f5a43681","type":"text","text":"字幕提取器插件","x":-985,"y":-273,"width":168,"height":60},
+		{"id":"b92ea3682967ec55","type":"text","text":"带字幕","x":-985,"y":-363,"width":168,"height":60},
+		{"id":"9621a9f32e399a73","type":"text","text":"srt下载","x":-985,"y":-173,"width":168,"height":60},
+		{"id":"eb2bc176298f5143","type":"text","text":"bilibili","x":-928,"y":-485,"width":250,"height":60},
+		{"id":"628a0edaa34dcb0a","type":"text","text":"不带字幕","x":-772,"y":-363,"width":146,"height":60},
+		{"id":"50dc13c87049e6bd","type":"text","text":"[视频解析](https://www.kedou.life/extract/bilibili)","x":-587,"y":-368,"width":380,"height":65},
+		{"id":"c2705f7e677810ca","type":"text","text":"本地音频文件","x":-587,"y":-243,"width":380,"height":60,"color":"2"},
+		{"id":"486e0e27ba062772","type":"text","text":"在线音频转srt\nhttps://turboscribe.ai/zh-CN/dashboard","x":-587,"y":-159,"width":275,"height":114},
+		{"id":"29324858b8b810c4","type":"text","text":"### 💻 方案一：使用本地开源工具 (以OpenAI Whisper为例)\n\nWhisper是OpenAI开源的语音识别模型，因其高准确率和多语言支持而备受欢迎[](https://developer.baidu.com/article/detail.html?id=3665214)[](https://developer.baidu.com/article/detail.html?id=3689750)。你可以使用基于它开发的图形化工具，操作门槛较低。\n\n**推荐工具：Whisper 音频/视频转文字工具（一个开源图形化应用）**\n\n- **核心优势**：基于Whisper的`medium`模型，中英文识别表现出色；支持`mp3`, `wav`, `m4a`, `mp4`等主流音视频格式；能一键导出`txt`纯文本和`srt`字幕文件[](https://github.com/yesno233233/python-audio-transcription)。\n    \n- **操作流程**：\n    \n    1. **安装依赖**：需要先在你的电脑上安装**FFmpeg**（一个音视频处理库）和**Python 3.9+** 环境[](https://github.com/yesno233233/python-audio-transcription)[](https://github.com/juAo12/bilibili-audio-to-text)。\n        \n    2. **运行工具**：下载项目代码，安装好Python库后，运行程序会在浏览器中打开一个操作界面。\n        \n    3. **上传与转录**：在界面中上传你的音频文件，点击“开始转录”即可。处理完成后，可以直接下载结果[](https://github.com/yesno233233/python-audio-transcription)。","x":-255,"y":-159,"width":380,"height":297,"color":"2"},
+		{"id":"n00000000000021","type":"text","text":"**📸 自动截图模块**\n视频关键帧自动截图:\n```\n00:10 → Houdini 节点截图\n00:30 → UE PCG Graph 截图\n01:20 → City Generator 截图\n```\n保存到 `Assets/screenshot_*.png`\nMarkdown 引用: `![[screenshot01.png]]`","x":483,"y":-116,"width":400,"height":180,"color":"6"},
+		{"id":"04cefd5c1b17b8d3","type":"text","text":"D:\\TA\\TA_Obsidian\\Obsidian_TA\\01_知识库\\srt","x":-562,"y":292,"width":413,"height":60,"color":"2"},
+		{"id":"578c354c91c04ef2","type":"text","text":"obsidian调用skill整理保存","x":-562,"y":411,"width":413,"height":60},
+		{"id":"42f520a1b8148011","type":"text","text":"[字幕下载](https://app.downsub.com/downloader)","x":-1808,"y":-372,"width":250,"height":60},
+		{"id":"566b7ffe7415eb81","type":"text","text":"B站链接\n      │\n      ▼\nyt-dlp 下载\n      │\n      ▼\nFFmpeg 提取音频\n      │\n      ▼\nFaster-Whisper\n      │\n      ▼\nTXT\n      │\n      ▼\nMarkdown\n      │\n      ▼\nObsidian Inbox\n      │\n      ▼\nClaude Plugin\n      │\n      ▼\n自动总结\n      │\n      ▼\n自动分类到\n游戏开发/\nHoudini/\nGodot/\nPython/\nAI/\n","x":483,"y":322,"width":321,"height":354}
+	],
+	"edges":[
+		{"id":"476156e27f88575f","fromNode":"628a0edaa34dcb0a","fromSide":"right","toNode":"50dc13c87049e6bd","toSide":"left"},
+		{"id":"5e281a3d202aae19","fromNode":"eb2bc176298f5143","fromSide":"bottom","toNode":"b92ea3682967ec55","toSide":"top"},
+		{"id":"0cfe30b11758557c","fromNode":"eb2bc176298f5143","fromSide":"bottom","toNode":"628a0edaa34dcb0a","toSide":"top"},
+		{"id":"3966c5e504e7a2a1","fromNode":"50dc13c87049e6bd","fromSide":"bottom","toNode":"c2705f7e677810ca","toSide":"top"},
+		{"id":"ff8a27564a1acc81","fromNode":"29324858b8b810c4","fromSide":"bottom","toNode":"04cefd5c1b17b8d3","toSide":"top"},
+		{"id":"f369d2cae198a197","fromNode":"04cefd5c1b17b8d3","fromSide":"bottom","toNode":"578c354c91c04ef2","toSide":"top"},
+		{"id":"030ae42566652772","fromNode":"486e0e27ba062772","fromSide":"bottom","toNode":"04cefd5c1b17b8d3","toSide":"top"},
+		{"id":"406a6aeeb30b16cf","fromNode":"b92ea3682967ec55","fromSide":"bottom","toNode":"03351191f5a43681","toSide":"top"},
+		{"id":"e9125df1efa4403e","fromNode":"03351191f5a43681","fromSide":"bottom","toNode":"9621a9f32e399a73","toSide":"top"},
+		{"id":"d02a1594d4203df1","fromNode":"9621a9f32e399a73","fromSide":"bottom","toNode":"04cefd5c1b17b8d3","toSide":"top"},
+		{"id":"3355a0c4b904d788","fromNode":"32142ded349d2a79","fromSide":"bottom","toNode":"8e1739047c0a4831","toSide":"top"},
+		{"id":"627b03678f4334d6","fromNode":"8e1739047c0a4831","fromSide":"bottom","toNode":"3e9348642b2b751d","toSide":"top"}
+	]
+}

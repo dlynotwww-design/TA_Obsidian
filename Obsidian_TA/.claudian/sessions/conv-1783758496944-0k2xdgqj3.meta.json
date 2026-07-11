@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783758496944-0k2xdgqj3",
+  "providerId": "claude",
+  "title": "Organize Article into New Document",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783758496944,
+  "updatedAt": 1783763079908,
+  "lastResponseAt": 1783758773906,
+  "sessionId": "f6155eb8-d35f-4d86-8867-33ac6373d9be",
+  "providerState": {
+    "providerSessionId": "f6155eb8-d35f-4d86-8867-33ac6373d9be"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 269,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 71552,
+    "contextWindow": 200000,
+    "contextTokens": 71821,
+    "percentage": 36
+  }
+}

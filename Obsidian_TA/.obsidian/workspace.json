@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x-bookmarks/2026-07-06-Ryan Sael-Everything is data..md",
-                "mode": "preview",
+                "file": "Clippings/System Design Design YouTube.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-06-Ryan Sael-Everything is data."
+              "title": "System Design Design YouTube"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "x-bookmarks/2026-07-06-Ryan Sael-Everything is data..md",
+                "file": "Clippings/System Design Design YouTube.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-07-06-Ryan Sael-Everything is data. 的大纲"
+              "title": "System Design Design YouTube 的大纲"
             }
           },
           {
@@ -186,16 +186,6 @@
             }
           },
           {
-            "id": "774b8cdd63c52b28",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
             "id": "d3f6007e409b74c4",
             "type": "leaf",
             "state": {
@@ -210,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 591.5
+    "width": 533.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,68 +213,68 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "realclaudian:Open Claudian": false,
-      "copilot:Open Copilot Chat": false,
       "lemon-vault-dashboard:仓库仪表盘": false,
-      "x-bookmarks-sync:Open X bookmarks": false
+      "x-bookmarks-sync:Open X bookmarks": false,
+      "drawio:Launch draw.io editor": false,
+      "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "7a2dcc8fc6e9e18f",
+  "active": "babee1f4960a6ca8",
   "lastOpenFiles": [
-    "x-bookmarks/2026-07-07-导演BK｜游戏行业幕后-？？？.md",
-    "x-bookmarks/2026-07-07-Adrien Rouquié-#AutoRemesher 1.0 came out and I couldn't resist vibe-coding a tiny Blender bridge for it..md",
-    "x-bookmarks/2026-07-07-Alek Pauls-Procedural dungeons generation in action. With a multiplayer of course..md",
-    "x-bookmarks/2026-07-07-LOY-Bookmark.md",
-    "x-bookmarks/2026-07-07-William Faucher-After many months of work, I’m happy to (finally) announce the release of EasyWaterscape for #unrealengine!.md",
-    "x-bookmarks/2026-07-08-白骏知识分享-这种风格+英文配音.md",
-    "x-bookmarks/2026-07-09-SpaceXAI-Announcing Grok 4.5, our first model trained specifically for coding and agents. It was trained with Cursor an.md",
-    "00_作品展示/MyGame/《游戏造梦师：游戏场景开发与设计》内容概括.md",
-    "x-bookmarks/2026-07-05-Dr. Moyu｜摸鱼局长-赚到三千万的黄猫股神 @leto_bao，推荐过的这三本书，我觉得普通人真可以读一读.md",
-    "x-bookmarks/2026-07-06-Ryan Sael-Everything is data..md",
-    "x-bookmarks/2026-07-06-Farrukh Abdur-Using here the new AutoRemesher free tool with Blender. It produces good quad topology maintaining edge flow..md",
-    "01_知识库/00_Houdini/07_橘柚.md",
-    "01_知识库/00_Houdini/Houdini知识体系总览.md",
-    "01_知识库/00_Houdini/11_操作及名词解释.md",
-    "01_知识库/00_Houdini/10_传统中式.md",
-    "01_知识库/00_Houdini/09_学习资源.md",
-    "01_知识库/00_Houdini/08_程序化建模案例.md",
-    "01_知识库/00_Houdini/05_houdinikitchen.md",
-    "01_知识库/00_Houdini/06_VEX.md",
-    "01_知识库/00_Houdini/04_框架整理.md",
-    "01_知识库/00_Houdini/02_官方课程.md",
-    "01_知识库/00_Houdini/03_城市生成.md",
-    "01_知识库/00_Houdini/00_github/sideeffectsSideFXLabsExamples Example files and demo projects created for SideFX Labs.md",
-    "01_知识库/00_Houdini/01_招聘技术栈梳理.md",
-    "01_知识库/00_Houdini/00_github/sideeffectsSideFXLabs.md",
-    "01_知识库/00_Houdini/00_github/sideeffectsGameDevelopmentToolset A series of Houdini shelf tools that are geared towards game developers!.md",
-    "00_作品展示/MyGame/GameDev2D_目录.md.tmp.18176.55ac847d8058",
-    "00_作品展示/MyGame/GameDev2D_目录.md.tmp.18176.4d64c472c77e",
-    "00_作品展示/MyGame/GameDev2D_目录.md.tmp.18176.ff7c3caa8f6d",
-    "00_作品展示/MyGame/GameDev2D.md.tmp.18176.13c9ed3097e1",
+    "01_知识库/srt/[English (auto-generated)] System Design Design YouTube.srt",
+    "01_知识库/srt/已处理/[English (auto-generated)] System Design Design YouTube.srt",
+    "01_知识库/srt/已处理/[English (auto-generated)] System Design Design YouTube-2.srt",
+    "Clippings/System Design Design YouTube.md",
+    "02_计算机基础/YouTube 系统设计深入解析.md",
+    "02_计算机基础/YouTube 系统设计深入解析.md.tmp.33764.4aa92a3937b5",
+    "02_计算机基础",
+    "01_知识库/02_计算机基础/YouTube 系统设计深入解析.md",
+    "01_知识库/srt/已处理/YouTube 系统设计深入解析.md",
+    "01_知识库/system-design/YouTube 系统设计深度解析.md",
+    "01_知识库/system-design/YouTube 系统设计深度解析.md.tmp.37268.b7c0c9f51acf",
+    "01_知识库/system-design",
+    "01_知识库/srt/已处理/基于虚幻引擎 刘陌桑 腾讯天美J3工作室 高级技术美术.srt",
+    "01_知识库/02_计算机基础/System Design Design YouTube.md",
+    "01_知识库/02_计算机基础/System Design Design YouTube.md.tmp.5536.bcb6d499d2a3",
+    "00_作品展示/WorkPipLine/AI 视频知识库自动化流水线.canvas",
+    "01_知识库/02_计算机基础/System Design Design YouTube.md.tmp.5536.567a02948aa5",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/资源链接.md",
+    "00_作品展示/02_PCG研究/典型案例/资源整理.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/video/UnrealCircle模块化的城市生成  Epic Games 肖月.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/video/Houdini UE5程序化城市构建.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/city-superMatrixCity ICCV 2023 MatrixCity A Large-scale City Dataset for City-scale Neural Rendering and Beyond.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/UE5 《黑客帝国》PCG案例分析2：程序化生成管线.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
+    "01_知识库/03_UE/pcg/基于虚幻引擎5的开放世界PCG生态管线.md",
+    "01_知识库/03_UE/pcg/UFSH2024 PCG小技巧及新功能简介.md",
+    "00_作品展示/WorkPipLine/AI 视频知识库自动化流水线-流程图.md",
+    "00_作品展示/00_TAFolder.md",
+    "01_知识库/03_UE/UFSH2024 PCG小技巧及新功能简介.md",
+    "00_作品展示/03_AIProject/AIgame/GameCity2D — AI Agent 游戏开发架构.md",
+    "00_作品展示/03_AIProject/AIgame/架构.md",
+    "00_作品展示/03_AI/AI_Basic/未命名.md",
+    "00_作品展示/WorkPipLine/AI 视频知识库自动化流水线.md",
     "01_知识库/知识渠道.png",
-    "00_作品展示/06_RenderPipline",
-    "未命名",
+    "02_个人/00_思考/技术认知.md",
+    "02_个人/00_思考/商业判断.md",
+    "02_个人/00_思考/信息整理.md",
+    "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
+    "01_知识库/00_Houdini/软件操作/附件/Pasted image 20260711194927.png",
+    "01_知识库/00_Houdini/软件操作/附件/Pasted image 20260711194615.png",
+    "00_作品展示/VideoToObsidianAgent/mind.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/架构.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/05_Parcel_Generator.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/02_Road_Generator.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/01_City_Layout.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/00_Project_Overview.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/03_Intersection.canvas",
     "00_作品展示/02_PCG研究/GameCity/pcg城市.canvas",
-    "01_知识库/07_Godot",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/3D游戏开发美术与程序岗位职责.canvas",
-    "00_作品展示/00_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
-    "00_作品展示/MyGame/与猫同行/开发文档",
-    "00_作品展示/MyGame/与猫同行/策划",
-    "00_作品展示/MyGame/与猫同行",
-    "00_作品展示/MyGame/癫狂的纽约/director/癫狂的世界设计.canvas",
-    "x-bookmarks/Navigation/01_AI艺术.canvas",
-    "x-bookmarks/Navigation/02_3D与游戏.canvas",
-    "x-bookmarks/Navigation/主页.canvas",
-    "x-bookmarks/📊_导航/主页.canvas",
-    "x-bookmarks/📊_导航/05_影视与摄影.canvas",
-    "x-bookmarks/📊_导航/01_AI艺术.canvas",
     "00_作品展示/02_PCG研究/GameCity/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
     "00_作品展示/02_PCG研究/GameCity/附件/Screenshot - 2026-07-03 00.16.42.png",
     "01_知识库/04_Unity/resources/02.png",
     "01_知识库/04_Unity/resources/01.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
     "01_知识库/04_Unity/resources/Pasted image 20260605170637.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170044.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605165655.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260603230236.png"
+    "01_知识库/04_Unity/resources/Pasted image 20260605170044.png"
   ]
 }

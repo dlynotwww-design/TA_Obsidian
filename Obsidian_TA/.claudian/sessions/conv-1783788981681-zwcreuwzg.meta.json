@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783788981681-zwcreuwzg",
+  "providerId": "claude",
+  "title": "Convert SRT subtitle files to Markdown",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783788981681,
+  "updatedAt": 1783789392950,
+  "lastResponseAt": 1783789367547,
+  "sessionId": "18b72665-5bbc-4670-bacf-ce538bed2cfc",
+  "providerState": {
+    "providerSessionId": "18b72665-5bbc-4670-bacf-ce538bed2cfc"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 721,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 62464,
+    "contextWindow": 200000,
+    "contextTokens": 63185,
+    "percentage": 32
+  }
+}

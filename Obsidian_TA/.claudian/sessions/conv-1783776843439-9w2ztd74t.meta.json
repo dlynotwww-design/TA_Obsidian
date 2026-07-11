@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783776843439-9w2ztd74t",
+  "providerId": "claude",
+  "title": "Organize Project Documentation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783776843458,
+  "updatedAt": 1783785507399,
+  "lastResponseAt": 1783777184645,
+  "sessionId": "f105f5e5-10b9-4fa1-9a20-992d4dcfcd69",
+  "providerState": {
+    "providerSessionId": "f105f5e5-10b9-4fa1-9a20-992d4dcfcd69"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 254,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 41088,
+    "contextWindow": 200000,
+    "contextTokens": 41342,
+    "percentage": 21
+  }
+}
