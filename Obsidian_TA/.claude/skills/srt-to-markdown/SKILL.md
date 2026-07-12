@@ -5,7 +5,7 @@ description: Convert SRT subtitle files to formatted Markdown notes with proper 
 
 # SRT to Markdown Skill
 
-Convert SRT subtitle files into well-structured Obsidian Markdown notes. This skill handles the full pipeline: parsing SRT timestamps, merging fragmented subtitle lines into coherent paragraphs, translating English content to Chinese (preserving proper nouns), adding Chinese punctuation, organizing content under `##` headings, inserting screenshot/slide placeholders, auto-generating relevant tags, saving the Markdown to an existing knowledge base folder under `01_知识库/`, and copying the original SRT to the `01_知识库/srt/已处理/` archive (preserving the original file).
+Convert SRT subtitle files into well-structured Obsidian Markdown notes. This skill handles the full pipeline: parsing SRT timestamps, merging fragmented subtitle lines into coherent paragraphs, translating English content to Chinese (preserving proper nouns), adding Chinese punctuation, organizing content under `##` headings, inserting screenshot/slide placeholders, auto-generating relevant tags, saving the Markdown to an existing knowledge base folder under `01_知识库/`, and moving the original SRT to the `01_知识库/srt/已处理/` archive.
 
 ## Workflow: Converting an SRT File to Markdown
 
@@ -224,21 +224,21 @@ After determining the target folder, ensure it exists (create if needed), then w
 01_知识库/<target-folder>/中文标题.md
 ```
 
-**Part B: Copy the original SRT file to the processed folder**
+**Part B: Move the original SRT file to the processed folder**
 
-After the Markdown file is successfully saved, **copy** (do NOT move) the original SRT file to the processed archive:
+After the Markdown file is successfully saved, **move** the original SRT file to the processed archive:
 
-**Copy path:** `01_知识库/srt/已处理/`
+**Move path:** `01_知识库/srt/已处理/`
 
 This is the fixed archive folder for ALL processed SRT source files.
 
 ```bash
-cp "<original-srt-path>" "01_知识库/srt/已处理/<original-filename>.srt"
+mv "<original-srt-path>" "01_知识库/srt/已处理/<original-filename>.srt"
 ```
 
 If the destination already has a file with the same name, append a number suffix: `<original-filename>-2.srt`, `<original-filename>-3.srt`, etc.
 
-**⚠️ IMPORTANT: Keep the original SRT file in place.** Use `cp` (copy), NOT `mv` (move). The original file stays at its original location.
+**⚠️ IMPORTANT: The original SRT file is moved (not copied) — it will no longer exist at its original location.** Use `mv` (move), NOT `cp` (copy).
 
 **Ensure the folders exist** before saving/moving. If either folder does not exist, create it first.
 
@@ -251,7 +251,7 @@ If the destination already has a file with the same name, append a number suffix
 
 After both operations complete, confirm to the user:
 - `已保存 Markdown 到 [[01_知识库/<target-folder>/中文标题.md]]`
-- `已复制原始 SRT 到 01_知识库/srt/已处理/<filename>.srt（原文件已保留）`
+- `已移动原始 SRT 到 01_知识库/srt/已处理/<filename>.srt`
 
 ### Step 10: Verify
 
@@ -269,7 +269,7 @@ Check the output against these criteria:
 - [ ] Total tag count is between 3-12
 - [ ] Markdown file is saved to an existing knowledge base folder under `01_知识库/` based on primary tag
 - [ ] No new top-level folder was created
-- [ ] Original SRT file is copied to `01_知识库/srt/已处理/` (original preserved in place)
+- [ ] Original SRT file is moved to `01_知识库/srt/已处理/`
 - [ ] Filename is descriptive, in Chinese, and free of special characters
 - [ ] User is notified with a wikilink to the saved Markdown file and the copied SRT path
 
@@ -397,11 +397,11 @@ date: 2026-07-12
 ```
 
 **Saved to:** `01_知识库/00_AI/机器学习教程.md`（使用已有文件夹）  
-**Original SRT copied to:** `01_知识库/srt/已处理/`（原文件保留）
+**Original SRT moved to:** `01_知识库/srt/已处理/`
 
 > After saving, confirm to the user with:  
 > `已保存 Markdown 到 [[01_知识库/00_AI/机器学习教程.md]]：标签 #subtitles #tutorial #machine-learning #supervised-learning #beginner`  
-> `已复制原始 SRT 到 01_知识库/srt/已处理/machine-learning-tutorial.srt（原文件已保留）`
+> `已移动原始 SRT 到 01_知识库/srt/已处理/machine-learning-tutorial.srt`
 
 ## Notes
 
@@ -412,4 +412,4 @@ date: 2026-07-12
 - Chinese punctuation uses full-width characters: `，。！？：；` — never use half-width `, . ! ? : ;` in Chinese text
 - English proper nouns (company names, product names, technical terms) should remain in English within Chinese text
 - All output files go to an existing knowledge base folder under `01_知识库/` matched by primary tag — do NOT create new top-level folders; fall back to `02_计算机基础` if no match
-- Original SRT files are always **copied** (not moved) to `01_知识库/srt/已处理/` after successful conversion — the original stays in place
+- Original SRT files are always **moved** (not copied) to `01_知识库/srt/已处理/` after successful conversion

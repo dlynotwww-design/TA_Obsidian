@@ -4,8 +4,8 @@
   "title": "Convert SRT to Markdown",
   "titleGenerationStatus": "success",
   "createdAt": 1783789398499,
-  "updatedAt": 1783789643776,
-  "lastResponseAt": 1783789643776,
+  "updatedAt": 1783789879049,
+  "lastResponseAt": 1783789836898,
   "sessionId": "dad29d19-f7c4-4102-9a9e-fd6852b5298e",
   "providerState": {
     "providerSessionId": "dad29d19-f7c4-4102-9a9e-fd6852b5298e"
@@ -13,11 +13,12 @@
   "currentNote": "Clippings/System Design Design YouTube.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 2216,
+    "inputTokens": 225,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 51328,
-    "contextWindow": 200000,
-    "contextTokens": 53544,
-    "percentage": 27
+    "cacheReadInputTokens": 62080,
+    "contextWindow": 1000000,
+    "contextTokens": 62305,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
   }
 }

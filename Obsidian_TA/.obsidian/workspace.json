@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0c7b74f53cf8eced",
+        "id": "1d920b39a19d5985",
         "type": "tabs",
         "children": [
           {
-            "id": "babee1f4960a6ca8",
+            "id": "1122c1ad94f7671e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/System Design Design YouTube.md",
+                "file": "00_作品展示/03_AIProject/UE/MCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "System Design Design YouTube"
+              "title": "MCP"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/System Design Design YouTube.md",
+                "file": "00_作品展示/03_AIProject/UE/MCP.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "System Design Design YouTube 的大纲"
+              "title": "MCP 的大纲"
             }
           },
           {
@@ -196,11 +196,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,62 +219,62 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "babee1f4960a6ca8",
+  "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "01_知识库/srt/[English (auto-generated)] System Design Design YouTube.srt",
-    "01_知识库/srt/已处理/[English (auto-generated)] System Design Design YouTube.srt",
-    "01_知识库/srt/已处理/[English (auto-generated)] System Design Design YouTube-2.srt",
-    "Clippings/System Design Design YouTube.md",
-    "02_计算机基础/YouTube 系统设计深入解析.md",
-    "02_计算机基础/YouTube 系统设计深入解析.md.tmp.33764.4aa92a3937b5",
-    "02_计算机基础",
-    "01_知识库/02_计算机基础/YouTube 系统设计深入解析.md",
-    "01_知识库/srt/已处理/YouTube 系统设计深入解析.md",
-    "01_知识库/system-design/YouTube 系统设计深度解析.md",
-    "01_知识库/system-design/YouTube 系统设计深度解析.md.tmp.37268.b7c0c9f51acf",
-    "01_知识库/system-design",
-    "01_知识库/srt/已处理/基于虚幻引擎 刘陌桑 腾讯天美J3工作室 高级技术美术.srt",
-    "01_知识库/02_计算机基础/System Design Design YouTube.md",
-    "01_知识库/02_计算机基础/System Design Design YouTube.md.tmp.5536.bcb6d499d2a3",
-    "00_作品展示/WorkPipLine/AI 视频知识库自动化流水线.canvas",
-    "01_知识库/02_计算机基础/System Design Design YouTube.md.tmp.5536.567a02948aa5",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/资源链接.md",
-    "00_作品展示/02_PCG研究/典型案例/资源整理.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/video/UnrealCircle模块化的城市生成  Epic Games 肖月.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/video/Houdini UE5程序化城市构建.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/city-superMatrixCity ICCV 2023 MatrixCity A Large-scale City Dataset for City-scale Neural Rendering and Beyond.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/UE5 《黑客帝国》PCG案例分析2：程序化生成管线.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
-    "01_知识库/03_UE/pcg/基于虚幻引擎5的开放世界PCG生态管线.md",
-    "01_知识库/03_UE/pcg/UFSH2024 PCG小技巧及新功能简介.md",
-    "00_作品展示/WorkPipLine/AI 视频知识库自动化流水线-流程图.md",
+    "00_作品展示/03_AIProject/知识库/AI 视频知识库自动化流水线.canvas",
+    "00_作品展示/03_AIProject/知识库/AI 视频知识库自动化流水线-流程图.md",
+    "01_知识库/04_Unity/Shader/1. 介绍  Shadertoy中文教程.md",
+    "00_作品展示/03_AIProject/知识库",
+    "00_作品展示/材质",
     "00_作品展示/00_TAFolder.md",
-    "01_知识库/03_UE/UFSH2024 PCG小技巧及新功能简介.md",
+    "00_作品展示/01_项目文档/UE控制台命令.md",
+    "00_作品展示/01_项目文档/GameCityTool/Pipline.canvas",
+    "01_知识库/00_TA/渲染教程框架目录.md",
+    "01_知识库/00_TA/TA技术美术学习体系框架.md",
+    "01_知识库/04_Unity/TA技术美术学习体系框架 （别再买垃圾教程了）_哔哩哔哩_bilibili.md",
+    "01_知识库/00_GameDesign/概览.md",
+    "00_作品展示/01_项目文档/GameCityTool/GameCity.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/city-superMatrixCity ICCV 2023 MatrixCity A Large-scale City Dataset for City-scale Neural Rendering and Beyond.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/00_Project_Overview.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/The Matrix Awakens Generating a World Tech Talk State of Unreal 2022.md",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/架构.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/01_City_Layout.canvas",
+    "00_作品展示/02_PCG研究/Houdini都市PCG教程资源.md",
+    "00_作品展示/03_AIProject/AIgame/__AI游戏开发研究报告.md",
+    "00_作品展示/03_AIProject/AIgame/__AiGame_总览.md",
     "00_作品展示/03_AIProject/AIgame/GameCity2D — AI Agent 游戏开发架构.md",
-    "00_作品展示/03_AIProject/AIgame/架构.md",
-    "00_作品展示/03_AI/AI_Basic/未命名.md",
-    "00_作品展示/WorkPipLine/AI 视频知识库自动化流水线.md",
+    "00_作品展示/03_AIProject/AIgame/soon.md",
+    "00_作品展示/03_AIProject/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
+    "00_作品展示/03_AIProject/Claude Fable 5 + This Godot AI Plugin Change Game Dev Forever (Ziva).md",
+    "00_作品展示/03_AIProject/知识库/AI 视频知识库自动化流水线.md",
+    "01_知识库/01_图形学/GAMES101/GAMES101-第一讲-计算机图形学概述.md",
+    "01_知识库/01_图形学/GAMES101/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili.md",
+    "01_知识库/00_AI/6-Week AI Engineering Cohort Course.md",
+    "01_知识库/srt/已处理/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili_BV1X7411F744_字幕.srt",
+    "01_知识库/01_图形学/GAMES101-第一讲-计算机图形学概述.md.tmp.4064.60f5740d4982",
+    "01_知识库/srt/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili_BV1X7411F744_字幕.srt",
+    "01_知识库/00_TA/TA技术美术学习体系框架.md.tmp.5740.1672ddd17d1f",
+    "01_知识库/01_图形学/BookMD/Real-Time_Rendering_3rd_提炼总结.md",
+    "01_知识库/01_图形学/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
+    "01_知识库/01_图形学/BookMD/游戏造梦师游戏场景开发与设计.md",
+    "01_知识库/04_Unity/00_Unity相关.canvas",
+    "01_知识库/04_Unity/Shader",
+    "01_知识库/00_TA",
+    "01_知识库/03_UE/Pipline/World_Building_poster_18x24.pdf",
+    "01_知识库/00_Houdini/resources/5fb264a42136b56c915b84d3973b29dd4b771e06bc1ddfd67fb244124bb6bde8.png",
+    "01_知识库/00_Houdini/resources/7e64b9c0db1e7e25a438284c838c7c2de27707ce77afd5acb0c25514e0bb4a70.png",
+    "01_知识库/00_Houdini/resources/6ab9e93411a6c2abb2b2982ba6e0f5843b8368d7e74910041086848b3a56c518.png",
+    "01_知识库/00_Houdini/resources/5ab2773650f64913b36502b436d92f773921d9415be90f578932f5c48908eb91.png",
+    "01_知识库/00_Houdini/resources/4b4528c7d5cef588ac3fa6f549a110cd4526a710ebc171a49dedfd69726996f9.png",
+    "01_知识库/00_Houdini/resources/5244c361eaf6a803302a849231530fe2778ffc15f32e432a276300d56ea65336.png",
     "01_知识库/知识渠道.png",
-    "02_个人/00_思考/技术认知.md",
-    "02_个人/00_思考/商业判断.md",
-    "02_个人/00_思考/信息整理.md",
     "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
     "01_知识库/00_Houdini/软件操作/附件/Pasted image 20260711194927.png",
     "01_知识库/00_Houdini/软件操作/附件/Pasted image 20260711194615.png",
     "00_作品展示/VideoToObsidianAgent/mind.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/架构.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/05_Parcel_Generator.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/02_Road_Generator.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/01_City_Layout.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/00_Project_Overview.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/Mynote/03_Intersection.canvas",
-    "00_作品展示/02_PCG研究/GameCity/pcg城市.canvas",
-    "00_作品展示/02_PCG研究/GameCity/附件/ChatGPT Image 2026年7月5日 01_25_15.png",
-    "00_作品展示/02_PCG研究/GameCity/附件/Screenshot - 2026-07-03 00.16.42.png",
-    "01_知识库/04_Unity/resources/02.png",
-    "01_知识库/04_Unity/resources/01.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170739.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170637.png",
-    "01_知识库/04_Unity/resources/Pasted image 20260605170044.png"
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/05_Parcel_Generator.canvas",
+    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/02_Road_Generator.canvas",
+    "00_作品展示/02_PCG研究/GameCity/附件/ChatGPT Image 2026年7月5日 01_25_15.png"
   ]
 }

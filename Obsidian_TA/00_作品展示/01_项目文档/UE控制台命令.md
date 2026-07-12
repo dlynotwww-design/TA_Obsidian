@@ -1,7 +1,5 @@
 ## UE控制台命令
 
-## - 运行时
-
 ▼ r.Shadow.Virtual.Enable 
 
 ■ 1为启用虚拟阴影贴图
@@ -58,9 +56,8 @@ r.Shadow.DistanceScale=2
 
 ▼ r.Streaming.PoolSize 
 
-## TEXTURE STREAMING POOL OVER 271.102 MIB BUDGET
-
 - 当你的场景稍微复杂一些的时候，默认纹理流送池就会被挤爆，导致部分贴图加载成很小的lod，画面会糊。默认有1G显存分配给了纹理流送池，不够用的时候可以手动调大。比如，r.Streaming.PoolSize 4096，就可以分配4G显存给纹理流送池。这个参数吧，量力而行就可以了。当然，懒人最爱用的是r.Streaming.PoolSize 0，可以设置纹理流送池无上限。
+
 
 ## - UE5 控制台命令汇总-渲染（一）
 
@@ -122,11 +119,11 @@ diusScale=2.0
 - r.Lumen.Reflections.HierarchicalScreenTraces
 (为Lumen反射启用分层屏幕追踪，提高场景中反射的精度和质量。)
 
-## 7. 景深
+### 7. 景深
 
 - r.DepthOfFieldQuality=4 (启用高质量的景深。)
 
-## 8. 运动模糊
+### 8. 运动模糊
 
 - r.MotionBlurQuality=4
 (最大化运动模糊质量，以获得更平滑的过渡。)
@@ -158,7 +155,7 @@ diusScale=2.0
 
 (启用光线追踪全局光照，以获得更逼真和动态的光照。)
 
-## 12. 虚拟纹理
+### 12. 虚拟纹理
 
 • r.VirtualTextures=1 
 
@@ -168,7 +165,7 @@ diusScale=2.0
 
 (增加图块大小以获得更清晰的纹理。)
 
-## 13. 帧率 (可选)
+### 13. 帧率 (可选)
 
 • t.MaxFPS=60 or t.MaxFPS=120 
 

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783845529435-k6vldu840",
+  "providerId": "claude",
+  "title": "Convert SRT to Markdown",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783845529435,
+  "updatedAt": 1783846351594,
+  "lastResponseAt": 1783845701018,
+  "sessionId": "61dc2cb6-f1d1-437f-955f-86d4fa436c34",
+  "providerState": {
+    "providerSessionId": "61dc2cb6-f1d1-437f-955f-86d4fa436c34"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 255,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 83200,
+    "contextWindow": 200000,
+    "contextTokens": 83455,
+    "percentage": 42
+  }
+}

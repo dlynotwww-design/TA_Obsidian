@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783789896713-qqszsiuap",
+  "providerId": "claude",
+  "title": "Convert SRT to Markdown",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783789896713,
+  "updatedAt": 1783844999307,
+  "lastResponseAt": 1783789991782,
+  "sessionId": "54ba1b31-5a6e-4dc2-8ac3-c0c00d0c795d",
+  "providerState": {
+    "providerSessionId": "54ba1b31-5a6e-4dc2-8ac3-c0c00d0c795d"
+  },
+  "currentNote": "01_知识库/srt/[English (auto-generated)] System Design Design YouTube.srt",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 320,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47360,
+    "contextWindow": 200000,
+    "contextTokens": 47680,
+    "percentage": 24
+  }
+}
