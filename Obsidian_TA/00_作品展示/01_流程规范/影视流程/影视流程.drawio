@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="ugMhRkszeAqZ4HEv_Gii">
+    <mxGraphModel dx="1976" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#4D4D4D" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph TB\n    A[\&quot;&lt;b&gt;Phase A&lt;/b&gt;&lt;br/&gt;UE文件大纲 &amp; 项目结构规划&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;命名规范 · 目录标准&lt;br/&gt;自动化目录生成\&quot;]\n\n    B[\&quot;&lt;b&gt;Phase B&lt;/b&gt;&lt;br/&gt;自动化插件 &amp; 工具链&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;批量导入插件 · 工具开发&lt;br/&gt;底层 API 支持\&quot;]\n\n    C[\&quot;&lt;b&gt;Phase C&lt;/b&gt;&lt;br/&gt;道具制作管线&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;贴图/材质/模型规范&lt;br/&gt;自动导入 · 质量检查\&quot;]\n\n    D[\&quot;&lt;b&gt;Phase D&lt;/b&gt;&lt;br/&gt;角色制作管线 ⭐ TA核心战场&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;骨骼 · 蒙皮 · 毛发 Groom&lt;br/&gt;解算 CFX · 动画管线\&quot;]\n\n    E[\&quot;&lt;b&gt;Phase E&lt;/b&gt;&lt;br/&gt;场景制作管线&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;PCG · 资产库 · 灯光&lt;br/&gt;效果标准 · 后处理\&quot;]\n\n    F[\&quot;&lt;b&gt;Phase F&lt;/b&gt;&lt;br/&gt;镜头管理 &amp; 资产管线&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;Shot 组织 · ShotAssets&lt;br/&gt;批量化 · 渲染农场\&quot;]\n\n    G[\&quot;&lt;b&gt;Phase G&lt;/b&gt;&lt;br/&gt;AI 技术融合&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;AI生成三视图 · 图生3D&lt;br/&gt;智能场景摆放\&quot;]\n\n    H[\&quot;&lt;b&gt;影视UE管线协作闭环&lt;/b&gt;&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;制作 ← TA → TD&lt;br/&gt;持续改进管线\&quot;]\n\n    I[\&quot;&lt;b&gt;VFXAssets &amp; 特效管线&lt;/b&gt;&lt;br/&gt;━━━━━━━━━━━━━━&lt;br/&gt;Niagara · 特效材质&lt;br/&gt;Shot 关联 · 版本快照\&quot;]\n\n    A --&gt;|\&quot;大纲结构确立 → 插件开发\&quot;| B\n    B --&gt;|\&quot;工具链就绪 → 道具管线\&quot;| C\n    C --&gt;|\&quot;道具管线 → 角色管线\&quot;| D\n    D --&gt;|\&quot;角色管线 → 场景管线\&quot;| E\n    E --&gt;|\&quot;场景管线 → 镜头管理\&quot;| F\n    F --&gt;|\&quot;传统管线成熟 → AI技术融合\&quot;| G\n    F --&gt;|\&quot;镜头管理 → 协作总结\&quot;| H\n    G --&gt;|\&quot;AI探索 → 协作闭环\&quot;| H\n    H --&gt;|\&quot;VFX管线补充说明\&quot;| I\n\n    style A fill:#4a9eff,color:#fff\n    style B fill:#a855f7,color:#fff\n    style C fill:#f59e0b,color:#fff\n    style D fill:#10b981,color:#fff\n    style E fill:#06b6d4,color:#fff\n    style F fill:#ef4444,color:#fff\n    style G fill:#4a9eff,color:#fff\n    style H fill:#ef4444,color:#fff\n    style I fill:#f59e0b,color:#fff&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="Vlnpv2G5cpwgttWxoJSj-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase A&lt;/b&gt;&#xa;UE文件大纲 &amp; 项目结构规划&#xa;━━━━━━━━━━━━━━&#xa;命名规范 · 目录标准&#xa;自动化目录生成" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a9eff;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase A&lt;/b&gt;&#xa;UE文件大纲 &amp; 项目结构规划&#xa;━━━━━━━━━━━━━━&#xa;命名规范 · 目录标准&#xa;自动化目录生成" id="Vlnpv2G5cpwgttWxoJSj-2">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a9eff;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-900" y="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase B&lt;/b&gt;&#xa;自动化插件 &amp; 工具链&#xa;━━━━━━━━━━━━━━&#xa;批量导入插件 · 工具开发&#xa;底层 API 支持" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a855f7;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase B&lt;/b&gt;&#xa;自动化插件 &amp; 工具链&#xa;━━━━━━━━━━━━━━&#xa;批量导入插件 · 工具开发&#xa;底层 API 支持" id="Vlnpv2G5cpwgttWxoJSj-3">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a855f7;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-900" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase C&lt;/b&gt;&#xa;道具制作管线&#xa;━━━━━━━━━━━━━━&#xa;贴图/材质/模型规范&#xa;自动导入 · 质量检查" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f59e0b;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase C&lt;/b&gt;&#xa;道具制作管线&#xa;━━━━━━━━━━━━━━&#xa;贴图/材质/模型规范&#xa;自动导入 · 质量检查" id="Vlnpv2G5cpwgttWxoJSj-4">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f59e0b;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-900" y="460" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase D&lt;/b&gt;&#xa;角色制作管线 ⭐ TA核心战场&#xa;━━━━━━━━━━━━━━&#xa;骨骼 · 蒙皮 · 毛发 Groom&#xa;解算 CFX · 动画管线" mermaidId="n:D" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#10b981;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase D&lt;/b&gt;&#xa;角色制作管线 ⭐ TA核心战场&#xa;━━━━━━━━━━━━━━&#xa;骨骼 · 蒙皮 · 毛发 Groom&#xa;解算 CFX · 动画管线" id="Vlnpv2G5cpwgttWxoJSj-5">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#10b981;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-900" y="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase E&lt;/b&gt;&#xa;场景制作管线&#xa;━━━━━━━━━━━━━━&#xa;PCG · 资产库 · 灯光&#xa;效果标准 · 后处理" mermaidId="n:E" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#06b6d4;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase E&lt;/b&gt;&#xa;场景制作管线&#xa;━━━━━━━━━━━━━━&#xa;PCG · 资产库 · 灯光&#xa;效果标准 · 后处理" id="Vlnpv2G5cpwgttWxoJSj-6">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#06b6d4;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-900" y="860" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase F&lt;/b&gt;&#xa;镜头管理 &amp; 资产管线&#xa;━━━━━━━━━━━━━━&#xa;Shot 组织 · ShotAssets&#xa;批量化 · 渲染农场" mermaidId="n:F" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ef4444;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase F&lt;/b&gt;&#xa;镜头管理 &amp; 资产管线&#xa;━━━━━━━━━━━━━━&#xa;Shot 组织 · ShotAssets&#xa;批量化 · 渲染农场" id="Vlnpv2G5cpwgttWxoJSj-7">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ef4444;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-900" y="1060" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;Phase G&lt;/b&gt;&#xa;AI 技术融合&#xa;━━━━━━━━━━━━━━&#xa;AI生成三视图 · 图生3D&#xa;智能场景摆放" mermaidId="n:G" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a9eff;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Phase G&lt;/b&gt;&#xa;AI 技术融合&#xa;━━━━━━━━━━━━━━&#xa;AI生成三视图 · 图生3D&#xa;智能场景摆放" id="Vlnpv2G5cpwgttWxoJSj-8">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a9eff;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="284" x="-773" y="1260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;影视UE管线协作闭环&lt;/b&gt;&#xa;━━━━━━━━━━━━━━&#xa;制作 ← TA → TD&#xa;持续改进管线" mermaidId="n:H" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ef4444;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;影视UE管线协作闭环&lt;/b&gt;&#xa;━━━━━━━━━━━━━━&#xa;制作 ← TA → TD&#xa;持续改进管线" id="Vlnpv2G5cpwgttWxoJSj-9">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ef4444;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="284" x="-900" y="1460" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;VFXAssets &amp; 特效管线&lt;/b&gt;&#xa;━━━━━━━━━━━━━━&#xa;Niagara · 特效材质&#xa;Shot 关联 · 版本快照" mermaidId="n:I" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f59e0b;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;VFXAssets &amp; 特效管线&lt;/b&gt;&#xa;━━━━━━━━━━━━━━&#xa;Niagara · 特效材质&#xa;Shot 关联 · 版本快照" id="Vlnpv2G5cpwgttWxoJSj-10">
+          <mxCell parent="Vlnpv2G5cpwgttWxoJSj-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f59e0b;strokeColor=light-dark(#9370DB,#cccccc);fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="284" x="-900" y="1641" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="大纲结构确立 → 插件开发" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="大纲结构确立 → 插件开发" id="Vlnpv2G5cpwgttWxoJSj-11">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-2" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-3">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="工具链就绪 → 道具管线" mermaidId="e:B-&gt;C#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="工具链就绪 → 道具管线" id="Vlnpv2G5cpwgttWxoJSj-12">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-3" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-4">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="道具管线 → 角色管线" mermaidId="e:C-&gt;D#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="道具管线 → 角色管线" id="Vlnpv2G5cpwgttWxoJSj-13">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-4" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-5">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="角色管线 → 场景管线" mermaidId="e:D-&gt;E#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="角色管线 → 场景管线" id="Vlnpv2G5cpwgttWxoJSj-14">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-5" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-6">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="场景管线 → 镜头管理" mermaidId="e:E-&gt;F#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="场景管线 → 镜头管理" id="Vlnpv2G5cpwgttWxoJSj-15">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-6" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-7">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="传统管线成熟 → AI技术融合" mermaidId="e:F-&gt;G#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.79;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="传统管线成熟 → AI技术融合" id="Vlnpv2G5cpwgttWxoJSj-16">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-7" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-8">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="-631" y="1226" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="镜头管理 → 协作总结" mermaidId="e:F-&gt;H#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.21;exitY=1;entryX=0.22;entryY=0;" mermaidBaseValue="镜头管理 → 协作总结" id="Vlnpv2G5cpwgttWxoJSj-17">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-7" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.21;exitY=1;entryX=0.22;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-9">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="-885" y="1226" />
+                <mxPoint x="-885" y="1326" />
+                <mxPoint x="-885" y="1426" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="AI探索 → 协作闭环" mermaidId="e:G-&gt;H#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.78;entryY=0;" mermaidBaseValue="AI探索 → 协作闭环" id="Vlnpv2G5cpwgttWxoJSj-18">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-8" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.78;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-9">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="-631" y="1426" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="VFX管线补充说明" mermaidId="e:H-&gt;I#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="VFX管线补充说明" id="Vlnpv2G5cpwgttWxoJSj-19">
+          <mxCell edge="1" parent="Vlnpv2G5cpwgttWxoJSj-1" source="Vlnpv2G5cpwgttWxoJSj-9" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Vlnpv2G5cpwgttWxoJSj-10">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

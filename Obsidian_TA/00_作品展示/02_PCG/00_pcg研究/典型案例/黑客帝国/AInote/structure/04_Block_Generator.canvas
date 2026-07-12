@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Block Generator\n街区生成\n\n城市生成最重要的一步","x":0,"y":0,"width":300,"height":100},
+		{"id":"2","type":"text","text":"## 处理流程\n\nRoad Network (with intersection)\n    ↓\nClosed Polygon 检测\n    ↓\n多边形封闭性验证\n    ↓\nCity Block 生成\n    ↓\nBlock ID 分配","x":0,"y":140,"width":300,"height":200},
+		{"id":"3","type":"text","text":"## Closed Polygon 算法\n\n1. 收集所有道路段边缘\n2. 构建半边数据结构 (Half-Edge)\n3. 沿边追踪 → 闭合环\n4. 环内区域 = City Block\n5. 过滤非有效闭环","x":380,"y":0,"width":320,"height":180},
+		{"id":"4","type":"text","text":"## Block 属性\n\n• block_id\n• zone_type (继承自 City Layout)\n• district (所属区域)\n• block_area (面积)\n• block_perimeter (周长)\n• density (密度级别)","x":380,"y":220,"width":320,"height":160},
+		{"id":"5","type":"text","text":"## District 分区\n\n• 依据 zone_type 聚合 Block\n• 同一 District 共享建筑规则\n• Downtown → 高容积率\n• Residential → 低密度\n• Industrial → 大跨度","x":380,"y":420,"width":320,"height":160},
+		{"id":"6","type":"text","text":"## VEX 核心节点\n\n• Connectivity → 边连通性\n• PolyDoctor → 多边形验证\n• Divide → 闭合检测\n• Measure → 面积/周长\n• Sort → 按面积排序","x":0,"y":380,"width":300,"height":170},
+		{"id":"7","type":"text","text":"## 面积过滤\n\n• 最小 Block: 500 m²\n• 最大 Block: 50000 m²\n• 异常多边形 → cull\n• 狭长区域 → 合并\n• 确保每个 Block 可开发","x":0,"y":590,"width":300,"height":160},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Block 是 Parcel 和 Building 的容器\nBlock Generator 的输出质量\n直接决定后续所有建筑生成\"","x":380,"y":620,"width":320,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

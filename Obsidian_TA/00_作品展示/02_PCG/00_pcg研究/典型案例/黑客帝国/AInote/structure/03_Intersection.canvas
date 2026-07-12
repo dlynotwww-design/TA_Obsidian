@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Intersection\n交叉口系统\n\n自动裁切与连接","x":0,"y":0,"width":300,"height":100},
+		{"id":"2","type":"text","text":"## 处理流程\n\nRoad Network\n    ↓\nBoolean → 交叉口检测\n    ↓\nSplit → 分段分离\n    ↓\nCorner Radius → 圆角\n    ↓\nCrosswalk → 人行横道\n    ↓\nTraffic → 交通标识","x":0,"y":140,"width":300,"height":220},
+		{"id":"3","type":"text","text":"## Boolean 交叉检测\n\n• 检测所有道路交点\n• 计算交叉口多边形\n• 自动裁切重叠段\n• 生成 intersection_id","x":380,"y":0,"width":300,"height":140},
+		{"id":"4","type":"text","text":"## Corner 圆角逻辑\n\n• 十字路口 → 4 个圆角\n• T 字路口 → 2-3 个圆角\n• 转角半径与 road_width 成正比\n• Corner Radius = road_width × 0.3","x":380,"y":180,"width":300,"height":150},
+		{"id":"5","type":"text","text":"## Crosswalk 人行横道\n\n• 沿交叉口边缘生成\n• 宽度 = sidewalk_width\n• 斑马线纹理映射\n• 与 Traffic Light 关联","x":380,"y":370,"width":300,"height":140},
+		{"id":"6","type":"text","text":"## 关键属性\n\n• intersection_id\n• intersection_type\n  (4-way / 3-way / roundabout)\n• corner_radius\n• crosswalk_count\n• traffic_light","x":0,"y":400,"width":300,"height":160},
+		{"id":"7","type":"text","text":"## 不重叠原理\n\n1. Boolean 分割路网\n2. 每个交叉口独立多边形\n3. 道路段在交叉口处断开\n4. 交叉口覆盖重叠区域\n5. 下游模块不会再次处理","x":0,"y":600,"width":300,"height":180},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"交叉口是道路系统的关节点\n这里处理所有 topological 复杂逻辑\n确保下游只收到干净的道路段\"","x":380,"y":550,"width":300,"height":150}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# PDG Pipeline\nPDG 管线\n\nTOP 自动化与批处理","x":0,"y":0,"width":280,"height":90},
+		{"id":"2","type":"text","text":"## PDG 架构\n\nTOP Network (Task Operator)\n    ↓\nWork Item 生成\n    ↓\n分布式 Cook\n    ↓\n结果聚合\n    ↓\n批量导出","x":0,"y":130,"width":280,"height":200},
+		{"id":"3","type":"text","text":"## PDG 任务分解\n\n• 按 Zone 并行 → 每 Zone 独立 Cook\n• 按 Block 并行 → 每 Block 独立\n• 按 LOD 分层 → 不同精度并行\n• 按 Variant 分叉 → 变体同时生成\n• Wedge → 参数扫描","x":360,"y":0,"width":320,"height":180},
+		{"id":"4","type":"text","text":"## TOP 节点链\n\n• ROP Geometry → 导出几何\n• ROP FBX → 导出 FBX\n• CSV Export → 导出点云\n• Image Render → 缩略图\n• Python Script → 自定义后处理\n• Attribute Create → 元数据标记","x":360,"y":220,"width":320,"height":190},
+		{"id":"5","type":"text","text":"## 自动化流程\n\n1. 参数变化 → 自动 Cook\n2. Cook 结果缓存 → 增量更新\n3. 失败重试 → 容错机制\n4. 结果验证 → 自动检查\n5. 通知 → Cook 完成上报","x":360,"y":450,"width":320,"height":170},
+		{"id":"6","type":"text","text":"## PDG 优势\n\n• 大规模并行 Cook\n• 增量更新 → 只重算变化部分\n• 工作项调度 → 优先级\n• 结果缓存 → 避免重复计算\n• 错误隔离 → 单任务失败不中断","x":0,"y":370,"width":280,"height":180},
+		{"id":"7","type":"text","text":"## 调度策略\n\n• Priority: Downtown > Midtown > Res\n• 内存管理: 大 Zone 串行\n• Deadline: 限制单任务最长时间\n• Resource: CPU/GPU 分配","x":0,"y":590,"width":280,"height":160},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Matrix 城市生成主要在 SOP\nPDG 用于大规模并行和自动化\n但在复杂变体管理中不可替代\"","x":360,"y":660,"width":320,"height":130}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

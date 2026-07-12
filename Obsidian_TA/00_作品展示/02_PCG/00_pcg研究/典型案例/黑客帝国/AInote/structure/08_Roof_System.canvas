@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Roof System\n屋顶系统\n\nRoof Rule 核心逻辑","x":0,"y":0,"width":280,"height":90},
+		{"id":"2","type":"text","text":"## 处理流程\n\nBuilding Footprint\n    ↓\nRoof Type 选择\n    ↓\nRoof Geometry 生成\n    ↓\nParapet / Cornice\n    ↓\nRooftop Props\n    ↓\nLOD 级别","x":0,"y":130,"width":280,"height":220},
+		{"id":"3","type":"text","text":"## Roof Type 分类\n\n• Flat → 平屋顶 + 女儿墙\n• Pitched → 坡屋顶 (住宅)\n• Mansard → 孟莎顶 (欧式)\n• Gable → 山墙顶\n• Hip → 四坡顶\n• Setback → 退台 (摩天楼)","x":360,"y":0,"width":320,"height":180},
+		{"id":"4","type":"text","text":"## Roof 属性\n\n• roof_type\n• roof_pitch (坡度: 0-45°)\n• parapet_height (女儿墙高)\n• cornice_style (檐口样式)\n• rooftop_props_seed\n• roof_material_id","x":360,"y":220,"width":320,"height":160},
+		{"id":"5","type":"text","text":"## Rooftop Props\n\n• 空调外机 (HVAC)\n• 电梯机房\n• 水箱\n• 太阳能板\n• 天线/信号塔\n• 绿植 (Green Roof)","x":360,"y":420,"width":320,"height":170},
+		{"id":"6","type":"text","text":"## Roof Type 分配规则\n\n• Skyscraper → Setback + Flat\n• Office → Flat + Parapet\n• Commercial → Flat\n• Residential → Pitched/Gable\n• Industrial → Flat + Sawtooth","x":0,"y":390,"width":280,"height":180},
+		{"id":"7","type":"text","text":"## LOD 策略\n\n• LOD0: 完整屋顶几何\n• LOD1: 简化 roof + props\n• LOD2: 单色斜面\n• LOD3: 仅颜色标记\n• Billboard: Impostor","x":0,"y":610,"width":280,"height":160},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"屋顶是城市天际线的\n重要组成。远距离视角下\nRoof 比 Facade 更显眼\nRoof Type 决定建筑剪影\"","x":360,"y":630,"width":320,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

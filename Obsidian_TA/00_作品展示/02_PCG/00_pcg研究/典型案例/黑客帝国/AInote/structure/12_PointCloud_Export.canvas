@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Point Cloud Export\n点云导出\n\nHoudini → Unreal 的桥梁","x":0,"y":0,"width":300,"height":90},
+		{"id":"2","type":"text","text":"## 为什么是点云？\n\n• FBX 太大 (16km² 城市 GB 级)\n• FBX 无法携带完整属性\n• Point Cloud 轻量 (百万点 = MB)\n• 每个点携带所有 Attribute\n• 适合 Rule Processor 实例化","x":0,"y":130,"width":300,"height":180},
+		{"id":"3","type":"text","text":"## 导出流程\n\nHoudini SOP\n    ↓\nPoint Generate\n  (每个 Building/Prop → 一个点)\n    ↓\nAttribute 写入\n    ↓\nCSV / PBC 导出\n    ↓\nUnreal Data Asset","x":360,"y":0,"width":320,"height":220},
+		{"id":"4","type":"text","text":"## CSV 格式\n\nposition.x, position.y, position.z,\nrotation.x, rotation.y, rotation.z,\nscale.x, scale.y, scale.z,\nbuilding_type, building_height,\nparcel_id, block_id, seed, variant,\nroad_type, road_width, zone,\nprop_type, ...","x":360,"y":260,"width":320,"height":220},
+		{"id":"5","type":"text","text":"## PBC 格式\n\n• Point Based Compression\n• 二进制格式 → 更小\n• 保留所有属性\n• UE 原生支持\n• 加载速度 > CSV","x":360,"y":520,"width":320,"height":150},
+		{"id":"6","type":"text","text":"## 导出参数\n\n• Export Path → 输出目录\n• Point Count → 总点数\n• Attribute List → 导出属性列\n• Bounds → 空间裁剪\n• Partition → 按 Grid 分块","x":0,"y":350,"width":300,"height":160},
+		{"id":"7","type":"text","text":"## Grid 分块策略\n\n• 16km² → 256 个 1km² Tile\n• 每 Tile 独立 CSV\n• UE World Partition 对应\n• 只加载可见 Tile\n• Streaming 友好","x":0,"y":550,"width":300,"height":160},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Point Cloud 是最优雅的\n中间格式。它既轻量又\n信息完整，完美衔接\nHoudini 程序化和 UE 实时\"","x":360,"y":710,"width":320,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

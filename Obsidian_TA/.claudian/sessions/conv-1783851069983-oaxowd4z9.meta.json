@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783851069983-oaxowd4z9",
+  "providerId": "claude",
+  "title": "Organize Project Portfolio Folder by Doc Hierarchy",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783851069983,
+  "updatedAt": 1783851549126,
+  "lastResponseAt": 1783851549123,
+  "sessionId": "279cb3ed-311b-48a0-9226-3c90dc6d9ea7",
+  "providerState": {
+    "providerSessionId": "279cb3ed-311b-48a0-9226-3c90dc6d9ea7"
+  },
+  "currentNote": "00_作品展示/作品展示.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2389,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47360,
+    "contextWindow": 200000,
+    "contextTokens": 49749,
+    "percentage": 25
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783851549180-1hmc7h3l9",
+  "providerId": "claude",
+  "title": "Restructure 00_作品展示 folder hierarchy",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783851549180,
+  "updatedAt": 1783854413348,
+  "lastResponseAt": 1783853710471,
+  "sessionId": "8dd4a1d2-3f8a-498d-a494-e91fdd51223a",
+  "providerState": {
+    "providerSessionId": "8dd4a1d2-3f8a-498d-a494-e91fdd51223a"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 208,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 66816,
+    "contextWindow": 1000000,
+    "contextTokens": 67024,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}

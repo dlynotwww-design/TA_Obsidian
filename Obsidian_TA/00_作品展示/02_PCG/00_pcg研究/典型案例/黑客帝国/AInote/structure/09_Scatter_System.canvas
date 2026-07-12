@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Scatter System\n散布系统\n\n街道与场景元素","x":0,"y":0,"width":280,"height":90},
+		{"id":"2","type":"text","text":"## 处理流程\n\nCity Geometry + Attributes\n    ↓\nScatter Rule 解析\n    ↓\n点位生成 (Point Generate)\n    ↓\n碰撞检测 & 剔除\n    ↓\nInstance 属性写入","x":0,"y":130,"width":280,"height":200},
+		{"id":"3","type":"text","text":"## 散布元素分类\n\n• Trees → 行道树 (沿街+公园)\n• Lamp → 路灯 (沿道路)\n• Bench → 长椅 (广场+公园)\n• Traffic Light → 信号灯\n• Fire Hydrant → 消防栓\n• Vehicles → 路边停车","x":360,"y":0,"width":320,"height":180},
+		{"id":"4","type":"text","text":"## Scatter Rule 详解\n\n• 沿道路: road_width 驱动间距\n• 沿街区: block 边缘采样\n• 面散布: 公园/广场随机\n• 点密度: zone_type 相关\n• 排除区域: 交叉口/建筑入口","x":360,"y":220,"width":320,"height":170},
+		{"id":"5","type":"text","text":"## 碰撞检测\n\n• 与 Building 碰撞 → 剔除\n• 与 Road 碰撞 → 剔除\n• 与已有 Props 碰撞 → 偏移\n• 最小间距保证\n• Raycast 地面对齐","x":360,"y":430,"width":320,"height":160},
+		{"id":"6","type":"text","text":"## 关键属性\n\n• scatter_type\n• prop_id\n• density\n• spacing\n• random_seed\n• ground_offset\n• exclusion_radius","x":0,"y":370,"width":280,"height":180},
+		{"id":"7","type":"text","text":"## Zone 差异化\n\n• Downtown: 高密度路灯+信号灯\n           少树, 多车\n• Residential: 多行道树, 少路灯\n• Park: 高密度树+长椅\n• Industrial: 稀疏散布","x":0,"y":590,"width":280,"height":170},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Scatter 是城市的血肉\n正确散布让城市'活'起来\n所有 Props 都是 Point Cloud\n最终由 Rule Processor 实例化\"","x":360,"y":630,"width":320,"height":150}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

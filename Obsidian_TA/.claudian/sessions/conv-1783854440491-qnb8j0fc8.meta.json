@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783854440491-qnb8j0fc8",
+  "providerId": "claude",
+  "title": "Create Flowchart from Canvas",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783854440491,
+  "updatedAt": 1783855159422,
+  "lastResponseAt": 1783855159422,
+  "sessionId": "f6ede172-f460-4d23-a7d1-b9a8e420978c",
+  "providerState": {
+    "providerSessionId": "f6ede172-f460-4d23-a7d1-b9a8e420978c"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 179,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 50944,
+    "contextWindow": 200000,
+    "contextTokens": 51123,
+    "percentage": 26
+  }
+}

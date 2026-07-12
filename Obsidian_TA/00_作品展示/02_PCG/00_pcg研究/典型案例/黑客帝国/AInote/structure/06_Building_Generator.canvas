@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"1","type":"text","text":"# Building Generator\n建筑生成\n\n最大最复杂的章节","x":0,"y":0,"width":300,"height":90},
+		{"id":"2","type":"text","text":"## Building Footprint\n\nLot Polygon\n    ↓\nOffset → 建筑退线\n    ↓\nFootprint 多边形\n    ↓\nRotation → 对齐街道\n    ↓\nHeight → 高度计算","x":0,"y":130,"width":300,"height":200},
+		{"id":"3","type":"text","text":"## 退线规则 (Setback)\n\n• 前退线: 3-10m (沿街面)\n• 侧退线: 1.5-5m\n• 后退线: 3-8m\n• 角地: 各面均需退线\n• 退线与 road_width 相关","x":380,"y":0,"width":320,"height":160},
+		{"id":"4","type":"text","text":"## Building 属性\n\n• building_id\n• building_type\n  (residential/commercial/office/\n   industrial/mixed/skyscraper)\n• building_height\n• floor_count\n• footprint_area\n• rotation\n• seed\n• variant","x":380,"y":200,"width":320,"height":200},
+		{"id":"5","type":"text","text":"## 高度计算\n\n• Height = density × max_height\n• Skyscraper: 100-300m\n• High-rise: 40-100m\n• Mid-rise: 20-40m\n• Low-rise: 5-20m\n• + Random Deviation (±15%)","x":380,"y":440,"width":320,"height":170},
+		{"id":"6","type":"text","text":"## Building Type 分配\n\n• CBD → 60% Office, 30% Mixed,\n         10% Skyscraper\n• Midtown → 40% Commercial,\n            30% Office, 30% Residential\n• Residential → 80% Residential,\n               20% Mixed","x":0,"y":370,"width":300,"height":180},
+		{"id":"7","type":"text","text":"## Rotation 对齐\n\n• 主面朝向最近道路\n• 角地 → 对齐主要道路\n• 旋转角度量化 (±5° 步长)\n• 保证 Facade 朝向有意义","x":0,"y":590,"width":300,"height":150},
+		{"id":"8","type":"text","text":"## 设计意图\n\n\"Building Generator 是整个管线\n最复杂的模块。Footprint、\nFacade、Roof 三层递进，\n通过 seed 驱动所有变化\"","x":380,"y":650,"width":320,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top"},
+		{"id":"e2","fromNode":"2","fromSide":"bottom","toNode":"6","toSide":"top"},
+		{"id":"e3","fromNode":"6","fromSide":"bottom","toNode":"7","toSide":"top"},
+		{"id":"e4","fromNode":"3","fromSide":"bottom","toNode":"4","toSide":"top"},
+		{"id":"e5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top"},
+		{"id":"e6","fromNode":"5","fromSide":"bottom","toNode":"8","toSide":"top"},
+		{"id":"e7","fromNode":"1","fromSide":"right","toNode":"3","toSide":"left"}
+	]
+}

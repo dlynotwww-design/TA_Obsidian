@@ -8,17 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1122c1ad94f7671e",
+            "id": "15f6ec5d850556c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_作品展示/03_AIProject/UE/MCP.md",
+                "file": "02_个人/00_思考/赚钱的渠道.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCP"
+              "title": "赚钱的渠道"
+            }
+          },
+          {
+            "id": "3dd047bf3390c216",
+            "type": "leaf",
+            "state": {
+              "type": "vault-dashboard-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "仓库仪表盘"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "ae5f8512225a91ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0688ead5fbc9b1c1",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap-nextgen-plugin",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mindmap"
             }
           }
         ]
@@ -78,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5096130371094
+    "width": 377.5096130371094
   },
   "right": {
     "id": "251f1ae9715bb4ec",
@@ -156,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_作品展示/03_AIProject/UE/MCP.md",
+                "file": "02_个人/00_思考/赚钱的渠道.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MCP 的大纲"
+              "title": "赚钱的渠道 的大纲"
             }
           },
           {
@@ -200,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 572.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,62 +246,63 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "3dd047bf3390c216",
   "lastOpenFiles": [
-    "00_作品展示/03_AIProject/知识库/AI 视频知识库自动化流水线.canvas",
-    "00_作品展示/03_AIProject/知识库/AI 视频知识库自动化流水线-流程图.md",
-    "01_知识库/04_Unity/Shader/1. 介绍  Shadertoy中文教程.md",
-    "00_作品展示/03_AIProject/知识库",
-    "00_作品展示/材质",
-    "00_作品展示/00_TAFolder.md",
-    "00_作品展示/01_项目文档/UE控制台命令.md",
-    "00_作品展示/01_项目文档/GameCityTool/Pipline.canvas",
-    "01_知识库/00_TA/渲染教程框架目录.md",
-    "01_知识库/00_TA/TA技术美术学习体系框架.md",
-    "01_知识库/04_Unity/TA技术美术学习体系框架 （别再买垃圾教程了）_哔哩哔哩_bilibili.md",
-    "01_知识库/00_GameDesign/概览.md",
-    "00_作品展示/01_项目文档/GameCityTool/GameCity.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/raw/city-superMatrixCity ICCV 2023 MatrixCity A Large-scale City Dataset for City-scale Neural Rendering and Beyond.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/00_Project_Overview.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/The Matrix Awakens Generating a World Tech Talk State of Unreal 2022.md",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/架构.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/01_City_Layout.canvas",
-    "00_作品展示/02_PCG研究/Houdini都市PCG教程资源.md",
-    "00_作品展示/03_AIProject/AIgame/__AI游戏开发研究报告.md",
-    "00_作品展示/03_AIProject/AIgame/__AiGame_总览.md",
-    "00_作品展示/03_AIProject/AIgame/GameCity2D — AI Agent 游戏开发架构.md",
-    "00_作品展示/03_AIProject/AIgame/soon.md",
-    "00_作品展示/03_AIProject/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
-    "00_作品展示/03_AIProject/Claude Fable 5 + This Godot AI Plugin Change Game Dev Forever (Ziva).md",
-    "00_作品展示/03_AIProject/知识库/AI 视频知识库自动化流水线.md",
-    "01_知识库/01_图形学/GAMES101/GAMES101-第一讲-计算机图形学概述.md",
-    "01_知识库/01_图形学/GAMES101/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili.md",
+    "02_个人/00_思考/技术认知.md",
+    "02_个人/00_思考/赚钱的渠道.md",
+    "02_个人/00_思考/高质量商业信息渠道汇总.md",
+    "01_知识库/知识渠道.md",
+    "01_知识库/00_AI/MinerU_markdown_页面提取自－Bytebytego_Big_Archive_System_Design_2025_2-200_2075941023961948160.md",
+    "01_知识库/ByteByteGo",
     "01_知识库/00_AI/6-Week AI Engineering Cohort Course.md",
-    "01_知识库/srt/已处理/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili_BV1X7411F744_字幕.srt",
-    "01_知识库/01_图形学/GAMES101-第一讲-计算机图形学概述.md.tmp.4064.60f5740d4982",
-    "01_知识库/srt/GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili_BV1X7411F744_字幕.srt",
-    "01_知识库/00_TA/TA技术美术学习体系框架.md.tmp.5740.1672ddd17d1f",
-    "01_知识库/01_图形学/BookMD/Real-Time_Rendering_3rd_提炼总结.md",
-    "01_知识库/01_图形学/BookMD/GPU编程与CG语言之阳春白雪下里巴人_2063488908516925440.md",
-    "01_知识库/01_图形学/BookMD/游戏造梦师游戏场景开发与设计.md",
-    "01_知识库/04_Unity/00_Unity相关.canvas",
-    "01_知识库/04_Unity/Shader",
-    "01_知识库/00_TA",
-    "01_知识库/03_UE/Pipline/World_Building_poster_18x24.pdf",
-    "01_知识库/00_Houdini/resources/5fb264a42136b56c915b84d3973b29dd4b771e06bc1ddfd67fb244124bb6bde8.png",
-    "01_知识库/00_Houdini/resources/7e64b9c0db1e7e25a438284c838c7c2de27707ce77afd5acb0c25514e0bb4a70.png",
-    "01_知识库/00_Houdini/resources/6ab9e93411a6c2abb2b2982ba6e0f5843b8368d7e74910041086848b3a56c518.png",
-    "01_知识库/00_Houdini/resources/5ab2773650f64913b36502b436d92f773921d9415be90f578932f5c48908eb91.png",
-    "01_知识库/00_Houdini/resources/4b4528c7d5cef588ac3fa6f549a110cd4526a710ebc171a49dedfd69726996f9.png",
-    "01_知识库/00_Houdini/resources/5244c361eaf6a803302a849231530fe2778ffc15f32e432a276300d56ea65336.png",
+    "01_知识库/00_AI/AI_Basic/liyupiai-guide 程序员鱼皮的 AI 资源大全与 Vibe Coding 教程.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 3》全书提炼总结/Part1/README.md",
+    "02_个人/00_思考/中国互联网的本质.md",
+    "01_知识库/00_AI/LD/商业判断.md",
+    "02_个人/00_思考/信息整理.md",
     "01_知识库/知识渠道.png",
-    "00_作品展示/00_流程规范/影视项目UE流程化.canvas",
-    "01_知识库/00_Houdini/软件操作/附件/Pasted image 20260711194927.png",
-    "01_知识库/00_Houdini/软件操作/附件/Pasted image 20260711194615.png",
-    "00_作品展示/VideoToObsidianAgent/mind.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/05_Parcel_Generator.canvas",
-    "00_作品展示/02_PCG研究/典型案例/黑客帝国/AInote/structure/02_Road_Generator.canvas",
-    "00_作品展示/02_PCG研究/GameCity/附件/ChatGPT Image 2026年7月5日 01_25_15.png"
+    "02_个人/00_面试准备/QA/QA游戏流程面试.md",
+    "02_个人/00_面试准备/00_职业发展.md",
+    "Clippings/killopanything_about_game A wonderful list of Game Development resources.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/AC3-offline-FFT.gif",
+    "01_知识库/00_TA/Yif1999TA-Learning Trying to be a Technical Artist.md",
+    "01_知识库/00_GameDev/killopanything_about_game A wonderful list of Game Development resources.md",
+    "01_知识库/00_TA/技术美术学习大纲.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/Media/cover.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/Media/nature-grass-leaf-green.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 1》全书提炼总结/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU 编程与CG 语言之阳春白雪下里巴人》读书笔记/01-第一章-绪论/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU 编程与CG 语言之阳春白雪下里巴人》读书笔记/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/QianMoGame-Programmer-Study-Notes anchor  我的游戏程序员生涯的读书笔记合辑。你可以把它看作一个加强版的Blog。涉及图形学、实时渲染、编程实践、GPU编程、设计模式、软件工程等内容。Keep Reading , Keep Writing , Keep Coding.md",
+    "01_知识库/01_图形学/Real-Time Rendering Resources.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/a1010df7c688043cbe1ea20b91389bca.gif",
+    "01_知识库/Game-Programmer-Study-Notes-master/《Real-Time Rendering 3rd》知识网络图谱/Real-Time-Rendering-3rd-Knowledge-Diagram.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/《Real-Time Rendering 3rd》知识网络图谱/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/《Effective C# 第二版》读书笔记/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/《游戏编程模式》读书笔记/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/title.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/f41c53f4d8672af808057f9b2d0fe4e6.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/efe24840ae08c3808d1f8340319dc0b6.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/ed41e45d2906640097c5db3421fe53aa.jpg",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part2/media",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part2",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 1》全书提炼总结/media",
+    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 1》全书提炼总结",
+    "01_知识库/Game-Programmer-Study-Notes-master/《Effective C# 第二版》读书笔记",
+    "01_知识库/Game-Programmer-Study-Notes-master/Content/《GPU Gems 3》全书提炼总结/Part2/media/video/Horizon_Zero_Dawn_-_GPU_based_Procedural_Placement_in_Decima_Engine.mp4",
+    "00_作品展示/01_流程规范/影视流程/影视项目UE流程化.canvas",
+    "00_作品展示/02_PCG/GameCityTool/Pipline.canvas",
+    "00_作品展示/01_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
+    "00_作品展示/03_AI使用/Obsidian知识库搭建/AI 视频知识库自动化流水线.canvas",
+    "00_作品展示/03_AI使用/知识库/AI 视频知识库自动化流水线.canvas",
+    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/架构.canvas",
+    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/15_Full_Pipeline.canvas",
+    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/14_Unreal_PCG.canvas",
+    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/13_RuleProcessor.canvas",
+    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/12_PointCloud_Export.canvas"
   ]
 }
