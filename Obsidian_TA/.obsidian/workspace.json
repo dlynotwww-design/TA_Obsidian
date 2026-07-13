@@ -33,22 +33,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "ae5f8512225a91ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0688ead5fbc9b1c1",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap-nextgen-plugin",
-              "state": {},
-              "icon": "dot-network",
-              "title": "Mindmap"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
