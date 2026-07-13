@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_个人/00_思考/赚钱的渠道.md",
+                "file": "00_作品展示/TAFolder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "赚钱的渠道"
+              "title": "TAFolder"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "仓库仪表盘"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,10 +229,12 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "3dd047bf3390c216",
+  "active": "15f6ec5d850556c3",
   "lastOpenFiles": [
-    "02_个人/00_思考/技术认知.md",
+    "00_作品展示/作品展示.md",
+    "00_作品展示/TAFolder.md",
     "02_个人/00_思考/赚钱的渠道.md",
+    "02_个人/00_思考/技术认知.md",
     "02_个人/00_思考/高质量商业信息渠道汇总.md",
     "01_知识库/知识渠道.md",
     "01_知识库/00_AI/MinerU_markdown_页面提取自－Bytebytego_Big_Archive_System_Design_2025_2-200_2075941023961948160.md",
@@ -263,8 +264,6 @@
     "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/a1010df7c688043cbe1ea20b91389bca.gif",
     "01_知识库/Game-Programmer-Study-Notes-master/《Real-Time Rendering 3rd》知识网络图谱/Real-Time-Rendering-3rd-Knowledge-Diagram.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《Real-Time Rendering 3rd》知识网络图谱/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/《Effective C# 第二版》读书笔记/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/《游戏编程模式》读书笔记/README.md",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/title.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/f41c53f4d8672af808057f9b2d0fe4e6.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/efe24840ae08c3808d1f8340319dc0b6.jpg",
