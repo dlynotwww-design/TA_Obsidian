@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_作品展示/TAFolder.md",
+                "file": "00_作品展示/03_AI使用/HoudiniAgent/healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini"
+            }
+          },
+          {
+            "id": "2f407a6b0f14e49d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_作品展示/03_AI使用/HoudiniAgent/rendermagixhoudini2chat enable Houdini Artists to chat instantly with any AI program about their Complex Houdini Scenes without describing them, and for free.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TAFolder"
+              "title": "rendermagixhoudini2chat enable Houdini Artists to chat instantly with any AI program about their Complex Houdini Scenes without describing them, and for free"
             }
           },
           {
@@ -31,7 +45,8 @@
               "title": "仓库仪表盘"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,11 +221,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 572.5
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,10 +244,20 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "15f6ec5d850556c3",
+  "active": "3dd047bf3390c216",
   "lastOpenFiles": [
-    "00_作品展示/作品展示.md",
+    "00_作品展示/03_AI使用/GameAgent/soon.md",
+    "00_作品展示/03_AI使用/GameAgent/GameCity2D — AI Agent 游戏开发架构.md",
+    "00_作品展示/03_AI使用/GameAgent/架构.md",
+    "00_作品展示/03_AI使用/GameAgent/__AI游戏开发研究报告.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/rendermagixhoudini2chat enable Houdini Artists to chat instantly with any AI program about their Complex Houdini Scenes without describing them, and for free.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/Houdini-AgentREADME_CN.md at main.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini.md",
+    "Clippings/chain_tool_flowchart.md",
+    "01_知识库/00_TA/技术美术学习大纲.md",
     "00_作品展示/TAFolder.md",
+    "00_作品展示/作品展示.md",
     "02_个人/00_思考/赚钱的渠道.md",
     "02_个人/00_思考/技术认知.md",
     "02_个人/00_思考/高质量商业信息渠道汇总.md",
@@ -250,20 +275,10 @@
     "02_个人/00_面试准备/00_职业发展.md",
     "Clippings/killopanything_about_game A wonderful list of Game Development resources.md",
     "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/AC3-offline-FFT.gif",
-    "01_知识库/00_TA/Yif1999TA-Learning Trying to be a Technical Artist.md",
-    "01_知识库/00_GameDev/killopanything_about_game A wonderful list of Game Development resources.md",
-    "01_知识库/00_TA/技术美术学习大纲.md",
     "01_知识库/Game-Programmer-Study-Notes-master/Media/cover.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/Media/nature-grass-leaf-green.jpg",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 1》全书提炼总结/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU 编程与CG 语言之阳春白雪下里巴人》读书笔记/01-第一章-绪论/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU 编程与CG 语言之阳春白雪下里巴人》读书笔记/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/QianMoGame-Programmer-Study-Notes anchor  我的游戏程序员生涯的读书笔记合辑。你可以把它看作一个加强版的Blog。涉及图形学、实时渲染、编程实践、GPU编程、设计模式、软件工程等内容。Keep Reading , Keep Writing , Keep Coding.md",
-    "01_知识库/01_图形学/Real-Time Rendering Resources.md",
     "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/a1010df7c688043cbe1ea20b91389bca.gif",
     "01_知识库/Game-Programmer-Study-Notes-master/《Real-Time Rendering 3rd》知识网络图谱/Real-Time-Rendering-3rd-Knowledge-Diagram.jpg",
-    "01_知识库/Game-Programmer-Study-Notes-master/《Real-Time Rendering 3rd》知识网络图谱/README.md",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/title.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/f41c53f4d8672af808057f9b2d0fe4e6.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/efe24840ae08c3808d1f8340319dc0b6.jpg",

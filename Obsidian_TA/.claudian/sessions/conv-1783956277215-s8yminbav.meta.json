@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783956277215-s8yminbav",
+  "providerId": "claude",
+  "title": "Introduce Current Project",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783956277216,
+  "updatedAt": 1783956709272,
+  "lastResponseAt": 1783956709272,
+  "sessionId": "7bf3f814-458f-4a45-adf8-c0f3ef567b08",
+  "providerState": {
+    "providerSessionId": "7bf3f814-458f-4a45-adf8-c0f3ef567b08"
+  },
+  "currentNote": "Clippings/healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 505,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 51712,
+    "contextWindow": 200000,
+    "contextTokens": 52217,
+    "percentage": 26
+  }
+}
