@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1d920b39a19d5985",
+        "id": "d125312ef3b95377",
         "type": "tabs",
         "children": [
           {
-            "id": "15f6ec5d850556c3",
+            "id": "41dcf738c4a6160b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_作品展示/03_AI使用/HoudiniAgent/healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini"
-            }
-          },
-          {
-            "id": "2f407a6b0f14e49d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_作品展示/03_AI使用/HoudiniAgent/rendermagixhoudini2chat enable Houdini Artists to chat instantly with any AI program about their Complex Houdini Scenes without describing them, and for free.md",
+                "file": "02_个人/周报/20260718.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rendermagixhoudini2chat enable Houdini Artists to chat instantly with any AI program about their Complex Houdini Scenes without describing them, and for free"
-            }
-          },
-          {
-            "id": "3dd047bf3390c216",
-            "type": "leaf",
-            "state": {
-              "type": "vault-dashboard-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "仓库仪表盘"
+              "title": "20260718"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5096130371094
+    "width": 353.5096130371094
   },
   "right": {
     "id": "251f1ae9715bb4ec",
@@ -176,21 +151,6 @@
             }
           },
           {
-            "id": "12a5e65cf4c24c39",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "02_个人/00_思考/赚钱的渠道.md",
-                "followCursor": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "赚钱的渠道 的大纲"
-            }
-          },
-          {
             "id": "aaef20970e4b3948",
             "type": "leaf",
             "state": {
@@ -211,21 +171,26 @@
             }
           },
           {
-            "id": "d3f6007e409b74c4",
+            "id": "4c8bbb7f21bcf599",
             "type": "leaf",
             "state": {
-              "type": "x-bookmarks-webview",
-              "state": {},
-              "icon": "x-bookmarks-sync",
-              "title": "X bookmarks"
+              "type": "outline",
+              "state": {
+                "file": "02_个人/周报/20260718.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "20260718 的大纲"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 456.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,36 +209,50 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "3dd047bf3390c216",
+  "active": "aaef20970e4b3948",
   "lastOpenFiles": [
-    "00_作品展示/03_AI使用/GameAgent/soon.md",
-    "00_作品展示/03_AI使用/GameAgent/GameCity2D — AI Agent 游戏开发架构.md",
-    "00_作品展示/03_AI使用/GameAgent/架构.md",
-    "00_作品展示/03_AI使用/GameAgent/__AI游戏开发研究报告.md",
-    "00_作品展示/03_AI使用/HoudiniAgent/rendermagixhoudini2chat enable Houdini Artists to chat instantly with any AI program about their Complex Houdini Scenes without describing them, and for free.md",
-    "00_作品展示/03_AI使用/HoudiniAgent/Houdini-AgentREADME_CN.md at main.md",
-    "00_作品展示/03_AI使用/HoudiniAgent/Houdini Agent - DCC Asset Manager with AI capabilities.md",
-    "00_作品展示/03_AI使用/HoudiniAgent/healkeiserfxhoudinimcp The most comprehensive MCP server for SideFX Houdini.md",
-    "Clippings/chain_tool_flowchart.md",
-    "01_知识库/00_TA/技术美术学习大纲.md",
-    "00_作品展示/TAFolder.md",
-    "00_作品展示/作品展示.md",
-    "02_个人/00_思考/赚钱的渠道.md",
-    "02_个人/00_思考/技术认知.md",
-    "02_个人/00_思考/高质量商业信息渠道汇总.md",
-    "01_知识库/知识渠道.md",
-    "01_知识库/00_AI/MinerU_markdown_页面提取自－Bytebytego_Big_Archive_System_Design_2025_2-200_2075941023961948160.md",
-    "01_知识库/ByteByteGo",
-    "01_知识库/00_AI/6-Week AI Engineering Cohort Course.md",
-    "01_知识库/00_AI/AI_Basic/liyupiai-guide 程序员鱼皮的 AI 资源大全与 Vibe Coding 教程.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 3》全书提炼总结/Part1/README.md",
-    "02_个人/00_思考/中国互联网的本质.md",
-    "01_知识库/00_AI/LD/商业判断.md",
-    "02_个人/00_思考/信息整理.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/README.md",
+    "01_知识库/Game-Programmer-Study-Notes-master/QianMoGame-Programmer-Study-Notes anchor  我的游戏程序员生涯的读书笔记合辑。你可以把它看作一个加强版的Blog.md",
+    "01_知识库/04_Github/ComposioHQawesome-claude-skills A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.md",
+    "01_知识库/04_Github/Claude Code学习项目清单.md",
+    "01_知识库/04_Github/ByteByteGoHqsystem-design-101 Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.md",
+    "01_知识库/04_Github/(4) X 上的 露西的百宝箱：“10个GitHub仓库帮你爬取整个互联网全部收藏。每个都能从任何网站提取干净数据.md",
+    "01_知识库/04_Github/Build software better, together.md",
+    "01_知识库/04_Github/codecrafters-iobuild-your-own-x Master programming by recreating your favorite technologies from scratch.md",
+    "01_知识库/04_Github/GitHub Articles • Technical Guides, Developer Insights & Best Practices.md",
+    "01_知识库/04_Github/hesreallyhimawesome-claude-code A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic.md",
+    "01_知识库/04_Github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
+    "01_知识库/04_Github/Graphify-Labsgraphify AI coding assistant skill.md",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/HoudiniAgent/HoudiniAgent测试.md",
+    "00_作品展示/02_PCG/文档模版.md",
+    "00_作品展示/问题处理/UE控制台命令.md",
+    "00_作品展示/问题处理/UE常见美术问题及解决方案.md",
+    "00_作品展示/特效/UEPBD粒子及VAT制作群集/_index.md",
+    "00_作品展示/特效/环境特效/环境特效.md",
+    "00_作品展示/材质/植被风动及交互效果/_index.md",
+    "00_作品展示/特效/环境特效",
+    "00_作品展示/材质/水交互研究/_index.md",
+    "00_作品展示/材质/水材质/_index.md",
+    "00_作品展示/04_插件整理及开发/工具集/ToolSet/_index.md",
+    "00_作品展示/04_插件整理及开发/工具集/Profiling/_index.md",
+    "00_作品展示/04_插件整理及开发/工具集/Import/FBXImport.md",
+    "00_作品展示/04_插件整理及开发/工具集/Issue/_index.md",
+    "00_作品展示/04_插件整理及开发/工具集/Modeling/_index.md",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案",
+    "00_作品展示/04_插件整理及开发/cpp",
+    "02_个人/生意/AI生意.canvas",
+    "00_作品展示/05_游戏项目/EXT",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/AI+PCG工作流/AI+PCGPipeline.canvas",
+    "00_作品展示/02_PCG/PSD城市肌理",
+    "00_作品展示/02_PCG/GameCityTool/Pipeline.canvas",
+    "00_作品展示/02_PCG/00_pcg研究/GameCity",
+    "01_知识库/00_Houdini/PDG",
+    "01_知识库/srt/已处理/[UFSH2024]PCG小技巧及新功能简介  肖月 Epic Games开发者关系TA_哔哩哔哩_bilibili_BV1Vs2EYaEBN_字幕.srt",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/HoudiniAgent/Scatter",
+    "00_作品展示/04_插件整理及开发/python",
+    "00_作品展示/01_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
+    "00_作品展示/03_AI使用/Obsidian知识库搭建/AI 视频知识库自动化流水线.canvas",
     "01_知识库/知识渠道.png",
-    "02_个人/00_面试准备/QA/QA游戏流程面试.md",
-    "02_个人/00_面试准备/00_职业发展.md",
-    "Clippings/killopanything_about_game A wonderful list of Game Development resources.md",
     "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/AC3-offline-FFT.gif",
     "01_知识库/Game-Programmer-Study-Notes-master/Media/cover.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/Media/nature-grass-leaf-green.jpg",
@@ -283,24 +262,10 @@
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/f41c53f4d8672af808057f9b2d0fe4e6.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/efe24840ae08c3808d1f8340319dc0b6.jpg",
     "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media/ed41e45d2906640097c5db3421fe53aa.jpg",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part2/media",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1/media",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part2",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结/Part1",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 2》全书提炼总结",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 1》全书提炼总结/media",
-    "01_知识库/Game-Programmer-Study-Notes-master/《GPU Gems 1》全书提炼总结",
-    "01_知识库/Game-Programmer-Study-Notes-master/《Effective C# 第二版》读书笔记",
-    "01_知识库/Game-Programmer-Study-Notes-master/Content/《GPU Gems 3》全书提炼总结/Part2/media/video/Horizon_Zero_Dawn_-_GPU_based_Procedural_Placement_in_Decima_Engine.mp4",
     "00_作品展示/01_流程规范/影视流程/影视项目UE流程化.canvas",
-    "00_作品展示/02_PCG/GameCityTool/Pipline.canvas",
-    "00_作品展示/01_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
-    "00_作品展示/03_AI使用/Obsidian知识库搭建/AI 视频知识库自动化流水线.canvas",
     "00_作品展示/03_AI使用/知识库/AI 视频知识库自动化流水线.canvas",
     "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/架构.canvas",
     "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/15_Full_Pipeline.canvas",
-    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/14_Unreal_PCG.canvas",
-    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/13_RuleProcessor.canvas",
-    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/12_PointCloud_Export.canvas"
+    "00_作品展示/02_PCG/00_pcg研究/典型案例/黑客帝国/AInote/structure/14_Unreal_PCG.canvas"
   ]
 }

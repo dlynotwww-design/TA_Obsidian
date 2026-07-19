@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784377733303-cw7hbvkrd",
+  "providerId": "claude",
+  "title": "Create Study Plan from Job Description",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784377733303,
+  "updatedAt": 1784477873732,
+  "lastResponseAt": 1784381365220,
+  "sessionId": "4c6db98b-e42f-4485-be7b-13fcc8a1d010",
+  "providerState": {
+    "providerSessionId": "4c6db98b-e42f-4485-be7b-13fcc8a1d010"
+  },
+  "currentNote": "02_个人/00_面试准备/00_岗位JD.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 43253,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 80512,
+    "contextWindow": 200000,
+    "contextTokens": 123765,
+    "percentage": 62
+  }
+}

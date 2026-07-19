@@ -1,0 +1,22 @@
+{
+  "id": "conv-1784477883788-589msh549",
+  "providerId": "claude",
+  "title": "Fix Git commit failure",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784477883789,
+  "updatedAt": 1784478103365,
+  "lastResponseAt": 1784478103365,
+  "sessionId": "34337ba8-effa-4dd6-aa35-4419895e8c80",
+  "providerState": {
+    "providerSessionId": "34337ba8-effa-4dd6-aa35-4419895e8c80"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1508,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 76672,
+    "contextWindow": 200000,
+    "contextTokens": 78180,
+    "percentage": 39
+  }
+}
