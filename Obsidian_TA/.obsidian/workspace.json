@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fbc24ed87377045b",
+        "id": "90f64c576c756ac7",
         "type": "tabs",
         "children": [
           {
-            "id": "702bd965fe738cc3",
+            "id": "51740460ce1efa6d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02_个人/00_面试准备/岗位/技术美术简历.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "技术美术简历"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5096130371094
+    "width": 266.5096130371094
   },
   "right": {
     "id": "251f1ae9715bb4ec",
@@ -172,12 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02_个人/00_面试准备/岗位/技术美术简历.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "技术美术简历 的大纲"
             }
           }
         ],
@@ -185,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 489.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,49 +209,48 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "702bd965fe738cc3",
+  "active": "51740460ce1efa6d",
   "lastOpenFiles": [
-    "02_个人/周报/20260718.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/README.md",
-    "01_知识库/Game-Programmer-Study-Notes-master/QianMoGame-Programmer-Study-Notes anchor  我的游戏程序员生涯的读书笔记合辑。你可以把它看作一个加强版的Blog.md",
-    "01_知识库/04_Github/ComposioHQawesome-claude-skills A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.md",
-    "01_知识库/04_Github/Claude Code学习项目清单.md",
-    "01_知识库/04_Github/ByteByteGoHqsystem-design-101 Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.md",
-    "01_知识库/04_Github/(4) X 上的 露西的百宝箱：“10个GitHub仓库帮你爬取整个互联网全部收藏。每个都能从任何网站提取干净数据.md",
-    "01_知识库/04_Github/Build software better, together.md",
-    "01_知识库/04_Github/codecrafters-iobuild-your-own-x Master programming by recreating your favorite technologies from scratch.md",
-    "01_知识库/04_Github/GitHub Articles • Technical Guides, Developer Insights & Best Practices.md",
-    "01_知识库/04_Github/hesreallyhimawesome-claude-code A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic.md",
-    "01_知识库/04_Github/kepanoobsidian-skills Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.md",
-    "01_知识库/04_Github/Graphify-Labsgraphify AI coding assistant skill.md",
-    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/HoudiniAgent/HoudiniAgent测试.md",
-    "00_作品展示/02_PCG/文档模版.md",
-    "00_作品展示/问题处理/UE控制台命令.md",
-    "00_作品展示/问题处理/UE常见美术问题及解决方案.md",
-    "00_作品展示/特效/UEPBD粒子及VAT制作群集/_index.md",
-    "00_作品展示/特效/环境特效/环境特效.md",
-    "00_作品展示/材质/植被风动及交互效果/_index.md",
-    "00_作品展示/特效/环境特效",
-    "00_作品展示/材质/水交互研究/_index.md",
-    "00_作品展示/材质/水材质/_index.md",
-    "00_作品展示/04_插件整理及开发/工具集/ToolSet/_index.md",
-    "00_作品展示/04_插件整理及开发/工具集/Profiling/_index.md",
-    "00_作品展示/04_插件整理及开发/工具集/Import/FBXImport.md",
-    "00_作品展示/04_插件整理及开发/工具集/Issue/_index.md",
-    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案",
-    "00_作品展示/04_插件整理及开发/cpp",
-    "02_个人/生意/AI生意.canvas",
-    "00_作品展示/05_游戏项目/EXT",
-    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/AI+PCG工作流/AI+PCGPipeline.canvas",
-    "00_作品展示/02_PCG/PSD城市肌理",
-    "00_作品展示/02_PCG/GameCityTool/Pipeline.canvas",
-    "00_作品展示/02_PCG/00_pcg研究/GameCity",
-    "01_知识库/00_Houdini/PDG",
-    "01_知识库/srt/已处理/[UFSH2024]PCG小技巧及新功能简介  肖月 Epic Games开发者关系TA_哔哩哔哩_bilibili_BV1Vs2EYaEBN_字幕.srt",
-    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/HoudiniAgent/Scatter",
-    "00_作品展示/04_插件整理及开发/python",
-    "00_作品展示/01_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
+    "00_作品展示/03_AI使用/HoudiniAgent/Scatter/文档_Scatter散布系统.md",
     "00_作品展示/03_AI使用/Obsidian知识库搭建/AI 视频知识库自动化流水线.canvas",
+    "00_作品展示/03_AI使用/HoudiniAgent/github/Houdini Agent - DCC Asset Manager with AI capabilities.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/github/fxhoudinimcp.md",
+    "00_作品展示/02_PCG/00_pcg研究/技术大会/游戏程序化生成（PCG）之路：重建秦朝古都 - GameRes游资网.md",
+    "00_作品展示/02_PCG/00_pcg研究/黑客帝国/raw/UE5 《黑客帝国》PCG案例分析1：资产与内容管线.md",
+    "00_作品展示/02_PCG/00_pcg研究/黑客帝国/raw/city-superMatrixCity ICCV 2023 MatrixCity A Large-scale City Dataset for City-scale Neural Rendering and Beyond.md",
+    "00_作品展示/00_作品展示汇总.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/github/Houdini-AgentREADME_CN.md at main.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/github/rendermagixhoudini2chat.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/healkeiserfxhoudinimcp.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/houdini2chat.md",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/AI+PCG工作流/Unreal Engine 5 — 3D Gaussian Splatting.md",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/AI+PCG工作流/AI+Houdini.md",
+    "02_个人/00_面试准备/00_技术美术 简历.md",
+    "02_个人/00_面试准备/岗位/技术美术简历.md",
+    "02_个人/00_面试准备/岗位/技术美术简历.pdf",
+    "02_个人/00_面试准备/岗位/gen_pdf.py.tmp.21836.10e697b4bfdf",
+    "02_个人/00_面试准备/岗位/gen_pdf.py.tmp.21836.c9dc40e25134",
+    "02_个人/00_面试准备/岗位/gen_pdf.py.tmp.21836.c593d08d3abf",
+    "00_作品展示/02_PCG/文档模版.md",
+    "00_作品展示/02_PCG/道路工具/道路工具开发.md",
+    "02_个人/00_面试准备/岗位/gen_pdf.py",
+    "02_个人/00_面试准备/岗位/gen_pdf.py.tmp.21836.196607298475",
+    "00_作品展示/问题处理/UE控制台命令.md",
+    "02_个人/00_面试准备/岗位/跃迁引擎.md",
+    "02_个人/00_面试准备/岗位/00_岗位JD.md",
+    "00_作品展示/02_PCG/UEPCG流程/古代城市PCG生成/古代城市PCG生成.md",
+    "build_resume_pdf.py.tmp.20188.08580717ca04",
+    "build_resume_pdf.py.tmp.20188.fc7bad74359a",
+    "build_resume_pdf.py",
+    "build_resume_pdf.py.tmp.20188.02c32c86c6b5",
+    "00_作品展示/TAFolder.md",
+    "00_作品展示/02_PCG/PSD城市肌理/PSD生成城市白盒.md",
+    "00_作品展示/02_PCG/藤蔓/Ivy_技术文档.md",
+    "00_作品展示/03_AI使用/HoudiniAgent/Scatter/文档_Scatter散布系统_流程图.md",
+    "02_个人/生意/AI生意.canvas",
+    "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案/AI+PCG工作流/AI+PCGPipeline.canvas",
+    "00_作品展示/02_PCG/GameCityTool/Pipeline.canvas",
+    "00_作品展示/01_流程规范/UE5游戏项目流程/场景大世界管线详解.canvas",
     "01_知识库/知识渠道.png",
     "01_知识库/Game-Programmer-Study-Notes-master/真实感水体渲染技术总结/media/AC3-offline-FFT.gif",
     "01_知识库/Game-Programmer-Study-Notes-master/Media/cover.jpg",

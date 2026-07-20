@@ -1,0 +1,22 @@
+{
+  "id": "conv-1784557093917-x58k6f7bk",
+  "providerId": "claude",
+  "title": "Generate targeted resume from portfolio summary",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784557093917,
+  "updatedAt": 1784561474758,
+  "lastResponseAt": 1784557962559,
+  "sessionId": "f8db8003-9255-4ffa-9795-867ca1b845bd",
+  "providerState": {
+    "providerSessionId": "f8db8003-9255-4ffa-9795-867ca1b845bd"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 275,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 112512,
+    "contextWindow": 200000,
+    "contextTokens": 112787,
+    "percentage": 56
+  }
+}

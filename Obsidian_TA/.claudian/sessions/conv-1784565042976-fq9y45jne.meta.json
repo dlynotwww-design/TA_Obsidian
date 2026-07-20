@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784565042976-fq9y45jne",
+  "providerId": "claude",
+  "title": "Summarize conversation content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784565042976,
+  "updatedAt": 1784565069620,
+  "lastResponseAt": 1784565069620,
+  "sessionId": "6c90ce77-a6e6-45e3-b5e7-2f1a2b3616fe",
+  "providerState": {
+    "providerSessionId": "6c90ce77-a6e6-45e3-b5e7-2f1a2b3616fe"
+  },
+  "currentNote": "00_作品展示/00_作品展示汇总.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 52594,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 13952,
+    "contextWindow": 200000,
+    "contextTokens": 66546,
+    "percentage": 33
+  }
+}

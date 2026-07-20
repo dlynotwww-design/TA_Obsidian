@@ -1,0 +1,22 @@
+{
+  "id": "conv-1784556696337-nnqo16tmj",
+  "providerId": "claude",
+  "title": "Organize PCG and AI Works Showcase Portfolio",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784556696337,
+  "updatedAt": 1784557006099,
+  "lastResponseAt": 1784556864729,
+  "sessionId": "d1201ba5-0616-4442-befa-3c07b2121d00",
+  "providerState": {
+    "providerSessionId": "d1201ba5-0616-4442-befa-3c07b2121d00"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 4667,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 109568,
+    "contextWindow": 200000,
+    "contextTokens": 114235,
+    "percentage": 57
+  }
+}

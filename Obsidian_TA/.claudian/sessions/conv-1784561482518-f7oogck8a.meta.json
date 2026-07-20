@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784561482518-f7oogck8a",
+  "providerId": "claude",
+  "title": "Generate Resume PDF",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784561482518,
+  "updatedAt": 1784561683827,
+  "lastResponseAt": 1784561683827,
+  "sessionId": "2d9f1256-6a3f-4c51-95eb-5b308e55f04e",
+  "providerState": {
+    "providerSessionId": "2d9f1256-6a3f-4c51-95eb-5b308e55f04e"
+  },
+  "currentNote": "02_个人/00_面试准备/岗位/技术美术简历.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 196,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 78464,
+    "contextWindow": 200000,
+    "contextTokens": 78660,
+    "percentage": 39
+  }
+}
