@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d125312ef3b95377",
+        "id": "fbc24ed87377045b",
         "type": "tabs",
         "children": [
           {
-            "id": "41dcf738c4a6160b",
+            "id": "702bd965fe738cc3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_个人/周报/20260718.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "20260718"
+              "title": "新标签页"
             }
           }
         ]
@@ -176,13 +172,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_个人/周报/20260718.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "20260718 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -209,8 +204,9 @@
       "mermaid-flow:Mermaid Flow Editor": false
     }
   },
-  "active": "aaef20970e4b3948",
+  "active": "702bd965fe738cc3",
   "lastOpenFiles": [
+    "02_个人/周报/20260718.md",
     "01_知识库/Game-Programmer-Study-Notes-master/README.md",
     "01_知识库/Game-Programmer-Study-Notes-master/QianMoGame-Programmer-Study-Notes anchor  我的游戏程序员生涯的读书笔记合辑。你可以把它看作一个加强版的Blog.md",
     "01_知识库/04_Github/ComposioHQawesome-claude-skills A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.md",
@@ -237,7 +233,6 @@
     "00_作品展示/04_插件整理及开发/工具集/Profiling/_index.md",
     "00_作品展示/04_插件整理及开发/工具集/Import/FBXImport.md",
     "00_作品展示/04_插件整理及开发/工具集/Issue/_index.md",
-    "00_作品展示/04_插件整理及开发/工具集/Modeling/_index.md",
     "00_作品展示/03_AI使用/AI+pcg传统工作流技术方案",
     "00_作品展示/04_插件整理及开发/cpp",
     "02_个人/生意/AI生意.canvas",
