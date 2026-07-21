@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784642909833-lv5a0g22s",
+  "providerId": "claude",
+  "title": "Prepare Technical Artist PCG Interview Q&A",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784642909850,
+  "updatedAt": 1784643216058,
+  "lastResponseAt": 1784643216058,
+  "sessionId": "bef2d41b-3a39-4937-a6d9-9790b7705154",
+  "providerState": {
+    "providerSessionId": "bef2d41b-3a39-4937-a6d9-9790b7705154"
+  },
+  "currentNote": "02_个人/00_面试准备/跃迁引擎/跃迁引擎.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 9923,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 126720,
+    "contextWindow": 200000,
+    "contextTokens": 136643,
+    "percentage": 68
+  }
+}

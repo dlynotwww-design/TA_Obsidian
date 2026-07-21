@@ -1,7 +1,10 @@
 **Unreal Engine 5.8（UE 5.8）最新 MCP（Model Context Protocol）功能介绍**（实验性特性）。
 
 ### 什么是 MCP？
-**MCP（Model Context Protocol）** 是一个开放标准协议（详见 modelcontextprotocol.io），允许 AI 代理（LLM 系统，如 Claude Code、Cursor 等）通过本地 HTTP 连接直接与 Unreal Editor 交互。它将 Unreal Engine 的各种功能暴露为 **Tools**（工具函数）、**Resources**（只读资源）和 **Prompts**（提示模板），让 AI 能真正“理解”引擎和你的项目，并帮助你自动化操作。
+**MCP（Model Context Protocol）** 是一个开放标准协议（详见 modelcontextprotocol.io），允许 AI 代理（LLM 系统，如 Claude Code、Cursor 等）通过本地 HTTP 连接直接与 Unreal Editor 交互。
+
+
+它将 Unreal Engine 的各种功能暴露为 **Tools**（工具函数）、**Resources**（只读资源）和 **Prompts**（提示模板），让 AI 能真正“理解”引擎和你的项目，并帮助你自动化操作。
 
 Unreal MCP 在 UE 5.8 中以**实验性插件**形式内置，直接嵌入 Editor 进程中运行（无需额外服务器）。AI 可以：
 - 生成/修改资产（Blueprints、材质、网格、关卡等）

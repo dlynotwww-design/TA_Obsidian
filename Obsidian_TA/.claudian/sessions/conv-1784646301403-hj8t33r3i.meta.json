@@ -1,0 +1,22 @@
+{
+  "id": "conv-1784646301403-hj8t33r3i",
+  "providerId": "claude",
+  "title": "Analyze project principles",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784646301403,
+  "updatedAt": 1784648838894,
+  "lastResponseAt": 1784648838894,
+  "sessionId": "d5eba5f1-1ac8-4ef7-95f2-22b8eb2cca32",
+  "providerState": {
+    "providerSessionId": "d5eba5f1-1ac8-4ef7-95f2-22b8eb2cca32"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2734,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 155520,
+    "contextWindow": 200000,
+    "contextTokens": 158254,
+    "percentage": 79
+  }
+}

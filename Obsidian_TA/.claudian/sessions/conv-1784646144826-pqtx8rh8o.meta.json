@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784646144826-pqtx8rh8o",
+  "providerId": "claude",
+  "title": "Explain Project Implementation Principles",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784646144826,
+  "updatedAt": 1784646292349,
+  "lastResponseAt": 1784646191716,
+  "sessionId": "fd77e487-6094-4f72-9012-3ca6b0cbe597",
+  "providerState": {
+    "providerSessionId": "fd77e487-6094-4f72-9012-3ca6b0cbe597"
+  },
+  "currentNote": "00_作品展示/03_AI使用/HoudiniAgent/github/fxhoudinimcp.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 3184,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 65920,
+    "contextWindow": 200000,
+    "contextTokens": 69104,
+    "percentage": 35
+  }
+}
