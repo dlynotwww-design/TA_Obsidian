@@ -1,0 +1,22 @@
+{
+  "id": "conv-1784730625952-kinljhb1s",
+  "providerId": "claude",
+  "title": "Analyze AI procedural city generation companies",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784730625952,
+  "updatedAt": 1784730795129,
+  "lastResponseAt": 1784730795129,
+  "sessionId": "bfb37ddd-2d21-41f3-9bae-4663d61c6e9b",
+  "providerState": {
+    "providerSessionId": "bfb37ddd-2d21-41f3-9bae-4663d61c6e9b"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1435,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 71040,
+    "contextWindow": 200000,
+    "contextTokens": 72475,
+    "percentage": 36
+  }
+}

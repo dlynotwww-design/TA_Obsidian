@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784729670396-t48biqs2b",
+  "providerId": "claude",
+  "title": "**Compile Python interview questions for techni...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784729670396,
+  "updatedAt": 1784730275739,
+  "lastResponseAt": 1784730275739,
+  "sessionId": "43aea2b4-b0c3-4e04-b02c-c5084c42698b",
+  "providerState": {
+    "providerSessionId": "43aea2b4-b0c3-4e04-b02c-c5084c42698b"
+  },
+  "currentNote": "01_知识库/05_Python/面试题.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 16263,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 135680,
+    "contextWindow": 200000,
+    "contextTokens": 151943,
+    "percentage": 76
+  }
+}
